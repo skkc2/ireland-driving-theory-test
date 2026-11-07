@@ -1,41 +1,53 @@
 # RoadReady Ireland — Irish truck & bus theory revision
 
-Static HTML/CSS/JavaScript site. No backend or account is required.
+A free static revision hub for Irish professional-driver theory study. No account or backend is required.
 
-## Current content status — IMPORTANT
-**The current question bank is unverified and must not be treated as authoritative exam preparation.** On 7 November 2026 an initial structural audit found:
-- 600 question records in `data/questions.json`.
-- Only 264 distinct underlying scenario stems (22 per topic); 336 rows repeat those scenarios with alternative prompt wording.
-- No question-by-question legal/source validation or independent instructor review has been completed.
+## Honest content status — 7 November 2026
 
-For safety and transparency, full mock exams and topic quizzes are temporarily paused in the interface. Draft topic notes remain visible. Do not use the draft content as your sole preparation. The official RSA-approved revision materials are the authoritative study resource.
+**The practice-question bank is quarantined and must not be used as exam-quality preparation.** The JSON contains 600 draft rows, but the prior structural audit found only 264 distinct underlying scenario stems (22 per topic) and 336 repeated scenario rows. None of the questions has completed an individual legal/source check or independent instructor review.
 
-See [CONTENT_AUDIT.md](CONTENT_AUDIT.md) for the audit, verified exam-format facts and source register.
+The website therefore keeps mock exams and topic quizzes disabled. The 600-row count is a count of draft records, not a claim of 600 original or validated questions. Topic summaries are also draft learning prompts, not authoritative legal advice.
 
-## Official exam format checked 7 November 2026
-The current official provider FAQ states:
-- Category C or D: 100 questions, 120 minutes, pass mark 74.
-- Combined C+D: 140 questions, 180 minutes, pass mark 104.
+See [CONTENT_AUDIT.md](CONTENT_AUDIT.md) for the findings and validation standard.
 
-C1/C1E/CE are truck licensing categories and the relevant truck theory route is the C test; D is the bus test. Check the exact test category when booking. The Driver CPC case-study test is a separate assessment and is not included in this website's current mock functionality.
+## Official test format checked 7 November 2026
+
+- **Category C or D:** 100 multiple-choice questions, 120 minutes, pass mark 74.
+- **Combined C+D:** 140 questions, 180 minutes, pass mark 104.
+- The CPC case-study assessment is separate: three scenarios with 15 questions each, at least 5/15 in each scenario and 28/45 overall.
+
+C1, C1E and CE are licence categories; do not treat them as separate theory-test formats without checking the current RSA booking guidance. The truck theory route is category C; bus is D.
+
+## Official study links
+
+- [RSA professional-driver theory test](https://www.rsa.ie/services/professional-drivers/cpc/become-a-professional-cpc-driver/2.-theory-test)
+- [Driver Theory Test Service FAQs](https://theorytest.ie/general-information/faqs/)
+- [RSA Rules of the Road](https://www.rsa.ie/services/learner-drivers/resources/rules-of-the-road)
+- [RSA CPC case-study test](https://www.rsa.ie/services/professional-drivers/cpc/become-a-professional-cpc-driver/3.-case-study-test)
+- [EU Regulation 561/2006 — drivers’ hours](https://eur-lex.europa.eu/eli/reg/2006/561/2024-12-31/eng/)
+- [HSA ADR driver training](https://www.hsa.ie/your_industry/adr_-_carriage_of_dangerous_goods_by_road/adr_general_information/adr_driver_training/)
+
+Use the latest official RSA study material as the authority. This independent site is not affiliated with RSA or Prometric and does not reproduce official copyrighted questions.
 
 ## Run locally
+
 Run `python3 -m http.server 8000` from the repository root and open http://localhost:8000.
 
 ## GitHub Pages
+
 The workflow `.github/workflows/pages.yml` deploys the repository root on pushes to `main`. In Settings → Pages choose **GitHub Actions** as the source if required.
 
-## Editing the question bank
-Questions are stored in `data/questions.json`. Each question currently has `id`, `topic`, `question`, `options`, zero-based `answer`, `explanation` and `validationStatus`.
+## Release gate for question content
 
-Do not change `validationStatus` to `validated` without a question-specific evidence record containing the exact legal/RSA source, section or page, date checked, rationale for the correct answer, and reviewer. Keep all IDs unique and avoid rephrasing the same underlying scenario as a new question.
+A question must not be marked validated or exposed in a quiz until its exact proposition, answer and explanation have been checked against a current authoritative source. Store, at minimum:
 
-## Validation standard before re-enabling quizzes
-1. Verify every question and explanation against a current official source (legislation, RSA, HSA, or other competent authority).
-2. Record a precise source citation and date for every question; mark ambiguous or out-of-syllabus questions for exclusion.
-3. Have an Irish approved driving instructor or qualified subject-matter reviewer check specialist vehicle, bus, tachograph and dangerous-goods questions.
-4. Remove semantic duplicates; ensure mock papers contain distinct questions and balanced, relevant coverage.
-5. Test answer indices, options, explanations, category mapping, mock timing and pass marks automatically.
-6. Recheck sources whenever legislation or RSA materials are updated.
+- a precise source URL and article/section/page;
+- date checked and reviewer;
+- rationale for the correct answer and any relevant exceptions;
+- a distinct scenario identifier to detect semantic duplicates.
 
-This independent resource is not affiliated with RSA or Prometric and does not reproduce official copyrighted questions.
+Remove ambiguous, out-of-syllabus and unsupported questions. Specialist tachograph, vehicle, bus and ADR material requires appropriately qualified review. Do not copy RSA copyrighted practice questions.
+
+## Current data
+
+`data/questions.json` currently contains 600 draft question records. Every record remains `validationStatus: "unverified"`; do not use this bank for mock exam scoring.

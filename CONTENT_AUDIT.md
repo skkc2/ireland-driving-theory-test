@@ -20,6 +20,8 @@ The JSON contains no per-question evidence record. Every row is marked `validati
 
 `review/questions.json` holds 100 original topic questions and 50 mock candidates, including the 25 starter questions from the initial PR. Codex checked their answers and explanations against the cited sources on 7 November 2026. Each question has a specific source, scope and rationale. No independent decisions have been recorded.
 
+A second AI editorial pass checked all 150 marked answers, their wording and category fit. It clarified the motorway-lane scenario, the interaction between a tunnel speed limit and a lower vehicle limit, the railway bridge strike fallback and the scope of the short regular bus-route exemption. The second pass is part of the AI audit. It does not supply an independent reviewer record.
+
 The review page supports answer-first checks and exports decisions tied to the exact version reviewed. The public bank in `data/study.json` holds the 12 study lessons and zero released questions or mock papers. GitHub Pages excludes the candidate bank.
 
 The app and CI use the same validator. It can check the format and completeness of evidence and catch repeated IDs or exact question wording. Humans still need to detect semantic duplicates, judge distractors and check legal accuracy and syllabus coverage.

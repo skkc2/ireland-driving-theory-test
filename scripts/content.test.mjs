@@ -83,26 +83,38 @@ test('exact paper sizes, category coverage and no overlap are enforced', () => {
   assert.throws(() => loadContent(combined), /cover both categories/);
 });
 
-test('the first truck candidate has 100 eligible questions and remains out of public practice', () => {
-  const paper = queue.papers.find(p => p.id === 'truck-c-1');
-  assert.equal(paper.category, 'C');
-  assert.equal(paper.questionIds.length, 100);
+test('the first truck and bus candidates have 100 eligible questions each and no overlap', () => {
   const byId = new Map(queue.questions.map(q => [q.id, q]));
-  const questions = paper.questionIds.map(id => byId.get(id));
-  assert.ok(questions.every(q => q.use === 'mock' && q.categories.includes('C')));
-  assert.equal(new Set(questions.map(q => q.scenarioId)).size, 100);
-  assert.throws(() => loadContent({ ...study, questions, papers: [paper] }), /Independent review required/);
+  const firstPapers = [['truck-c-1', 'C'], ['bus-d-1', 'D']];
+  const scenarios = new Set();
+
+  for (const [id, category] of firstPapers) {
+    const paper = queue.papers.find(p => p.id === id);
+    assert.equal(paper.category, category);
+    assert.equal(paper.questionIds.length, formats[category].count);
+    const questions = paper.questionIds.map(questionId => byId.get(questionId));
+    for (const q of questions) {
+      assert.equal(q.use, 'mock');
+      assert.ok(q.categories.includes(category));
+      assert.ok(!scenarios.has(q.scenarioId));
+      scenarios.add(q.scenarioId);
+    }
+    assert.throws(() => loadContent({ ...study, questions, papers: [paper] }), /Independent review required/);
+
+    const pass = formats[category].pass;
+    const answers = new Map(questions.slice(0, pass - 1).map(q => [q.id, q.answer]));
+    assert.equal(scoreSession(questions, answers, pass).passed, false);
+    answers.set(questions[pass - 1].id, questions[pass - 1].answer);
+    assert.equal(scoreSession(questions, answers, pass).passed, true);
+  }
+
+  const truck = queue.papers.find(p => p.id === 'truck-c-1');
   assert.throws(() => loadReviewQueue(study.topics, queue.questions, [
-    paper, { ...paper, id: 'overlap' },
+    truck, { ...truck, id: 'overlap' },
   ]), /repeated question/);
   assert.throws(() => loadReviewQueue(study.topics, queue.questions, [
-    { ...paper, questionIds: [queue.questions[0].id, ...paper.questionIds.slice(1)] },
+    { ...truck, questionIds: [queue.questions[0].id, ...truck.questionIds.slice(1)] },
   ]), /Unavailable/);
-
-  const answers = new Map(questions.slice(0, 73).map(q => [q.id, q.answer]));
-  assert.equal(scoreSession(questions, answers, formats.C.pass).passed, false);
-  answers.set(questions[73].id, questions[73].answer);
-  assert.equal(scoreSession(questions, answers, formats.C.pass).passed, true);
 });
 
 test('raw marks decide passes even when displayed percentages round up', () => {

@@ -74,21 +74,10 @@ function checkQuestions(questions, topicMap, pending) {
   unique(questions, q => q.id, 'question ID');
   unique(questions, q => q.scenarioId, 'scenario ID');
   unique(questions, q => normal(q.question), 'question wording');
-
 }
 
-export function loadReviewQueue(topics, questions) {
-  const topicMap = checkTopics(topics);
-  checkQuestions(questions, topicMap, true);
-  return topicMap;
-}
-
-export function loadContent({ topics, questions, papers }) {
-  if (![topics, questions, papers].every(Array.isArray)) throw new Error('Missing content lists');
-  const topicMap = checkTopics(topics);
-  checkQuestions(questions, topicMap, false);
-
-  const questionMap = new Map(questions.map(q => [q.id, q]));
+function checkPapers(papers, questionMap, topicMap, pending) {
+  if (!Array.isArray(papers)) throw new Error('Missing papers list');
   const used = new Set();
   for (const paper of papers) {
     const format = Object.hasOwn(formats, paper.category) && formats[paper.category];
@@ -102,7 +91,7 @@ export function loadContent({ topics, questions, papers }) {
       const q = questionMap.get(questionId);
       if (!q || q.use !== 'mock' || topicMap.get(q.topic).scope === 'supplementary' ||
         (paper.category !== 'CD' && !q.categories.includes(paper.category)) ||
-        paper.checkedOn < q.evidence.independent.date || used.has(questionId)) {
+        paper.checkedOn < (pending ? q.evidence.checkedOn : q.evidence.independent.date) || used.has(questionId)) {
         throw new Error(`Unavailable, unreviewed, or repeated question in ${paper.id}: ${questionId}`);
       }
       q.categories.forEach(category => covered.add(category));
@@ -114,15 +103,31 @@ export function loadContent({ topics, questions, papers }) {
   }
   unique(papers, paper => paper.id, 'paper ID');
 
+  return papers.map(paper => ({
+    ...paper,
+    format: formats[paper.category],
+    questions: paper.questionIds.map(questionId => questionMap.get(questionId)),
+  }));
+}
+
+export function loadReviewQueue(topics, questions, papers = []) {
+  const topicMap = checkTopics(topics);
+  checkQuestions(questions, topicMap, true);
+  const questionMap = new Map(questions.map(q => [q.id, q]));
+  checkPapers(papers, questionMap, topicMap, true);
+  return topicMap;
+}
+
+export function loadContent({ topics, questions, papers }) {
+  if (![topics, questions, papers].every(Array.isArray)) throw new Error('Missing content lists');
+  const topicMap = checkTopics(topics);
+  checkQuestions(questions, topicMap, false);
+  const questionMap = new Map(questions.map(q => [q.id, q]));
   return {
     topics,
     topicMap,
     practice: questions.filter(q => q.use === 'topic'),
-    papers: papers.map(paper => ({
-      ...paper,
-      format: formats[paper.category],
-      questions: paper.questionIds.map(questionId => questionMap.get(questionId)),
-    })),
+    papers: checkPapers(papers, questionMap, topicMap, false),
   };
 }
 

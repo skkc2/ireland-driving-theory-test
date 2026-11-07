@@ -27,7 +27,7 @@ function mockFixture(category) {
 
 test('the current study data can be loaded and the draft archive cannot', () => {
   loadContent(study);
-  assert.ok(loadReviewQueue(study.topics, queue.questions).size > 0);
+  assert.ok(loadReviewQueue(study.topics, queue.questions, queue.papers).size > 0);
   const archive = JSON.parse(readFileSync(new URL('../data/questions.json', import.meta.url)));
   assert.throws(() => loadContent(archive), /Missing content lists/);
   assert.throws(() => loadContent({ ...study, questions: [archive.questions[0]] }), /Invalid question/);
@@ -81,6 +81,28 @@ test('exact paper sizes, category coverage and no overlap are enforced', () => {
   const combined = mockFixture('CD');
   combined.questions.forEach(q => { q.categories = ['C']; });
   assert.throws(() => loadContent(combined), /cover both categories/);
+});
+
+test('the first truck candidate has 100 eligible questions and remains out of public practice', () => {
+  const paper = queue.papers.find(p => p.id === 'truck-c-1');
+  assert.equal(paper.category, 'C');
+  assert.equal(paper.questionIds.length, 100);
+  const byId = new Map(queue.questions.map(q => [q.id, q]));
+  const questions = paper.questionIds.map(id => byId.get(id));
+  assert.ok(questions.every(q => q.use === 'mock' && q.categories.includes('C')));
+  assert.equal(new Set(questions.map(q => q.scenarioId)).size, 100);
+  assert.throws(() => loadContent({ ...study, questions, papers: [paper] }), /Independent review required/);
+  assert.throws(() => loadReviewQueue(study.topics, queue.questions, [
+    paper, { ...paper, id: 'overlap' },
+  ]), /repeated question/);
+  assert.throws(() => loadReviewQueue(study.topics, queue.questions, [
+    { ...paper, questionIds: [queue.questions[0].id, ...paper.questionIds.slice(1)] },
+  ]), /Unavailable/);
+
+  const answers = new Map(questions.slice(0, 73).map(q => [q.id, q.answer]));
+  assert.equal(scoreSession(questions, answers, formats.C.pass).passed, false);
+  answers.set(questions[73].id, questions[73].answer);
+  assert.equal(scoreSession(questions, answers, formats.C.pass).passed, true);
 });
 
 test('raw marks decide passes even when displayed percentages round up', () => {

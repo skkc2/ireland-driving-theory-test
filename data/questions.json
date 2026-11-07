@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "checked": "2026-11-07",
+  "notice": "Original starter questions; not official RSA questions. This is an early practice bank, not yet large enough for five full non-repeating exams. Check all legal details against current official sources.",
+  "topics": [
+    {
+      "id": "signs",
+      "name": "Road signs & signals",
+      "note": "Warning signs alert to hazards; regulatory signs impose requirements or prohibitions. A Garda direction takes precedence over traffic lights and signs."
+    },
+    {
+      "id": "rules",
+      "name": "Rules of the road",
+      "note": "Drive on the left. Obey signs, signals, speed limits and road markings. Adapt speed to conditions and protect vulnerable road users."
+    },
+    {
+      "id": "checks",
+      "name": "Vehicle checks & defects",
+      "note": "Check tyres, lights, mirrors, brakes, steering, fluids, wipers, coupling security and warning devices. Never use an unsafe vehicle."
+    },
+    {
+      "id": "loads",
+      "name": "Loads & load security",
+      "note": "Never exceed plated weights or axle limits. Distribute weight evenly and secure it against movement."
+    },
+    {
+      "id": "trailers",
+      "name": "Trailers & couplings",
+      "note": "Confirm the coupling is compatible, fully engaged and locked. Check safety devices, trailer brakes, tyres and lights."
+    },
+    {
+      "id": "hours",
+      "name": "Tachographs & drivers' hours",
+      "note": "Standard EU rules include 9 hours daily driving (10 hours twice weekly), 56 hours weekly and 90 hours over two weeks. After 4.5 hours driving, take 45 minutes break, splittable 15 then 30. Exemptions apply."
+    },
+    {
+      "id": "braking",
+      "name": "Braking & stopping distances",
+      "note": "Stopping distance is thinking distance plus braking distance. Speed, mass, grip, gradient and brake condition affect it."
+    },
+    {
+      "id": "risk",
+      "name": "Risk & eco-driving",
+      "note": "Scan ahead, anticipate hazards, maintain space and avoid harsh acceleration and braking. Fatigue and distraction increase risk."
+    },
+    {
+      "id": "dangerous",
+      "name": "Dangerous goods",
+      "note": "ADR may regulate classification, packaging, marking, documents, equipment, training and exemptions. Check current ADR and Irish rules."
+    },
+    {
+      "id": "bus",
+      "name": "Bus passenger safety",
+      "note": "Stop safely for boarding and alighting. Move only when doors are closed and passengers are safely accommodated."
+    },
+    {
+      "id": "dimensions",
+      "name": "Vehicle dimensions & weight",
+      "note": "Know loaded height, width, length and permitted weights. Plan routes around restrictions and overhead clearances."
+    },
+    {
+      "id": "emergency",
+      "name": "Breakdowns & emergencies",
+      "note": "Protect people first, warn traffic when safe and follow emergency procedures. Call 112/999 for emergency assistance."
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q001",
+      "topic": "signs",
+      "question": "A triangular warning sign generally means what?",
+      "options": [
+        "A hazard ahead",
+        "A mandatory instruction",
+        "A parking restriction"
+      ],
+      "answer": 0,
+      "explanation": "Warning signs are generally triangular; read the symbol and adjust speed."
+    },
+    {
+      "id": "Q002",
+      "topic": "signs",
+      "question": "What does a red-bordered circular sign generally indicate?",
+      "options": [
+        "A prohibition or restriction",
+        "A tourist attraction",
+        "A recommended route"
+      ],
+      "answer": 0,
+      "explanation": "Red-bordered circular signs generally prohibit or restrict; the symbol gives the detail."
+    },
+    {
+      "id": "Q003",
+      "topic": "signs",
+      "question": "A traffic signal changes to amber as you approach. What should you do?",
+      "options": [
+        "Stop if you can do so safely",
+        "Accelerate in all cases",
+        "Reverse immediately"
+      ],
+      "answer": 0,
+      "explanation": "Amber means stop unless you are so close that stopping could cause an accident."
+    },
+    {
+      "id": "Q004",
+      "topic": "rules",
+      "question": "A Garda directs you to proceed while the signal is red. What should you do?",
+      "options": [
+        "Follow the Garda's direction when safe",
+        "Obey the red light regardless",
+        "Wait for green"
+      ],
+      "answer": 0,
+      "explanation": "A Garda's traffic direction takes precedence over traffic signals."
+    },
+    {
+      "id": "Q005",
+      "topic": "rules",
+      "question": "You meet oncoming traffic on a narrow road. What is safest?",
+      "options": [
+        "Slow and use a safe passing place if needed",
+        "Insist on priority because you are larger",
+        "Mount the footpath"
+      ],
+      "answer": 0,
+      "explanation": "Large vehicles need extra room; pass only when safe and do not endanger pedestrians."
+    },
+    {
+      "id": "Q006",
+      "topic": "checks",
+      "question": "A walk-around check reveals a deep cut in a tyre sidewall. What should you do?",
+      "options": [
+        "Do not use the vehicle until repaired or assessed",
+        "Cover it with tape",
+        "Continue at low speed"
+      ],
+      "answer": 0,
+      "explanation": "A damaged tyre can fail suddenly. Rectify roadworthiness defects before use."
+    },
+    {
+      "id": "Q007",
+      "topic": "checks",
+      "question": "A brake warning light remains on before departure. What should you do?",
+      "options": [
+        "Investigate and resolve the fault before driving",
+        "Ignore it if the parking brake is off",
+        "Disconnect the warning buzzer"
+      ],
+      "answer": 0,
+      "explanation": "A persistent brake warning may indicate a serious fault; follow manufacturer instructions."
+    },
+    {
+      "id": "Q008",
+      "topic": "loads",
+      "question": "What is the main purpose of load restraint?",
+      "options": [
+        "Prevent load movement or falling",
+        "Increase plated weight",
+        "Make unloading slower"
+      ],
+      "answer": 0,
+      "explanation": "Secure loads against braking, cornering and acceleration forces."
+    },
+    {
+      "id": "Q009",
+      "topic": "loads",
+      "question": "A load is much heavier on one side. What is the main concern?",
+      "options": [
+        "Uneven axle loading and reduced stability",
+        "Improved cornering",
+        "No concern if total weight is legal"
+      ],
+      "answer": 0,
+      "explanation": "Uneven distribution can overload an axle and adversely affect handling."
+    },
+    {
+      "id": "Q010",
+      "topic": "trailers",
+      "question": "Before moving with a trailer, what must be checked?",
+      "options": [
+        "Coupling engaged and locked; connections secured",
+        "Only that the trailer looks level",
+        "Only that its registration is visible"
+      ],
+      "answer": 0,
+      "explanation": "Check coupling, safety connections, brakes and lights before moving."
+    },
+    {
+      "id": "Q011",
+      "topic": "trailers",
+      "question": "Why connect a breakaway cable where fitted?",
+      "options": [
+        "To activate emergency braking if trailer separates",
+        "To charge the battery",
+        "To support the load"
+      ],
+      "answer": 0,
+      "explanation": "The safety device is intended to help stop a detached trailer; follow its instructions."
+    },
+    {
+      "id": "Q012",
+      "topic": "hours",
+      "question": "Under standard EU rules, after how much driving is a 45-minute break normally required?",
+      "options": [
+        "4 hours 30 minutes",
+        "3 hours",
+        "5 hours 30 minutes"
+      ],
+      "answer": 0,
+      "explanation": "A 45-minute break is required after 4.5 hours driving; it can be split 15 then 30 minutes."
+    },
+    {
+      "id": "Q013",
+      "topic": "hours",
+      "question": "What is the normal daily driving limit under standard EU rules?",
+      "options": [
+        "9 hours, extendable to 10 twice weekly",
+        "8 hours",
+        "10 hours every day"
+      ],
+      "answer": 0,
+      "explanation": "Daily driving is normally 9 hours, extendable to 10 hours twice a week."
+    },
+    {
+      "id": "Q014",
+      "topic": "hours",
+      "question": "What is the standard weekly driving limit under EU rules?",
+      "options": [
+        "56 hours",
+        "45 hours",
+        "60 hours"
+      ],
+      "answer": 0,
+      "explanation": "Weekly driving is limited to 56 hours and 90 hours over two consecutive weeks."
+    },
+    {
+      "id": "Q015",
+      "topic": "braking",
+      "question": "What can increase a heavy vehicle's stopping distance?",
+      "options": [
+        "Higher speed and reduced tyre-road grip",
+        "A clean windscreen",
+        "Lower engine noise"
+      ],
+      "answer": 0,
+      "explanation": "Stopping distance includes reaction and braking distance; speed, grip, mass and gradient matter."
+    },
+    {
+      "id": "Q016",
+      "topic": "braking",
+      "question": "What is a safer approach to a long steep descent?",
+      "options": [
+        "Select a suitable low gear before descending",
+        "Coast in neutral",
+        "Keep the clutch depressed"
+      ],
+      "answer": 0,
+      "explanation": "A suitable gear and auxiliary braking help control speed and reduce brake overheating."
+    },
+    {
+      "id": "Q017",
+      "topic": "risk",
+      "question": "Fog reduces visibility. What should you do?",
+      "options": [
+        "Reduce speed and increase following distance",
+        "Follow closely",
+        "Use high beam at all times"
+      ],
+      "answer": 0,
+      "explanation": "Drive at a speed that allows you to stop within the distance you can see to be clear."
+    },
+    {
+      "id": "Q018",
+      "topic": "risk",
+      "question": "You feel drowsy while driving. What should you do?",
+      "options": [
+        "Stop safely and rest",
+        "Open a window and continue",
+        "Drive faster to finish sooner"
+      ],
+      "answer": 0,
+      "explanation": "Fatigue impairs judgement and reaction; do not continue when unfit to drive."
+    },
+    {
+      "id": "Q019",
+      "topic": "dangerous",
+      "question": "You cannot identify a potentially dangerous-goods package. What should you do?",
+      "options": [
+        "Do not load until identified and requirements checked",
+        "Assume it is harmless",
+        "Open it to smell contents"
+      ],
+      "answer": 0,
+      "explanation": "Dangerous goods must be correctly identified and handled under applicable ADR rules."
+    },
+    {
+      "id": "Q020",
+      "topic": "bus",
+      "question": "When should a bus move away after passengers board?",
+      "options": [
+        "When boarding is complete, doors closed and safe",
+        "As soon as first passenger boards",
+        "While doors are closing"
+      ],
+      "answer": 0,
+      "explanation": "Ensure doors are closed and passengers safely accommodated before moving."
+    },
+    {
+      "id": "Q021",
+      "topic": "bus",
+      "question": "A passenger using a wheelchair boards. What is the priority?",
+      "options": [
+        "Use the designated space and restraint system as instructed",
+        "Leave wheelchair unsecured",
+        "Put luggage in the space"
+      ],
+      "answer": 0,
+      "explanation": "Use approved accessibility equipment and secure it in accordance with training."
+    },
+    {
+      "id": "Q022",
+      "topic": "dimensions",
+      "question": "Your vehicle is higher than a bridge's signed clearance. What should you do?",
+      "options": [
+        "Do not proceed; find another route",
+        "Proceed slowly in the centre",
+        "Follow a smaller vehicle through"
+      ],
+      "answer": 0,
+      "explanation": "Never attempt a route where the vehicle exceeds a height restriction."
+    },
+    {
+      "id": "Q023",
+      "topic": "emergency",
+      "question": "Your vehicle breaks down on a high-speed road. What comes first?",
+      "options": [
+        "Protect people and get to safety if possible",
+        "Repair in a live lane",
+        "Stand behind the vehicle"
+      ],
+      "answer": 0,
+      "explanation": "Personal safety comes first; follow the road's breakdown procedure and seek help."
+    }
+  ]
+}

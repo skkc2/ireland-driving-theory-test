@@ -1,0 +1,257 @@
+{
+  "topics": [
+    {
+      "id": "signs",
+      "name": "Road signs and signals",
+      "scope": "core",
+      "summary": "Read junction signals and know when another instruction takes priority.",
+      "lesson": [
+        "Read the whole junction as you approach. Find the stop line, the signal that controls your movement and the space available on the far side. A green signal still requires a clear, safe path.",
+        "If a steady amber appears and you can stop safely, stop before the line. When it first appears and you are already too close to stop safely, the RSA allows you to continue. A filter arrow applies to the direction it points.",
+        "Watch for Garda directions when someone is controlling traffic in person. Also check for conflicting pedestrians, cyclists and traffic before moving off, including alongside your cab."
+      ],
+      "sources": [
+        {
+          "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+          "section": "Section 7, Traffic lights and signals by motorists"
+        },
+        {
+          "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+          "section": "Section 12, Signals"
+        }
+      ],
+      "checkedOn": "2026-11-07",
+      "reviewer": "Codex (editorial source check)"
+    },
+    {
+      "id": "rules",
+      "name": "Rules of the road",
+      "scope": "core",
+      "summary": "Plan enough space to clear junctions and manoeuvre safely.",
+      "lesson": [
+        "At a stop sign, come to a complete stop at the line if there is one. Use the stop to look for people crossing and traffic you need to yield to, including any obscured approach.",
+        "Before entering a yellow box, check that your entire vehicle can clear it. When turning right, there is a limited exception for waiting for oncoming traffic where you can avoid blocking traffic with right of way. At railway or tramway boxes, wait until you can clear the box without stopping.",
+        "Think about pedestrians already crossing the road you are turning into. An indicator communicates your plan. You still need a clear path and time to complete the manoeuvre safely."
+      ],
+      "sources": [
+        {
+          "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+          "section": "Section 9, Junctions and yellow box junctions"
+        },
+        {
+          "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+          "section": "Section 7, Signalling"
+        }
+      ],
+      "checkedOn": "2026-11-07",
+      "reviewer": "Codex (editorial source check)"
+    },
+    {
+      "id": "checks",
+      "name": "Vehicle checks and defects",
+      "scope": "professional",
+      "summary": "Use the correct walk-around checklist and follow up defects.",
+      "lesson": [
+        "Use the CVRT checklist for the vehicle type. A check before public-road use helps catch faults before departure. The owner’s maintenance programme also includes planned preventative checks.",
+        "Know who receives the defect report. Record what you found, when you found it and any temporary measures taken. The report lets the maintenance team track what needs to be inspected and repaired.",
+        "If a potentially dangerous fault develops during a journey, stop as soon as you can in a safe place. Keep the vehicle out of use until a suitably qualified person has inspected the defect and repaired it where necessary."
+      ],
+      "sources": [
+        {
+          "url": "https://www.cvrt.ie/en-US/Operator-Driver-Obligations/Daily-walk-around-checks-and-defect-detection/",
+          "section": "What do daily walk around checks entail?; recording and detection of defects"
+        }
+      ],
+      "checkedOn": "2026-11-07",
+      "reviewer": "Codex (editorial source check)"
+    },
+    {
+      "id": "loads",
+      "name": "Loads and load security",
+      "scope": "professional",
+      "summary": "Assess load distribution and restraint as separate checks.",
+      "lesson": [
+        "Assess how the load is distributed and how it is held in place. The load can affect stability even when it stays on the vehicle. Discuss the load plan with the operator or loading team before departure.",
+        "Check the applicable gross and axle limits for the particular combination. A satisfactory gross weight can coexist with too much weight on one axle. Partial unloading can change which axle is most heavily loaded.",
+        "Use the operator’s load-specific restraint procedure and training. Reassess the arrangement after drops or changes. If there is doubt about whether the load can be carried safely, resolve it before driving."
+      ],
+      "sources": [
+        {
+          "url": "https://www.rsa.ie/road-safety/road-users/professional-drivers/vehicle-safety-legislation/heavy-trailers/loading-and-load-security-for-heavy-trailers",
+          "section": "Frequently asked questions, general laws on securing a load"
+        },
+        {
+          "url": "https://www.rsa.ie/road-safety/road-users/professional-drivers/vehicle-safety-legislation/weights-and-dimensions",
+          "section": "Maximum permitted weights and dimensions"
+        }
+      ],
+      "checkedOn": "2026-11-07",
+      "reviewer": "Codex (editorial source check)"
+    },
+    {
+      "id": "trailers",
+      "name": "Trailers and couplings",
+      "scope": "professional",
+      "summary": "Understand what the final departure checks are meant to verify.",
+      "lesson": [
+        "Before coupling or uncoupling, use the procedure for the specific tractor, trailer and coupling. Choose a suitable place and account for trailer movement, trailer support and people nearby.",
+        "For a fifth-wheel combination, the checks include confirming that the locking mechanism is secure, the air and electrical connections are made and the landing gear is stowed before departure. Follow the sequence in your vehicle and operator procedures.",
+        "Complete the combination’s walk-around after coupling. Include the trailer lights and confirm the checks required by the operator before you take the combination onto the road."
+      ],
+      "sources": [
+        {
+          "url": "https://www.hsa.ie/media/ekrfb0bh/roadsense-guide.pdf",
+          "section": "Coupling Procedure and Uncoupling Procedure"
+        },
+        {
+          "url": "https://www.cvrt.ie/en-US/Operator-Driver-Obligations/Daily-walk-around-checks-and-defect-detection/",
+          "section": "What do daily walk around checks entail?"
+        }
+      ],
+      "checkedOn": "2026-11-07",
+      "reviewer": "Codex (editorial source check)"
+    },
+    {
+      "id": "hours",
+      "name": "Tachographs and drivers’ hours",
+      "scope": "professional",
+      "summary": "Identify which rules apply before calculating driving or break time.",
+      "lesson": [
+        "Start with the operation and vehicle. Articles 2 and 3 set the scope and exemptions, including an exemption from this regulation for regular passenger services on routes of 50 km or less. Other requirements can still apply.",
+        "Under Article 6, the standard daily driving limit is nine hours, with an extension to ten hours at most twice in a week. The weekly driving limit is 56 hours and the total for two consecutive weeks is 90 hours.",
+        "Article 7 generally requires at least 45 minutes of break after four and a half hours of driving unless a rest period begins. The standard split is at least 15 minutes followed by at least 30. Occasional passenger services have a separate split option: two breaks of at least 15 minutes each that together meet the 45-minute requirement. Check the scope and record requirements before relying on a special provision."
+      ],
+      "sources": [
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2006/561/2024-12-31/eng/",
+          "section": "Regulation (EC) No 561/2006, Articles 2, 3, 6, 7, 15 and 16"
+        }
+      ],
+      "checkedOn": "2026-11-07",
+      "reviewer": "Codex (editorial source check)"
+    },
+    {
+      "id": "braking",
+      "name": "Braking and stopping distances",
+      "scope": "core",
+      "summary": "Leave room for the driver and the vehicle to react.",
+      "lesson": [
+        "Stopping takes space before and after the brakes are applied. The driver needs time to notice and respond to the hazard, then vehicle response and grip affect the distance needed to stop.",
+        "Measure following time from a fixed roadside point. The RSA’s two-second rule is a minimum in dry conditions. Increase the space in rain and allow still more when visibility or grip is severely reduced.",
+        "Manage speed so you can stop within the distance you can see to be clear. Use the RSA car stopping-distance examples to understand the effect of conditions and speed. A heavy vehicle’s stopping distance depends on its own condition, loading and available grip."
+      ],
+      "sources": [
+        {
+          "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+          "section": "Section 8, Driving safely in traffic and stopping distance"
+        }
+      ],
+      "checkedOn": "2026-11-07",
+      "reviewer": "Codex (editorial source check)"
+    },
+    {
+      "id": "risk",
+      "name": "Risk and eco-driving",
+      "scope": "core",
+      "summary": "Spot developing hazards early and keep your inputs smooth.",
+      "lesson": [
+        "Look well ahead for signals, queues and places where road users may enter your path. If traffic is slowing ahead, planning early gives you time to ease off and brake progressively.",
+        "Smooth acceleration and forward planning can improve fuel use while leaving more time to respond to hazards. Allow enough space ahead so you can respond to traffic changes gradually.",
+        "Treat fighting sleep as a reason to stop. Pull into a safe place. A rest plan starts before the journey, especially if you are working shifts or starting early."
+      ],
+      "sources": [
+        {
+          "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+          "section": "Eco-driving and forward planning"
+        },
+        {
+          "url": "https://www.rsa.ie/road-safety/campaigns/driver-fatigue",
+          "section": "Advice for tired drivers"
+        }
+      ],
+      "checkedOn": "2026-11-07",
+      "reviewer": "Codex (editorial source check)"
+    },
+    {
+      "id": "dangerous",
+      "name": "Dangerous goods (ADR)",
+      "scope": "supplementary",
+      "summary": "Recognise when specialist dangerous-goods guidance is needed.",
+      "lesson": [
+        "ADR covers the carriage of dangerous goods by road. Training and certification depend on the goods and how they are carried. HSA guidance distinguishes tank operations from packaged goods and describes relevant exemptions.",
+        "Before accepting a load that may fall under ADR, ask the operator or dangerous-goods safety adviser to confirm the classification, operation and applicable requirements. Use the current HSA guidance and the rules for the actual load."
+      ],
+      "sources": [
+        {
+          "url": "https://www.hsa.ie/your_industry/adr_-_carriage_of_dangerous_goods_by_road/adr_general_information/adr_driver_training/",
+          "section": "Introduction and training exemptions"
+        }
+      ],
+      "checkedOn": "2026-11-07",
+      "reviewer": "Codex (editorial source check)"
+    },
+    {
+      "id": "bus",
+      "name": "Bus passenger safety",
+      "scope": "professional",
+      "summary": "Build a safe routine for boarding, alighting and moving off.",
+      "lesson": [
+        "At an authorised stop, secure the stationary vehicle before opening the doors and check the door area. Watch for people approaching late or standing in blind spots.",
+        "Check that boarding and alighting are complete before closing the doors. Allow time for passengers who need it to get settled and confirm that a wheelchair user is safely accommodated before moving away.",
+        "Include ramps or lifts where fitted, handrails and exits in the applicable pre-use checks. Use the operator’s accessibility and vehicle procedures for the equipment on your bus."
+      ],
+      "sources": [
+        {
+          "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+          "section": "Module 6.3 Session 2, Checking safety equipment and Boarding and alighting (p. 27)"
+        }
+      ],
+      "checkedOn": "2026-11-07",
+      "reviewer": "Codex (editorial source check)"
+    },
+    {
+      "id": "dimensions",
+      "name": "Vehicle dimensions and weight",
+      "scope": "professional",
+      "summary": "Match the actual combination and its load to the route.",
+      "lesson": [
+        "Identify the combination, its axle layout and its loaded dimensions. Look up limits for that configuration in current RSA guidance. Limits depend on the vehicle and its design, so a number from another combination can be misleading.",
+        "Check route restrictions, especially height, width and weight limits. If a restriction cannot be met, plan a suitable route before you reach it.",
+        "For an abnormal indivisible load, check the RSA permit guidance before moving it. The issuing authority can depend on the dimensions and the roads used."
+      ],
+      "sources": [
+        {
+          "url": "https://www.rsa.ie/road-safety/road-users/professional-drivers/vehicle-safety-legislation/weights-and-dimensions",
+          "section": "Maximum permitted weights and dimensions; Abnormal and indivisible loads"
+        }
+      ],
+      "checkedOn": "2026-11-07",
+      "reviewer": "Codex (editorial source check)"
+    },
+    {
+      "id": "emergency",
+      "name": "Breakdowns and emergencies",
+      "scope": "core",
+      "summary": "Recognise when to seek help and where to wait safely.",
+      "lesson": [
+        "An emergency breakdown is a reason to use the motorway hard shoulder when you can reach it safely. Once stopped, use hazard lights and call for help from a safe location.",
+        "If everyone can leave safely, wait on the embankment side behind the crash barrier where available. If you cannot follow the safe-exit advice, the RSA advises staying in the vehicle with your seat belt secured and hazards on.",
+        "Tell responders the direction of travel and the location. Motorway location markers, where available, can help. In a tunnel, check the signs and use the emergency station phone to reach the tunnel operator in a breakdown or crash."
+      ],
+      "sources": [
+        {
+          "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+          "section": "Section 11, Motorway breakdowns and tunnel breakdown or crash"
+        },
+        {
+          "url": "https://www.tii.ie/en/news/tii-news/motorway-safety-campaign-launch/",
+          "section": "Motorway safety campaign, emergency stops and roadside phones"
+        }
+      ],
+      "checkedOn": "2026-11-07",
+      "reviewer": "Codex (editorial source check)"
+    }
+  ],
+  "questions": [],
+  "papers": []
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Question review | RoadReady Ireland</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip" href="#app">Skip to content</a>
+  <header><span class="logo">ROADREADY <b>IRELAND</b></span></header>
+  <main id="app" tabindex="-1">
+    <div class="pagehead">
+      <small>STAGE TWO</small>
+      <h1>Independent question review</h1>
+      <p>Answer each question before opening the AI’s answer and evidence. Record your decision and download your review when you are ready.</p>
+    </div>
+    <section class="card" aria-label="Review controls">
+      <p id="count" role="status">Loading review queue…</p>
+      <div class="controls">
+        <label>Topic <select id="topic"><option value="">All topics</option></select></label>
+        <label>Decision <select id="status">
+          <option value="">All questions</option>
+          <option value="pending">Pending</option>
+          <option value="approved">Approved</option>
+          <option value="changes">Needs changes</option>
+        </select></label>
+      </div>
+    </section>
+    <section id="question" class="card" aria-label="Current question"></section>
+    <section class="card" aria-labelledby="export-heading">
+      <h2 id="export-heading">Download your review</h2>
+      <p>Decisions are kept in this browser. The download includes the version reviewed for each question so edited questions can be flagged for review again.</p>
+      <form id="export">
+        <div class="controls">
+          <label>Reviewer name <input name="reviewer" required autocomplete="name"></label>
+          <label>Relevant qualification, if applicable <input name="qualification"></label>
+        </div>
+        <p><button class="primary">Download review JSON</button></p>
+      </form>
+      <p id="message" role="status"></p>
+    </section>
+  </main>
+  <script type="module" src="review.js"></script>
+</body>
+</html>

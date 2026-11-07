@@ -1,6 +1,6 @@
 # Question bank audit — 7 November 2026
 
-## Finding
+## Finding for the archived question bank
 
 The bank is **not validated**. Do not describe it as 600 validated or 600 independently written questions.
 
@@ -11,10 +11,20 @@ The JSON contains no per-question evidence record. Every row is marked `validati
 ## Safety action
 
 - Keep all existing question rows quarantined as draft data.
-- Keep mock exams and topic quizzes disabled.
+- Require independent review for every released question. Keep the archived rows out of all practice.
 - Do not display a question count as a count of original or validated questions.
 - Do not award pass/fail results from this bank.
 - Use the official resources linked on the site for study until replacement questions are properly reviewed.
+
+## Two-stage review
+
+`review/questions.json` holds 100 original topic questions and 50 mock candidates, including the 25 starter questions from the initial PR. Codex checked their answers and explanations against the cited sources on 7 November 2026. Each question has a specific source, scope and rationale. No independent decisions have been recorded.
+
+A second AI editorial pass checked all 150 marked answers, their wording and category fit. It clarified the motorway-lane scenario, the interaction between a tunnel speed limit and a lower vehicle limit, the railway bridge strike fallback and the scope of the short regular bus-route exemption. The second pass is part of the AI audit. It does not supply an independent reviewer record.
+
+The review page supports answer-first checks and exports decisions tied to the exact version reviewed. The public bank in `data/study.json` holds the 12 study lessons and zero released questions or mock papers. GitHub Pages excludes the candidate bank.
+
+The app and CI use the same validator. It can check the format and completeness of evidence and catch repeated IDs or exact question wording. Humans still need to detect semantic duplicates, judge distractors and check legal accuracy and syllabus coverage.
 
 ## Official facts checked
 
@@ -35,7 +45,7 @@ The JSON contains no per-question evidence record. Every row is marked `validati
 
 ## Scope corrections
 
-The RSA identifies the theory-test formats as C, D and combined C+D. C1, C1E and CE should not be presented as independent theory-test formats without evidence; confirm the correct booking category. Dangerous goods is specialist ADR content and should be labelled supplementary unless the official test syllabus confirms its inclusion. CPC case-study preparation is a separate module.
+The RSA identifies the theory-test formats as C, D and combined C+D. The test provider maps C, CE, C1 and C1E to theory category C and D, DE, D1 and D1E to theory category D. Dangerous goods is specialist ADR content and should be labelled supplementary unless the official test syllabus confirms its inclusion. CPC case-study preparation is a separate module.
 
 ## Required validation record
 

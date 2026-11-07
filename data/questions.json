@@ -1,24 +1,7 @@
 {
   "version": 2,
   "updated": "2026-11-07",
-  "notice": "500 original practice questions. Independent educational material, not official RSA questions. Laws and guidance can change; verify against current RSA, Irish legislation and applicable EU/ADR rules. Some specialist scenarios require review by a qualified instructor.",
-  "examFormats": {
-    "C_C1_CE_C1E": {
-      "questions": 100,
-      "minutes": 120,
-      "passMark": 74
-    },
-    "D": {
-      "questions": 100,
-      "minutes": 120,
-      "passMark": 74
-    },
-    "combined_CD": {
-      "questions": 140,
-      "minutes": 180,
-      "passMark": 104
-    }
-  },
+  "notice": "Quarantined draft archive. Contains repeated scenarios and unverified answers. The website does not load this file.",
   "topics": [
     {
       "id": "signs",

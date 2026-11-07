@@ -1,0 +1,3994 @@
+{
+  "questions": [
+    {
+      "id": "study-steady-amber-safe-stop",
+      "scenarioId": "steady-amber-safe-stop",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "On a delivery run, the steady amber comes on while you still have ample distance to stop smoothly. What should you do?",
+      "options": [
+        "Proceed because the light has not turned red.",
+        "Stop before the stop line.",
+        "Stop after the line if the pedestrian crossing is empty."
+      ],
+      "answer": 1,
+      "explanation": "Stop before the line when you can do so safely. The exception applies if you were already too close to stop safely when amber first appeared.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 7, Traffic lights",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Stop before the line when you can do so safely. The exception applies if you were already too close to stop safely when amber first appeared.",
+        "scope": "Steady amber at a signal-controlled junction."
+      }
+    },
+    {
+      "id": "study-garda-directs-traffic",
+      "scenarioId": "garda-directs-traffic",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "A Garda managing a junction gives you a clear signal to stop while your traffic light is green. Which instruction controls your movement?",
+      "options": [
+        "The Garda’s stop signal.",
+        "The green light until it changes.",
+        "Whichever signal was given first."
+      ],
+      "answer": 0,
+      "explanation": "A Garda directing traffic takes priority over traffic lights.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 12, Signals",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A Garda directing traffic takes priority over traffic lights.",
+        "scope": "A Garda is actively controlling traffic."
+      }
+    },
+    {
+      "id": "study-directional-filter",
+      "scenarioId": "directional-filter",
+      "topic": "signs",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "Your coach is in the left-turn lane. A green left arrow is lit alongside the red main signal, and the turn is clear. What does the arrow permit?",
+      "options": [
+        "Driving straight through the junction.",
+        "Waiting until the main light turns green before turning.",
+        "Turning left if it remains safe."
+      ],
+      "answer": 2,
+      "explanation": "A green filter arrow permits the indicated movement when safe, even alongside a red main signal.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 7, Traffic lights",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A green filter arrow permits the indicated movement when safe, even alongside a red main signal.",
+        "scope": "A green arrow controlling the left turn."
+      }
+    },
+    {
+      "id": "study-signals-out-of-order",
+      "scenarioId": "signals-out-of-order",
+      "topic": "signs",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "The traffic lights at a junction are out of order. You are approaching the control line in a rigid truck. What does the RSA advise?",
+      "options": [
+        "Treat the failed signal as a green light if you are on the wider road.",
+        "Stop at the control line, then proceed safely while yielding to traffic with right of way.",
+        "Slow down and continue without stopping if the first lane is clear."
+      ],
+      "answer": 1,
+      "explanation": "Stop at the line first. Check the whole junction and yield as required before proceeding.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 7, Traffic lights",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Stop at the line first. Check the whole junction and yield as required before proceeding.",
+        "scope": "Failed signals without a Garda directing traffic."
+      }
+    },
+    {
+      "id": "study-railway-red-flashes",
+      "scenarioId": "railway-red-flashes",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Flashing red lights are showing at an automated railway crossing. The barrier has yet to close. What should you do?",
+      "options": [
+        "Go through before the barrier starts moving.",
+        "Continue if you can see both ways along the tracks.",
+        "Stop safely before the crossing."
+      ],
+      "answer": 2,
+      "explanation": "Flashing red at the level crossing tells you to stop, regardless of the barrier’s position.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Automated railway level crossings",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Flashing red at the level crossing tells you to stop, regardless of the barrier’s position.",
+        "scope": "Active flashing red signals at an automated railway crossing."
+      }
+    },
+    {
+      "id": "study-box-straight-queue",
+      "scenarioId": "box-straight-queue",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You are going straight through a yellow box. The lights are green, but the queue beyond leaves room for only the front of your vehicle. Where should you wait?",
+      "options": [
+        "Inside the box with only the cab across.",
+        "Before the box until the full vehicle can clear it.",
+        "Inside the box as long as the traffic light stays green."
+      ],
+      "answer": 1,
+      "explanation": "Wait before entering. You need space to clear the box without stopping when going straight.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 9, Yellow box junctions",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Wait before entering. You need space to clear the box without stopping when going straight.",
+        "scope": "Straight-ahead movement, so the right-turn exception does not apply."
+      }
+    },
+    {
+      "id": "study-stop-at-empty-junction",
+      "scenarioId": "stop-at-empty-junction",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You approach a stop sign with a marked line at the exit from an industrial estate. The main road appears empty. What is required at the line?",
+      "options": [
+        "Slow to a crawl and continue if nobody is visible.",
+        "Stop only if another vehicle is approaching.",
+        "Come to a complete stop before continuing when safe."
+      ],
+      "answer": 2,
+      "explanation": "The stop sign requires a full stop even when the road looks empty.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 9, Junctions",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The stop sign requires a full stop even when the road looks empty.",
+        "scope": "A stop sign with a marked stop line."
+      }
+    },
+    {
+      "id": "study-turn-pedestrian-already-crossing",
+      "scenarioId": "turn-pedestrian-already-crossing",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You are turning left at a junction and see a pedestrian already crossing the road you are entering. What should you do?",
+      "options": [
+        "Wait and yield to the pedestrian.",
+        "Continue because you started indicating first.",
+        "Pass behind the pedestrian as soon as there is space for your front wheels."
+      ],
+      "answer": 0,
+      "explanation": "Give way to people already crossing at a junction before completing the turn.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 9, Junctions",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Give way to people already crossing at a junction before completing the turn.",
+        "scope": "The pedestrian has already started crossing."
+      }
+    },
+    {
+      "id": "study-normal-motorway-lane",
+      "scenarioId": "normal-motorway-lane",
+      "topic": "rules",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "You are driving a coach designed for seated passengers only and towing nothing. After a lawful overtake on a two-lane motorway, where should you return once there is a safe gap?",
+      "options": [
+        "Stay in the right lane until approaching an exit.",
+        "Return to the left lane when safe.",
+        "Use either lane according to which has the better road surface."
+      ],
+      "answer": 1,
+      "explanation": "Use the left lane for normal motorway driving. Return to it once the overtake is complete and it is safe.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.tii.ie/en/news/tii-news/motorway-safety-campaign-launch/",
+        "section": "Motorway safety campaign, rules of the road",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Use the left lane for normal motorway driving. Return to it once the overtake is complete and it is safe.",
+        "scope": "Normal motorway driving after a lawful overtake. Seated-passenger coach, no trailer."
+      }
+    },
+    {
+      "id": "study-indicator-lane-change",
+      "scenarioId": "indicator-lane-change",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You signal to change lanes but a vehicle in the destination lane is still alongside your rear quarter. What should you do?",
+      "options": [
+        "Move over gradually so it can slow down.",
+        "Move as soon as your indicator has flashed three times.",
+        "Hold your lane until a safe gap opens."
+      ],
+      "answer": 2,
+      "explanation": "An indicator communicates intent. Check that the lane change is safe before moving across.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 7, Signalling",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "An indicator communicates intent. Check that the lane change is safe before moving across.",
+        "scope": "Ordinary lane change with another vehicle alongside."
+      }
+    },
+    {
+      "id": "study-fixed-point-headway",
+      "scenarioId": "fixed-point-headway",
+      "topic": "braking",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "How can you measure your following gap in seconds on a dry road?",
+      "options": [
+        "Count from when the vehicle ahead passes a fixed marker until you reach it.",
+        "Count from when you pass a marker until the vehicle ahead passes the next marker.",
+        "Divide the distance to the vehicle ahead by the posted limit."
+      ],
+      "answer": 0,
+      "explanation": "Use the same fixed point for both vehicles. The elapsed time is the following gap.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Driving safely in traffic",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Use the same fixed point for both vehicles. The elapsed time is the following gap.",
+        "scope": "Measuring the gap on a dry road."
+      }
+    },
+    {
+      "id": "study-rain-gap-adjustment",
+      "scenarioId": "rain-gap-adjustment",
+      "topic": "braking",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Steady rain wets the road as you follow another vehicle. How should you adjust the RSA dry-road two-second benchmark?",
+      "options": [
+        "Keep it if your vehicle has ABS.",
+        "Reduce it to make the other vehicle easier to see.",
+        "Double the benchmark and increase it further if conditions demand."
+      ],
+      "answer": 2,
+      "explanation": "The RSA advises doubling the dry-road following distance in wet weather. Severe conditions can call for more space.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Driving safely in traffic",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises doubling the dry-road following distance in wet weather. Severe conditions can call for more space.",
+        "scope": "Wet-road benchmark, adjusted for actual conditions."
+      }
+    },
+    {
+      "id": "study-hidden-road-bend",
+      "scenarioId": "hidden-road-bend",
+      "topic": "braking",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "A bend hides the road ahead and you are travelling below the posted speed limit. How should you select your speed?",
+      "options": [
+        "Use the posted limit because the road is dry.",
+        "Use a speed that lets you stop within the road you can see is clear.",
+        "Match the speed of the vehicle ahead without considering visibility."
+      ],
+      "answer": 1,
+      "explanation": "The visible, clear distance has to be enough to stop safely. A posted limit alone cannot tell you that.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Driving safely in traffic",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The visible, clear distance has to be enough to stop safely. A posted limit alone cannot tell you that.",
+        "scope": "Restricted forward visibility."
+      }
+    },
+    {
+      "id": "study-fatigue-reaction-distance",
+      "scenarioId": "fatigue-reaction-distance",
+      "topic": "braking",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Two otherwise identical journeys approach a hazard at the same speed. On one, the driver takes longer to recognise it. What changes before braking starts?",
+      "options": [
+        "The vehicle covers more distance before braking.",
+        "The vehicle covers less distance before braking.",
+        "Only the distance after braking can change."
+      ],
+      "answer": 0,
+      "explanation": "While the driver is still recognising the hazard and reacting, the vehicle keeps moving.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Stopping distance for cars, perception and reaction time",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "While the driver is still recognising the hazard and reacting, the vehicle keeps moving.",
+        "scope": "Compares the distance before braking at the same speed. No car-specific distances are used."
+      }
+    },
+    {
+      "id": "study-tyre-grip-stop",
+      "scenarioId": "tyre-grip-stop",
+      "topic": "braking",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Two otherwise identical vehicles are travelling at the same speed and their drivers react at the same moment. Which change can reduce braking grip?",
+      "options": [
+        "The driver choosing an earlier time to start the shift.",
+        "The vehicle behind leaving a larger gap.",
+        "A slippery surface under the tyres."
+      ],
+      "answer": 2,
+      "explanation": "Available tyre grip affects braking capability. A slippery surface reduces the grip available.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Stopping distance for cars and skidding",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Available tyre grip affects braking capability. A slippery surface reduces the grip available.",
+        "scope": "General grip principle without vehicle-specific stopping figures."
+      }
+    },
+    {
+      "id": "study-anticipate-queue",
+      "scenarioId": "anticipate-queue",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You see a queue building well ahead on a straight road. Which approach best demonstrates forward planning?",
+      "options": [
+        "Hold speed until close to the queue, then brake firmly.",
+        "Ease off early and slow progressively.",
+        "Accelerate into the free space before braking."
+      ],
+      "answer": 1,
+      "explanation": "Spotting the queue early gives you time to ease off and avoid late, harsh braking.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Eco-driving and forward planning",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Spotting the queue early gives you time to ease off and avoid late, harsh braking.",
+        "scope": "A developing queue far enough ahead for gradual deceleration."
+      }
+    },
+    {
+      "id": "study-fighting-sleep-stop",
+      "scenarioId": "fighting-sleep-stop",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "On the last leg of a journey you find yourself fighting sleep. What is the first priority?",
+      "options": [
+        "Open a window and complete the leg without stopping.",
+        "Arrange a break after the last stop.",
+        "Pull into a safe place and stop driving."
+      ],
+      "answer": 2,
+      "explanation": "The RSA’s first step for tired drivers is to park safely. Plan a break before continuing.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/road-safety/campaigns/driver-fatigue",
+        "section": "Advice for tired drivers",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA’s first step for tired drivers is to park safely. Plan a break before continuing.",
+        "scope": "Immediate response to fighting sleep."
+      }
+    },
+    {
+      "id": "study-clear-weather-after-fog",
+      "scenarioId": "clear-weather-after-fog",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "After leaving a patch of dense fog, you are driving in clear weather again. What should you do with the fog lights?",
+      "options": [
+        "Turn them off.",
+        "Leave them on until the next stop.",
+        "Leave them on if another vehicle is behind you."
+      ],
+      "answer": 0,
+      "explanation": "Switch off fog lights in clear weather. They can dazzle other drivers.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, Use of vehicle lighting",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Switch off fog lights in clear weather. They can dazzle other drivers.",
+        "scope": "Conditions have cleared and there is no falling snow."
+      }
+    },
+    {
+      "id": "study-progressive-pull-away",
+      "scenarioId": "progressive-pull-away",
+      "topic": "risk",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "The lights change and you can move off safely in a coach. Which technique follows the RSA eco-driving guidance?",
+      "options": [
+        "Build high revs while stationary to move off faster.",
+        "Pull away smoothly with progressive accelerator input.",
+        "Accelerate hard initially and then coast to settle speed."
+      ],
+      "answer": 1,
+      "explanation": "Smooth, progressive acceleration avoids unnecessary engine revs and abrupt changes in speed.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Eco-driving and forward planning",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Smooth, progressive acceleration avoids unnecessary engine revs and abrupt changes in speed.",
+        "scope": "Normal departure in a coach when safe to move off."
+      }
+    },
+    {
+      "id": "study-cruise-control-heavy-rain",
+      "scenarioId": "cruise-control-heavy-rain",
+      "topic": "risk",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "Heavy rain starts while your truck’s cruise control is active. What does the RSA recommend?",
+      "options": [
+        "Disengage cruise control and manage speed directly.",
+        "Keep cruise control on but lower the setting.",
+        "Use cruise control until standing water is visible."
+      ],
+      "answer": 0,
+      "explanation": "The RSA advises avoiding cruise control in heavy rain because it can reduce control and affect your reaction to hazards.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Cruise control",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises avoiding cruise control in heavy rain because it can reduce control and affect your reaction to hazards.",
+        "scope": "Heavy rain, even without visible standing water."
+      }
+    },
+    {
+      "id": "study-safe-breakdown-refuge",
+      "scenarioId": "safe-breakdown-refuge",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Following a motorway breakdown, you and your occupants can exit safely and there is a crash barrier next to the hard shoulder. Where should you wait for help?",
+      "options": [
+        "Just in front of the vehicle on the shoulder.",
+        "Between the vehicle and the carriageway.",
+        "Well behind the barrier on the embankment side."
+      ],
+      "answer": 2,
+      "explanation": "Wait away from the live traffic area, behind the crash barrier where available.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Motorway breakdowns",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Wait away from the live traffic area, behind the crash barrier where available.",
+        "scope": "Everyone can safely leave and get behind the barrier."
+      }
+    },
+    {
+      "id": "study-breakdown-no-safe-exit",
+      "scenarioId": "breakdown-no-safe-exit",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You have broken down on a motorway and cannot safely follow the RSA advice to leave the vehicle. How should you wait while getting help?",
+      "options": [
+        "Remain belted in the vehicle with hazard lights on.",
+        "Wait unbelted so you can move more quickly.",
+        "Stand beside the vehicle nearest to live traffic."
+      ],
+      "answer": 0,
+      "explanation": "When it is unsafe to follow the exit advice, the RSA advises staying belted inside with the hazards on.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Motorway breakdowns",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "When it is unsafe to follow the exit advice, the RSA advises staying belted inside with the hazards on.",
+        "scope": "Safe exit advice cannot be followed."
+      }
+    },
+    {
+      "id": "study-marker-location-call",
+      "scenarioId": "marker-location-call",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "From a safe place you report a motorway breakdown. Which information from a roadside location marker is especially useful?",
+      "options": [
+        "The speed limit for the road.",
+        "The location reference and direction of travel.",
+        "The permitted gross weight of your vehicle."
+      ],
+      "answer": 1,
+      "explanation": "The location reference and direction help responders find the correct stretch of road.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Location reference indicators and markings",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The location reference and direction help responders find the correct stretch of road.",
+        "scope": "A location marker is visible from a safe place."
+      }
+    },
+    {
+      "id": "study-tunnel-emergency-phone",
+      "scenarioId": "tunnel-emergency-phone",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Your vehicle has stopped following a breakdown in a tunnel. You can safely reach an emergency station. Which phone should you use to alert the tunnel operator?",
+      "options": [
+        "The tunnel emergency station phone.",
+        "A passenger’s phone to call the next toll plaza.",
+        "A phone at the first service area outside the tunnel."
+      ],
+      "answer": 0,
+      "explanation": "The emergency station phone puts you in contact with the tunnel operator.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Tunnels, Breakdown or a crash",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The emergency station phone puts you in contact with the tunnel operator.",
+        "scope": "You can safely reach a tunnel emergency station."
+      }
+    },
+    {
+      "id": "study-motorway-missed-exit",
+      "scenarioId": "motorway-missed-exit",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You miss your motorway exit while trying to reach a service area. What is the safe way to correct the route?",
+      "options": [
+        "Reverse along the hard shoulder to the exit.",
+        "Turn at the next gap in the central barrier.",
+        "Continue to a suitable exit ahead."
+      ],
+      "answer": 2,
+      "explanation": "Motorway rules prohibit turning or reversing. Continue ahead until you can leave by an exit.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.tii.ie/en/news/tii-news/motorway-safety-campaign-launch/",
+        "section": "Motorway safety campaign, rules of the road",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Motorway rules prohibit turning or reversing. Continue ahead until you can leave by an exit.",
+        "scope": "Ordinary missed exit, without an emergency or Garda instruction."
+      }
+    },
+    {
+      "id": "topic-axle-ban-timeplate",
+      "scenarioId": "axle-ban-timeplate",
+      "topic": "signs",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "A four-axle goods vehicle reaches a timed prohibition for goods vehicles with three or more axles. The restriction is in force and the driver has no permit. What should the driver do?",
+      "options": [
+        "Proceed because the sign only applies to vehicles with exactly three axles.",
+        "Proceed if the vehicle is running empty.",
+        "Take a route that avoids the restriction."
+      ],
+      "answer": 2,
+      "explanation": "The axle symbol sets a threshold. Vehicles at or above it need a permit while the restriction is active.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Upright signs",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The axle symbol sets a threshold. Vehicles at or above it need a permit while the restriction is active.",
+        "scope": "Applies to a goods vehicle during the times shown."
+      }
+    },
+    {
+      "id": "topic-central-hatched-median",
+      "scenarioId": "central-hatched-median",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "On a 2-plus-1 road, the only way to pass a slow vehicle would involve driving across the hatched central median. What should you do?",
+      "options": [
+        "Stay in your lane until there is a lawful opportunity to pass.",
+        "Use the median if you can see a clear gap on the other side.",
+        "Enter the median while indicating and move back as soon as possible."
+      ],
+      "answer": 0,
+      "explanation": "The hatched median separates opposing traffic and must be kept clear.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Markings for separating traffic",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The hatched median separates opposing traffic and must be kept clear.",
+        "scope": "A central median separating opposite directions."
+      }
+    },
+    {
+      "id": "topic-roadworks-stop-paddle",
+      "scenarioId": "roadworks-stop-paddle",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "A road worker displays the Stop side of a paddle at a single-lane works site. A vehicle in front of you has just been allowed through. What should you do?",
+      "options": [
+        "Follow the other vehicle before oncoming traffic arrives.",
+        "Continue at walking speed if the lane appears empty.",
+        "Stop and wait for Go."
+      ],
+      "answer": 2,
+      "explanation": "The paddle controls when your vehicle may pass. The previous vehicle’s permission does not carry over.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Stop and Go traffic control at roadworks",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The paddle controls when your vehicle may pass. The previous vehicle’s permission does not carry over.",
+        "scope": "Manually controlled stop-and-go roadworks."
+      }
+    },
+    {
+      "id": "topic-single-motorway-countdown-bar",
+      "scenarioId": "single-motorway-countdown-bar",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "On approach to a motorway exit, you pass the blue countdown sign with one white diagonal bar. How far away is the exit indicated by the sign?",
+      "options": [
+        "200 metres.",
+        "300 metres.",
+        "100 metres."
+      ],
+      "answer": 2,
+      "explanation": "One bar indicates 100 metres. The corresponding signs with two and three bars show 200 and 300 metres.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Motorway signs, Countdown sign",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "One bar indicates 100 metres. The corresponding signs with two and three bars show 200 and 300 metres.",
+        "scope": "Standard motorway exit countdown sign."
+      }
+    },
+    {
+      "id": "topic-active-tunnel-speed-display",
+      "scenarioId": "active-tunnel-speed-display",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "A tunnel’s variable speed sign shows 50 km/h in a red circle. What does the number mean while it is displayed?",
+      "options": [
+        "It is the displayed road limit. A lower applicable vehicle limit still applies.",
+        "It is the recommended minimum to keep traffic moving.",
+        "It is advisory unless a separate fixed sign also shows 50."
+      ],
+      "answer": 0,
+      "explanation": "An active regulatory display sets the road speed limit. A lower vehicle-specific limit takes precedence, and conditions can require a lower speed.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Driving in a tunnel; Section 8, Speed limits for vehicles",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "An active regulatory display sets the road speed limit. A lower vehicle-specific limit takes precedence, and conditions can require a lower speed.",
+        "scope": "A regulatory electronic display showing a number in a red circle."
+      }
+    },
+    {
+      "id": "topic-single-yellow-time-plate",
+      "scenarioId": "single-yellow-time-plate",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "The kerb has a single yellow line and a plate prohibiting parking from 08:00 to 10:00. You want to park there at 09:30. What does this marking tell you?",
+      "options": [
+        "Parking is permitted as long as a space is free.",
+        "The restriction begins at 10:00.",
+        "Parking is prohibited at that time."
+      ],
+      "answer": 2,
+      "explanation": "The plate gives the times during which the yellow-line parking restriction applies.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 10, Road markings",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The plate gives the times during which the yellow-line parking restriction applies.",
+        "scope": "Concerns ordinary parking during the hours shown."
+      }
+    },
+    {
+      "id": "topic-busy-clearway-meter",
+      "scenarioId": "busy-clearway-meter",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "A metered bay lies within a clearway during its signed operating hours. Can you park there if the meter still takes payment?",
+      "options": [
+        "No. The clearway restriction applies even when metered parking is normally available.",
+        "Yes, if payment is made before leaving the vehicle.",
+        "Yes, if you remain with the vehicle."
+      ],
+      "answer": 0,
+      "explanation": "The clearway keeps the road available to traffic during the hours on its sign.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 10, Parking, clearways",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The clearway keeps the road available to traffic during the hours on its sign.",
+        "scope": "Ordinary parking during an active clearway."
+      }
+    },
+    {
+      "id": "topic-flashing-amber-pelican-pedestrian",
+      "scenarioId": "flashing-amber-pelican-pedestrian",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "The vehicle signal at a pelican crossing is flashing amber while someone is still crossing. What should you do?",
+      "options": [
+        "Wait and let the person clear your path.",
+        "Proceed slowly if the pedestrian is halfway across.",
+        "Sound your horn and then drive on."
+      ],
+      "answer": 0,
+      "explanation": "Flashing amber requires drivers to give way to pedestrians who are crossing.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 7, Traffic lights; Section 18, Pelican crossing",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Flashing amber requires drivers to give way to pedestrians who are crossing.",
+        "scope": "Pelican crossing with a pedestrian on the crossing."
+      }
+    },
+    {
+      "id": "topic-no-entry-red-disc",
+      "scenarioId": "no-entry-red-disc",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "At the entrance to a street you see a red circular sign with a horizontal white bar. What does it mean for your vehicle?",
+      "options": [
+        "No entry from this end.",
+        "Two-way traffic begins here.",
+        "Only goods vehicles are prohibited."
+      ],
+      "answer": 0,
+      "explanation": "The white bar on a red circular background marks a no-entry point for vehicles.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Upright signs",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The white bar on a red circular background marks a no-entry point for vehicles.",
+        "scope": "Standard no-entry sign without a permitted exception."
+      }
+    },
+    {
+      "id": "topic-dual-carriageway-short-median",
+      "scenarioId": "dual-carriageway-short-median",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Your vehicle is too long to fit completely within the median at a dual carriageway junction. How should you plan to turn right from the minor road?",
+      "options": [
+        "Use the median even if the rear remains in a live lane.",
+        "Enter the near carriageway and use your indicators to hold traffic while you wait.",
+        "Wait on the minor road for a gap that lets you complete the whole turn."
+      ],
+      "answer": 2,
+      "explanation": "The vehicle needs a gap across both carriageways when it cannot wait clear of live lanes in the median.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 9, Crossing a dual carriageway or joining it by turning right",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The vehicle needs a gap across both carriageways when it cannot wait clear of live lanes in the median.",
+        "scope": "Minor-road right turn with a median shorter than the vehicle."
+      }
+    },
+    {
+      "id": "topic-roundabout-markings-precedence",
+      "scenarioId": "roundabout-markings-precedence",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "The approach arrows direct traffic for your exit into a different lane from the one suggested by the general clock-face rule. Which should guide your approach?",
+      "options": [
+        "The clock-face rule regardless of local markings.",
+        "The lane chosen by the vehicle in front.",
+        "The arrows and markings for that roundabout."
+      ],
+      "answer": 2,
+      "explanation": "The general rule is a planning aid. Follow the directions marked for the junction you are using.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 9, Approaching a roundabout",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The general rule is a planning aid. Follow the directions marked for the junction you are using.",
+        "scope": "Roundabout with clear lane instructions."
+      }
+    },
+    {
+      "id": "topic-roundabout-traffic-from-right",
+      "scenarioId": "roundabout-traffic-from-right",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You are at the entry to an unsignalised roundabout. A vehicle on the roundabout is approaching your entry from the right. Who should wait?",
+      "options": [
+        "The other driver should yield because you are at the entry line first.",
+        "You should yield to the vehicle already on the roundabout.",
+        "Whichever driver is taking the later exit should wait."
+      ],
+      "answer": 1,
+      "explanation": "Yield to traffic coming from the right or already circulating as you approach.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 9, Approaching a roundabout",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Yield to traffic coming from the right or already circulating as you approach.",
+        "scope": "Unsignalised entry without a Garda or contrary direction."
+      }
+    },
+    {
+      "id": "topic-roundabout-straight-exit-signal",
+      "scenarioId": "roundabout-straight-exit-signal",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You are taking the second exit straight ahead at a roundabout with standard lane markings. When should you normally begin signalling left?",
+      "options": [
+        "After passing the exit immediately before yours.",
+        "Before entering the roundabout.",
+        "As soon as you pass the stop or yield line on entry."
+      ],
+      "answer": 0,
+      "explanation": "Signal left after passing the preceding exit so others can identify the exit you intend to take.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 9, Going straight ahead at roundabouts",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Signal left after passing the preceding exit so others can identify the exit you intend to take.",
+        "scope": "Straight-ahead second exit, with no contrary lane or signal instructions."
+      }
+    },
+    {
+      "id": "topic-reverse-minor-to-major",
+      "scenarioId": "reverse-minor-to-major",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You discover that a minor road is too narrow to turn around at its junction with a major road. Is reversing out onto the major road the right approach?",
+      "options": [
+        "No. Find a safe way to leave the minor road driving forwards.",
+        "Yes, if you use hazard lights.",
+        "Yes, if there is a gap in traffic from one direction."
+      ],
+      "answer": 0,
+      "explanation": "The RSA prohibits reversing from a minor road onto a major road because of the danger to other traffic.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, Reversing",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA prohibits reversing from a minor road onto a major road because of the danger to other traffic.",
+        "scope": "Ordinary road junction."
+      }
+    },
+    {
+      "id": "topic-motorway-merge-yield",
+      "scenarioId": "motorway-merge-yield",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Your slip road is ending and a car is already alongside you in the motorway’s left lane. Who should yield during the merge?",
+      "options": [
+        "The car must slow because you are on an acceleration lane.",
+        "The driver with the smaller vehicle should yield.",
+        "You should yield to traffic already on the motorway."
+      ],
+      "answer": 2,
+      "explanation": "Use the slip road to look for a suitable gap and yield to vehicles already on the motorway.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Joining the motorway",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Use the slip road to look for a suitable gap and yield to vehicles already on the motorway.",
+        "scope": "An acceleration lane that merges into an existing motorway lane."
+      }
+    },
+    {
+      "id": "topic-zigzag-crossing-parking",
+      "scenarioId": "zigzag-crossing-parking",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "There is no upright parking restriction sign, but your proposed stopping place is within the zig-zag markings at a zebra crossing. May you park there?",
+      "options": [
+        "Yes, provided the crossing stripes themselves are clear.",
+        "Yes, if the delivery takes less than a minute.",
+        "No. The crossing’s zig-zag markings prohibit parking there."
+      ],
+      "answer": 2,
+      "explanation": "The parking prohibition includes the marked approach and departure area at the crossing.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 10, No parking",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The parking prohibition includes the marked approach and departure area at the crossing.",
+        "scope": "Ordinary parking within crossing zig-zags."
+      }
+    },
+    {
+      "id": "topic-unsuitable-uturn-oneway",
+      "scenarioId": "unsuitable-uturn-oneway",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You have missed a turn on a one-way street. What should you do to correct your route?",
+      "options": [
+        "Continue in the permitted direction and find a legal route back.",
+        "Make a U-turn when no vehicle is approaching.",
+        "Turn around as long as hazard lights are on."
+      ],
+      "answer": 0,
+      "explanation": "A U-turn would put the vehicle against the permitted direction. Continue and reroute.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, U-turns",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A U-turn would put the vehicle against the permitted direction. Continue and reroute.",
+        "scope": "Ordinary one-way street with no authorised direction to turn."
+      }
+    },
+    {
+      "id": "topic-truck-motorway-outside-lane",
+      "scenarioId": "truck-motorway-outside-lane",
+      "topic": "rules",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "A goods vehicle with a maximum authorised mass of 12 tonnes is following slower traffic on a three-lane motorway. No obstruction prevents progress in the inner lanes. Can it use the outside lane to overtake?",
+      "options": [
+        "Yes, as long as it is carrying less than 3.5 tonnes of cargo.",
+        "No. The outside lane restriction applies to that goods vehicle.",
+        "Yes, if it moves back to the middle lane promptly."
+      ],
+      "answer": 1,
+      "explanation": "The restriction uses maximum authorised mass, not the load carried. An obstruction exception does not apply merely because traffic is slower.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Using lanes properly, Lane 3",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The restriction uses maximum authorised mass, not the load carried. An obstruction exception does not apply merely because traffic is slower.",
+        "scope": "Goods vehicle over 3,500 kg, ordinary overtaking, no obstruction."
+      }
+    },
+    {
+      "id": "topic-defect-report-fields",
+      "scenarioId": "defect-report-fields",
+      "topic": "checks",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You discover a defect during your vehicle inspection. Alongside its description and the time and date, what should the record include if applicable?",
+      "options": [
+        "Any temporary measure taken to reduce the defect’s effect.",
+        "The planned delivery order for the day.",
+        "Only the date of the previous service."
+      ],
+      "answer": 0,
+      "explanation": "The defect report documents temporary mitigation along with the finding and when it was made.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/en-US/Operator-Driver-Obligations/Daily-walk-around-checks-and-defect-detection/",
+        "section": "Obligations in relation to recording of defects",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The defect report documents temporary mitigation along with the finding and when it was made.",
+        "scope": "Commercial vehicle inspection where a defect was found."
+      }
+    },
+    {
+      "id": "topic-untrained-walkround",
+      "scenarioId": "untrained-walkround",
+      "topic": "checks",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "A colleague has never been trained to check your class of commercial vehicle. Should the operator assign them the pre-use inspection without training?",
+      "options": [
+        "No. The person who carries out the checks needs appropriate training.",
+        "Yes, provided they hold a full car licence.",
+        "Yes, provided the vehicle has a current roadworthiness certificate."
+      ],
+      "answer": 0,
+      "explanation": "The check may be carried out by a trained person, such as a trained driver or mechanic.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/en-US/Operator-Driver-Obligations/Daily-walk-around-checks-and-defect-detection/",
+        "section": "What do daily walk around checks entail?",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The check may be carried out by a trained person, such as a trained driver or mechanic.",
+        "scope": "Applies to commercial vehicle walk-around inspections."
+      }
+    },
+    {
+      "id": "topic-defect-followup-maintenance",
+      "scenarioId": "defect-followup-maintenance",
+      "topic": "checks",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "A commercial vehicle defect has been repaired after a report. Where should the corrective action be recorded?",
+      "options": [
+        "In the vehicle’s maintenance record.",
+        "Only in the driver’s delivery notes.",
+        "Only on the next annual test application."
+      ],
+      "answer": 0,
+      "explanation": "Recording the corrective action in the maintenance record links the defect to its follow-up.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/en-US/Operator-Driver-Obligations/Daily-walk-around-checks-and-defect-detection/",
+        "section": "Repairing defects to vehicles",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Recording the corrective action in the maintenance record links the defect to its follow-up.",
+        "scope": "Operator record-keeping after corrective work."
+      }
+    },
+    {
+      "id": "topic-planned-checks-distinct",
+      "scenarioId": "planned-checks-distinct",
+      "topic": "checks",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "A fleet manager wants to rely on planned maintenance alone and end pre-use walk-arounds. Which statement reflects CVRT guidance?",
+      "options": [
+        "Daily walk-arounds are required only during the month before a test.",
+        "The maintenance system needs both planned inspections and daily walk-arounds.",
+        "Planned maintenance can replace the walk-around if no faults were reported on the previous shift."
+      ],
+      "answer": 1,
+      "explanation": "Pre-use checks and planned preventative maintenance are separate parts of the inspection system.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/en-US/Operator-Driver-Obligations/Daily-walk-around-checks-and-defect-detection/",
+        "section": "Daily walk around checks, introduction",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Pre-use checks and planned preventative maintenance are separate parts of the inspection system.",
+        "scope": "Commercial vehicle maintenance system."
+      }
+    },
+    {
+      "id": "topic-dangerous-defect-en-route",
+      "scenarioId": "dangerous-defect-en-route",
+      "topic": "checks",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "During a journey you find a fault likely to put other road users in danger. What should you do first?",
+      "options": [
+        "Carry on slowly to the next scheduled customer.",
+        "Finish the route and record the fault on return.",
+        "Stop driving as soon as you can do so at a safe location."
+      ],
+      "answer": 2,
+      "explanation": "A dangerous fault requires stopping at a safe place and obtaining suitable inspection before driving again.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/en-US/Operator-Driver-Obligations/Daily-walk-around-checks-and-defect-detection/",
+        "section": "Detection of defects by drivers when on the road",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A dangerous fault requires stopping at a safe place and obtaining suitable inspection before driving again.",
+        "scope": "A fault likely to create danger while the vehicle is in motion."
+      }
+    },
+    {
+      "id": "topic-dirty-mirror-visibility",
+      "scenarioId": "dirty-mirror-visibility",
+      "topic": "checks",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Salt spray has made a side mirror difficult to use before your shift. What should you do before driving?",
+      "options": [
+        "Clean it and make sure it is correctly positioned.",
+        "Leave it because the other mirror gives a view to the rear.",
+        "Move it further out so more of the mirror faces the light."
+      ],
+      "answer": 0,
+      "explanation": "A mirror needs a clear surface and correct position to give effective observations.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 4, Mirrors, Clear vision",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A mirror needs a clear surface and correct position to give effective observations.",
+        "scope": "A fitted side mirror obscured by dirt."
+      }
+    },
+    {
+      "id": "topic-cab-pedal-obstruction",
+      "scenarioId": "cab-pedal-obstruction",
+      "topic": "checks",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "You find a loose water bottle on the floor near the coach pedals. What should you do before moving?",
+      "options": [
+        "Roll it behind the accelerator to keep it out of the aisle.",
+        "Leave it on the floor as long as it is behind your heel.",
+        "Stow it securely away from the foot controls."
+      ],
+      "answer": 2,
+      "explanation": "Loose equipment can move under a pedal and interfere with control.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Secondary controls",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Loose equipment can move under a pedal and interfere with control.",
+        "scope": "Loose item in the driver’s footwell."
+      }
+    },
+    {
+      "id": "topic-standard-curtain-not-restraint",
+      "scenarioId": "standard-curtain-not-restraint",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "A pallet load is ready to go in a curtain-sided trailer with ordinary weather curtains. Can the closed curtains serve as the load restraint?",
+      "options": [
+        "No. Use a restraint system suitable for the load.",
+        "Yes, if the buckles are all tight.",
+        "Yes, if the load will remain on the trailer for only one stop."
+      ],
+      "answer": 0,
+      "explanation": "Standard curtains protect the load from weather and are not a substitute for rated restraint.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "Load securing with standard curtains",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Standard curtains protect the load from weather and are not a substitute for rated restraint.",
+        "scope": "Ordinary weather curtains, with no certified load-bearing system."
+      }
+    },
+    {
+      "id": "topic-rated-curtain-retrofit",
+      "scenarioId": "rated-curtain-retrofit",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "An operator fits XL-labelled curtains to a trailer with an unrated body. Can the retrofit alone establish an XL-rated restraint system?",
+      "options": [
+        "Yes, if the curtain label is visible on both sides.",
+        "Yes, if the operator uses the same buckles supplied with the curtains.",
+        "No. The rating concerns the complete structure and curtains together."
+      ],
+      "answer": 2,
+      "explanation": "The structural rating applies to a system. Fitting a rated component does not establish the rating of the whole vehicle body.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "EN 12642-XL curtain-sided vehicles",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The structural rating applies to a system. Fitting a rated component does not establish the rating of the whole vehicle body.",
+        "scope": "Existing trailer body without an XL rating."
+      }
+    },
+    {
+      "id": "topic-weight-alone-not-restraint",
+      "scenarioId": "weight-alone-not-restraint",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "A heavy pallet is resting on the load bed without restraint. A colleague says its weight will keep it in place. What is the concern?",
+      "options": [
+        "Movement over the road can reduce contact and friction, allowing the pallet to shift.",
+        "A heavier pallet always increases grip enough to prevent movement.",
+        "A pallet only shifts if another object hits it."
+      ],
+      "answer": 0,
+      "explanation": "The weight alone cannot be relied on. Contact and friction can be lost when a pallet lifts or bounces.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "Palletised loads and friction",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The weight alone cannot be relied on. Contact and friction can be lost when a pallet lifts or bounces.",
+        "scope": "Palletised load on a trailer bed."
+      }
+    },
+    {
+      "id": "topic-antislip-mat-role",
+      "scenarioId": "antislip-mat-role",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "What does suitable anti-slip matting between a pallet and the load bed contribute to the securing plan?",
+      "options": [
+        "It increases friction and can affect the number of lashings needed.",
+        "It increases the permitted axle load.",
+        "It makes every load self-securing once the vehicle reaches road speed."
+      ],
+      "answer": 0,
+      "explanation": "Anti-slip matting improves friction. The rest of the restraint plan still depends on the load and securing calculation.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "Anti-slip load matting",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Anti-slip matting improves friction. The rest of the restraint plan still depends on the load and securing calculation.",
+        "scope": "A calculated restraint plan for a palletised load."
+      }
+    },
+    {
+      "id": "topic-headboard-blocking-direction",
+      "scenarioId": "headboard-blocking-direction",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "A suitable headboard is part of a securing plan and the load is positioned against it. Which movement is that headboard designed to help prevent?",
+      "options": [
+        "The load sliding forwards under braking.",
+        "The load rolling backwards as the truck accelerates.",
+        "The load moving upwards when it crosses a bump."
+      ],
+      "answer": 0,
+      "explanation": "A suitable front headboard provides forward blocking. Other directions need their own restraint.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "Headboard and blocking the load",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A suitable front headboard provides forward blocking. Other directions need their own restraint.",
+        "scope": "Appropriately rated headboard used within its capacity."
+      }
+    },
+    {
+      "id": "topic-blocking-gap-check",
+      "scenarioId": "blocking-gap-check",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "A load plan relies on positive fit, but there is a large open gap between the pallet group and the blocking structure. What should you do?",
+      "options": [
+        "Leave the gap so the pallets can settle during the first part of the trip.",
+        "Rely on the curtains to absorb any movement across the gap.",
+        "Have the restraint plan corrected before departure."
+      ],
+      "answer": 2,
+      "explanation": "Blocking relies on a close fit. A large gap allows the load to build up movement before it reaches the structure.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "Blocking and positive fit",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Blocking relies on a close fit. A large gap allows the load to build up movement before it reaches the structure.",
+        "scope": "Positive-fit restraint for a curtain-sided pallet load."
+      }
+    },
+    {
+      "id": "topic-coupling-trailer-brake",
+      "scenarioId": "coupling-trailer-brake",
+      "topic": "trailers",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "Before reversing a tractor unit towards a stationary semi-trailer for a conventional fifth-wheel coupling, which trailer control should you check?",
+      "options": [
+        "The trailer parking brake is released.",
+        "The tractor parking brake is the only brake that matters.",
+        "The trailer parking brake is applied."
+      ],
+      "answer": 2,
+      "explanation": "An applied trailer parking brake helps prevent the semi-trailer moving during coupling.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/ekrfb0bh/roadsense-guide.pdf",
+        "section": "Coupling Procedure",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "An applied trailer parking brake helps prevent the semi-trailer moving during coupling.",
+        "scope": "Conventional fifth-wheel procedure. Follow vehicle and operator instructions."
+      }
+    },
+    {
+      "id": "topic-coupling-height-before-contact",
+      "scenarioId": "coupling-height-before-contact",
+      "topic": "trailers",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "What should you check about a semi-trailer’s height before reversing a tractor unit into the coupling position?",
+      "options": [
+        "The trailer bed is level with the tractor roof.",
+        "The trailer height is suitable for the tractor unit to receive it safely.",
+        "The trailer is as high as its landing gear will allow."
+      ],
+      "answer": 1,
+      "explanation": "The procedure calls for checking that the fifth wheel can receive the trailer correctly at its set height.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/ekrfb0bh/roadsense-guide.pdf",
+        "section": "Coupling Procedure",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The procedure calls for checking that the fifth wheel can receive the trailer correctly at its set height.",
+        "scope": "Conventional fifth-wheel combination."
+      }
+    },
+    {
+      "id": "topic-coupling-lock-safety-clip",
+      "scenarioId": "coupling-lock-safety-clip",
+      "topic": "trailers",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "A fifth-wheel coupling has a safety clip for the kingpin release handle. What is the clip’s purpose in the coupling checks?",
+      "options": [
+        "Hold the landing gear at road height.",
+        "Secure the release handle after coupling.",
+        "Lock the electrical connector to its socket."
+      ],
+      "answer": 1,
+      "explanation": "The safety clip secures the kingpin release handle in the locking assembly.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/ekrfb0bh/roadsense-guide.pdf",
+        "section": "Coupling Procedure",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The safety clip secures the kingpin release handle in the locking assembly.",
+        "scope": "Equipment fitted with the specified clip."
+      }
+    },
+    {
+      "id": "topic-uncoupling-landing-support",
+      "scenarioId": "uncoupling-landing-support",
+      "topic": "trailers",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "Which equipment supports the front of a conventional semi-trailer once the tractor unit is moved clear?",
+      "options": [
+        "The air and electrical lines until they are disconnected.",
+        "The trailer landing gear, lowered to support the trailer.",
+        "The tractor’s fifth wheel after the tractor has moved away."
+      ],
+      "answer": 1,
+      "explanation": "The landing gear provides support before the tractor moves clear.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/ekrfb0bh/roadsense-guide.pdf",
+        "section": "Uncoupling Procedure",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The landing gear provides support before the tractor moves clear.",
+        "scope": "Conventional semi-trailer, operator’s uncoupling sequence applies."
+      }
+    },
+    {
+      "id": "topic-trailer-lights-after-coupling",
+      "scenarioId": "trailer-lights-after-coupling",
+      "topic": "trailers",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "You have connected the trailer electrical line. What should you do before taking the combination onto the road?",
+      "options": [
+        "Check that the trailer lights operate.",
+        "Assume a locked electrical plug confirms every lamp is working.",
+        "Wait for the first stop to check the lights after they have warmed up."
+      ],
+      "answer": 0,
+      "explanation": "Connecting the electrical line enables the lights. A function check is still needed.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/ekrfb0bh/roadsense-guide.pdf",
+        "section": "Coupling Procedure",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Connecting the electrical line enables the lights. A function check is still needed.",
+        "scope": "A newly coupled tractor and semi-trailer."
+      }
+    },
+    {
+      "id": "topic-two-week-hours-remaining",
+      "scenarioId": "two-week-hours-remaining",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "An in-scope driver drove 54 hours last week. Subject to all other limits, what is the most they can drive this week?",
+      "options": [
+        "42 hours.",
+        "56 hours.",
+        "36 hours."
+      ],
+      "answer": 2,
+      "explanation": "The consecutive-week total cannot exceed 90 hours. After 54 hours that leaves 36.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 6(2) and (3)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The consecutive-week total cannot exceed 90 hours. After 54 hours that leaves 36.",
+        "scope": "Standard EU rule. Consider only the two-week driving total in this calculation."
+      }
+    },
+    {
+      "id": "topic-separate-week-limit",
+      "scenarioId": "separate-week-limit",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "A dispatcher schedules 58 driving hours in one week and 30 the next. The driver is subject to standard EU rules. What is wrong with the schedule?",
+      "options": [
+        "It is compliant because the two-week total is 88 hours.",
+        "Only the 30-hour week is a problem because each week must have at least 45 hours of driving.",
+        "The 58-hour week exceeds the weekly limit even though the combined total is below 90."
+      ],
+      "answer": 2,
+      "explanation": "The weekly ceiling is 56 hours and applies independently of the two-week ceiling.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 6(2) and (3)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The weekly ceiling is 56 hours and applies independently of the two-week ceiling.",
+        "scope": "Standard EU rule. The figures are driving hours only."
+      }
+    },
+    {
+      "id": "topic-daily-extension-already-used",
+      "scenarioId": "daily-extension-already-used",
+      "topic": "hours",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "A truck driver used ten-hour driving days on Monday and Wednesday. What is the standard maximum driving time on Friday of the same week?",
+      "options": [
+        "Nine and a half hours.",
+        "Nine hours.",
+        "Ten hours if the driver takes a longer break."
+      ],
+      "answer": 1,
+      "explanation": "A driver may extend daily driving to ten hours at most twice in a week. Both extensions have already been used.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 6(1)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A driver may extend daily driving to ten hours at most twice in a week. Both extensions have already been used.",
+        "scope": "In scope and no derogation."
+      }
+    },
+    {
+      "id": "topic-unloading-cannot-be-break",
+      "scenarioId": "unloading-cannot-be-break",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You spend 45 minutes unloading between driving periods. Why can that time not count as the driving break?",
+      "options": [
+        "It can count if the vehicle’s engine is switched off.",
+        "Unloading is work, and a driving break is time for recuperation free from work.",
+        "It can count if a different company owns the goods."
+      ],
+      "answer": 1,
+      "explanation": "A driving break excludes both driving and other work.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 4(d) and Article 7",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A driving break excludes both driving and other work.",
+        "scope": "Standard EU rule. The driver personally unloads."
+      }
+    },
+    {
+      "id": "topic-goods-split-break-order",
+      "scenarioId": "goods-split-break-order",
+      "topic": "hours",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "On an in-scope goods run you want to split the standard driving break. Which sequence meets the minimum lengths in the required order?",
+      "options": [
+        "At least 30 minutes, then at least 15 minutes.",
+        "At least 15 minutes, then at least 30 minutes.",
+        "At least 20 minutes, then at least 25 minutes."
+      ],
+      "answer": 1,
+      "explanation": "The standard two-part option requires the longer minimum for the second break.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 7",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The standard two-part option requires the longer minimum for the second break.",
+        "scope": "Standard goods rule, with the breaks taken at the appropriate points in the driving period."
+      }
+    },
+    {
+      "id": "topic-occasional-coach-break-split",
+      "scenarioId": "occasional-coach-break-split",
+      "topic": "hours",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "On an in-scope occasional coach service you plan two breaks of 20 and 25 minutes. Assuming they are correctly timed, can this meet the occasional-service split option?",
+      "options": [
+        "No. The second break must be 30 minutes for every passenger service.",
+        "Yes. Each break is at least 15 minutes and the total is 45 minutes.",
+        "No. Each break must be at least 30 minutes on an occasional service."
+      ],
+      "answer": 1,
+      "explanation": "The occasional-passenger option allows two breaks of at least 15 minutes each that together meet the 45-minute requirement.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 7, third paragraph",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The occasional-passenger option allows two breaks of at least 15 minutes each that together meet the 45-minute requirement.",
+        "scope": "A qualifying occasional passenger service. All timing and documentation requirements still apply."
+      }
+    },
+    {
+      "id": "topic-regular-short-route-scope",
+      "scenarioId": "regular-short-route-scope",
+      "topic": "hours",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "A bus operates a regular passenger service over a 40 km route. What does Regulation 561/2006 say about its scope?",
+      "options": [
+        "It applies to all bus services with more than eight passenger seats, regardless of route.",
+        "The regulation exempts that service. Applicable national driving and rest rules still apply.",
+        "It exempts the route only if the bus carries no standing passengers."
+      ],
+      "answer": 1,
+      "explanation": "Article 3(a) exempts regular passenger services on routes no longer than 50 km. Article 15 requires national driving-time, break and rest protections for these drivers.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 3(a) and Article 15",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Article 3(a) exempts regular passenger services on routes no longer than 50 km. Article 15 requires national driving-time, break and rest protections for these drivers.",
+        "scope": "Route length refers to the regular service, not just a driver’s individual portion."
+      }
+    },
+    {
+      "id": "topic-fourth-reduced-daily-rest",
+      "scenarioId": "fourth-reduced-daily-rest",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "An in-scope driver has already taken three reduced daily rest periods since the last weekly rest. Under standard rules, can they schedule another before the next weekly rest?",
+      "options": [
+        "Yes, as long as the previous two reduced rests were not consecutive.",
+        "No. The allowance is three between weekly rest periods.",
+        "Yes, if the next driving day stays below nine hours."
+      ],
+      "answer": 1,
+      "explanation": "Three reduced daily rests is the maximum between any two weekly rest periods.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 8(4)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Three reduced daily rests is the maximum between any two weekly rest periods.",
+        "scope": "Standard rule without a relevant derogation."
+      }
+    },
+    {
+      "id": "topic-weekly-rest-across-boundary",
+      "scenarioId": "weekly-rest-across-boundary",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "A weekly rest starts on Sunday evening and continues into Monday. How may it be assigned when checking weekly rest compliance?",
+      "options": [
+        "To either of the weeks, once.",
+        "Only to the week in which it ends.",
+        "To both weeks if enough hours fall in each."
+      ],
+      "answer": 0,
+      "explanation": "A weekly rest spanning two weeks can be counted for one week or the other.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 8(9)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A weekly rest spanning two weeks can be counted for one week or the other.",
+        "scope": "A single qualifying weekly rest that spans the week boundary."
+      }
+    },
+    {
+      "id": "topic-regular-weekly-rest-in-cab",
+      "scenarioId": "regular-weekly-rest-in-cab",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "An in-scope driver plans to take a regular 45-hour weekly rest while parked in a sleeper cab at a depot. Is that allowed under the standard rule?",
+      "options": [
+        "No. Regular weekly rest must be taken in suitable accommodation outside the vehicle.",
+        "Yes, because the vehicle is parked at a depot.",
+        "Yes, if the driver has a proper bunk in the cab."
+      ],
+      "answer": 0,
+      "explanation": "The regular weekly rest cannot be taken in a vehicle, even if it is stationary and has a bunk.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 8(8)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The regular weekly rest cannot be taken in a vehicle, even if it is stationary and has a bunk.",
+        "scope": "Ordinary weekly rest without a ferry or train situation."
+      }
+    },
+    {
+      "id": "topic-split-regular-daily-rest",
+      "scenarioId": "split-regular-daily-rest",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Which pair of uninterrupted periods can make a split regular daily rest if completed within the applicable time window?",
+      "options": [
+        "Six hours followed by six hours.",
+        "Three hours followed by nine hours.",
+        "Nine hours followed by three hours."
+      ],
+      "answer": 1,
+      "explanation": "A split regular daily rest requires a first period of at least three hours and a second of at least nine.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 4(g)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A split regular daily rest requires a first period of at least three hours and a second of at least nine.",
+        "scope": "Standard split regular daily rest. Timing under Article 8 still applies."
+      }
+    },
+    {
+      "id": "topic-truck-tunnel-spacing",
+      "scenarioId": "truck-tunnel-spacing",
+      "topic": "braking",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "What minimum following distance does the RSA recommend for a truck or bus moving through a tunnel, before any larger gap the conditions or signs call for?",
+      "options": [
+        "50 metres.",
+        "25 metres.",
+        "100 metres."
+      ],
+      "answer": 2,
+      "explanation": "The tunnel guidance gives 100 metres for vehicles other than cars and motorcycles.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Driving in a tunnel",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The tunnel guidance gives 100 metres for vehicles other than cars and motorcycles.",
+        "scope": "An Irish road tunnel, with signs and conditions still governing the actual gap."
+      }
+    },
+    {
+      "id": "topic-vehicle-brake-response",
+      "scenarioId": "vehicle-brake-response",
+      "topic": "braking",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Two drivers press the brake at the same point. One braking system takes longer to respond. What can that delay change?",
+      "options": [
+        "It can only affect the driver’s ability to see a hazard.",
+        "It can increase the distance covered before effective braking begins.",
+        "It has no bearing on the distance needed to stop."
+      ],
+      "answer": 1,
+      "explanation": "Vehicle response contributes to stopping distance as well as the driver’s reaction and available braking grip.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Stopping distance for cars, Vehicle reaction and braking capability",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Vehicle response contributes to stopping distance as well as the driver’s reaction and available braking grip.",
+        "scope": "General principle. No vehicle-specific stopping-distance figure is implied."
+      }
+    },
+    {
+      "id": "topic-ice-following-gap",
+      "scenarioId": "ice-following-gap",
+      "topic": "braking",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You are following a vehicle on a road with icy patches. How should you treat the ordinary dry-road following gap?",
+      "options": [
+        "Use the dry-road minimum as long as you have ABS.",
+        "Allow considerably more space to account for reduced grip.",
+        "Follow closer to stay within the other vehicle’s tyre tracks."
+      ],
+      "answer": 1,
+      "explanation": "Icy conditions may require much more following distance than the dry-road benchmark.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Driving safely in traffic",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Icy conditions may require much more following distance than the dry-road benchmark.",
+        "scope": "Icy conditions where it is otherwise safe to travel."
+      }
+    },
+    {
+      "id": "topic-aquaplaning-loss-of-contact",
+      "scenarioId": "aquaplaning-loss-of-contact",
+      "topic": "braking",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "What happens when a vehicle aquaplanes on standing water?",
+      "options": [
+        "Water increases grip because it cools the tyres.",
+        "Only the visibility through the windscreen changes.",
+        "Water separates the tyres from the road, reducing steering and braking control."
+      ],
+      "answer": 2,
+      "explanation": "A layer of water can lift the tyres away from the road surface and reduce control.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Skidding",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A layer of water can lift the tyres away from the road surface and reduce control.",
+        "scope": "General effect of aquaplaning."
+      }
+    },
+    {
+      "id": "topic-daytime-running-lights-dusk",
+      "scenarioId": "daytime-running-lights-dusk",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Light is fading and your vehicle is using daytime running lights alone. What should you switch to at lighting-up time?",
+      "options": [
+        "Daytime running lights and hazard lights together.",
+        "Main beam throughout the journey.",
+        "Dipped headlights."
+      ],
+      "answer": 2,
+      "explanation": "Daytime running lights are intended for daylight. Dipped headlights let you see and be seen when the light fades.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, Daytime running lights",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Daytime running lights are intended for daylight. Dipped headlights let you see and be seen when the light fades.",
+        "scope": "Ordinary dusk driving."
+      }
+    },
+    {
+      "id": "topic-main-beam-oncoming-traffic",
+      "scenarioId": "main-beam-oncoming-traffic",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "At night, you are using main beam on an unlit road and see an oncoming vehicle. Which lighting change is appropriate?",
+      "options": [
+        "Dip your headlights in time to avoid dazzling the oncoming driver.",
+        "Switch to sidelights only until it has passed.",
+        "Keep main beam on because the road has no street lights."
+      ],
+      "answer": 0,
+      "explanation": "Dipped headlights are appropriate when meeting other traffic, even on an unlit road.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, When to use headlights",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Dipped headlights are appropriate when meeting other traffic, even on an unlit road.",
+        "scope": "Ordinary oncoming traffic at night."
+      }
+    },
+    {
+      "id": "topic-glare-pedestrian-verge",
+      "scenarioId": "glare-pedestrian-verge",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Oncoming headlights dazzle you on a dark rural road. What should you do if your view ahead is seriously reduced?",
+      "options": [
+        "Maintain your speed to avoid surprising traffic behind.",
+        "Look directly into the headlights until your eyes adjust.",
+        "Slow down and stop if necessary, watching for anyone near the verge."
+      ],
+      "answer": 2,
+      "explanation": "Reduce speed when glare limits your view. Be especially alert for people near the road edge.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, What to do if you are dazzled",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Reduce speed when glare limits your view. Be especially alert for people near the road edge.",
+        "scope": "Glare from oncoming traffic. Stop safely if needed."
+      }
+    },
+    {
+      "id": "topic-eyes-open-microsleep",
+      "scenarioId": "eyes-open-microsleep",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "A driver thinks they cannot have a microsleep as long as their eyes stay open. What does the RSA explain?",
+      "options": [
+        "A microsleep requires the eyes to be closed for at least a minute.",
+        "A microsleep affects passengers but not a person actively steering.",
+        "A microsleep can happen with the eyes open."
+      ],
+      "answer": 2,
+      "explanation": "An open-eyed driver can still briefly lose awareness and control when very tired.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 13, Driver tiredness and fatigue",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "An open-eyed driver can still briefly lose awareness and control when very tired.",
+        "scope": "Driver fatigue and short involuntary sleep."
+      }
+    },
+    {
+      "id": "topic-bus-stand-idling",
+      "scenarioId": "bus-stand-idling",
+      "topic": "risk",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "A coach is parked at its stand between services. Under normal conditions, what does the RSA guidance advise about idling there?",
+      "options": [
+        "Switch the engine off while parked.",
+        "Keep it idling because the route is scheduled to restart.",
+        "Rev it periodically to keep fuel consumption steady."
+      ],
+      "answer": 0,
+      "explanation": "Switching off at a stand reduces avoidable fuel use, noise and local pollution.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Running of engines at bus stands or bus terminus",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Switching off at a stand reduces avoidable fuel use, noise and local pollution.",
+        "scope": "Normal stationary wait with no operational need to run the engine."
+      }
+    },
+    {
+      "id": "topic-packaged-adr-exemption-conditions",
+      "scenarioId": "packaged-adr-exemption-conditions",
+      "topic": "dangerous",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "A dispatcher says any dangerous goods carried in packages automatically require the same ADR certificate as a tank operation. What should the driver check?",
+      "options": [
+        "Only whether the packages fit on a single pallet.",
+        "The rules for the goods, packaging, quantities and relevant exemptions.",
+        "Only whether the journey stays within one county."
+      ],
+      "answer": 1,
+      "explanation": "HSA distinguishes tank and packaged operations and describes exemptions for certain packaged loads.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/your_industry/adr_-_carriage_of_dangerous_goods_by_road/adr_general_information/adr_driver_training/",
+        "section": "Introduction, driver training exemptions",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "HSA distinguishes tank and packaged operations and describes exemptions for certain packaged loads.",
+        "scope": "General awareness only. A particular load requires current specialist advice."
+      }
+    },
+    {
+      "id": "topic-adr-dgsa-role",
+      "scenarioId": "adr-dgsa-role",
+      "topic": "dangerous",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "Who can an operator consult for specialist advice on its responsibilities when carrying dangerous goods by road?",
+      "options": [
+        "A general vehicle test booking clerk.",
+        "The person responsible only for road toll accounts.",
+        "A qualified Dangerous Goods Safety Adviser."
+      ],
+      "answer": 2,
+      "explanation": "A Dangerous Goods Safety Adviser can help an undertaking manage its dangerous-goods responsibilities.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/your_industry/adr_-_carriage_of_dangerous_goods_by_road/adr_general_information/dangerous_goods_safety_adviser_dgsa_/",
+        "section": "Dangerous Goods Safety Adviser",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A Dangerous Goods Safety Adviser can help an undertaking manage its dangerous-goods responsibilities.",
+        "scope": "General specialist referral, within the adviser’s certified classes."
+      }
+    },
+    {
+      "id": "topic-bus-brake-before-doors",
+      "scenarioId": "bus-brake-before-doors",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "Your bus has stopped at an authorised stop. What should you do with the brake before opening the passenger doors?",
+      "options": [
+        "Apply the handbrake or bus-stop brake as appropriate.",
+        "Release the brake so the vehicle can settle against the kerb.",
+        "Wait until passengers have begun boarding before applying it."
+      ],
+      "answer": 0,
+      "explanation": "Secure the stationary bus before opening its doors to passengers.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Boarding and alighting, page 27",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Secure the stationary bus before opening its doors to passengers.",
+        "scope": "Normal service stop, subject to vehicle and operator procedures."
+      }
+    },
+    {
+      "id": "topic-bus-door-nearside-check",
+      "scenarioId": "bus-door-nearside-check",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "Before opening the doors of a stationary bus, why should you check the area on the door side?",
+      "options": [
+        "To make sure door operation and access will not put anyone in danger.",
+        "To check whether the next bus has left the depot.",
+        "To judge the distance from following vehicles in the overtaking lane."
+      ],
+      "answer": 0,
+      "explanation": "The nearside check helps identify anyone or anything in the area affected by the doors.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Boarding and alighting, page 27",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The nearside check helps identify anyone or anything in the area affected by the doors.",
+        "scope": "Bus already stationary and secured."
+      }
+    },
+    {
+      "id": "topic-slow-passenger-settles",
+      "scenarioId": "slow-passenger-settles",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "A passenger who needs extra time is still making their way to a seat after boarding. What should the driver do?",
+      "options": [
+        "Move off as soon as the doors close.",
+        "Allow them time to get settled before moving off.",
+        "Ask them to sit while the bus accelerates."
+      ],
+      "answer": 1,
+      "explanation": "Allowing passengers time to settle reduces the chance of a fall when the bus starts moving.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Boarding and alighting, page 27",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Allowing passengers time to settle reduces the chance of a fall when the bus starts moving.",
+        "scope": "A normal service stop where waiting for the passenger is possible."
+      }
+    },
+    {
+      "id": "topic-wheelchair-ready-before-departure",
+      "scenarioId": "wheelchair-ready-before-departure",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "A wheelchair user has boarded and the ramp is stowed. What still needs checking before departure?",
+      "options": [
+        "They are safely accommodated according to the vehicle’s wheelchair-space procedure.",
+        "The wheelchair user can reach the ticket machine from the space.",
+        "The ramp’s use alone confirms the passenger is ready."
+      ],
+      "answer": 0,
+      "explanation": "Stowing a ramp does not complete the passenger safety check. Confirm the wheelchair space is used correctly for the bus.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Boarding and alighting, page 27",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Stowing a ramp does not complete the passenger safety check. Confirm the wheelchair space is used correctly for the bus.",
+        "scope": "Accessible bus with vehicle-specific wheelchair procedures."
+      }
+    },
+    {
+      "id": "topic-blocked-coach-exit",
+      "scenarioId": "blocked-coach-exit",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "Bags have been placed in front of a coach emergency exit. What should happen before the coach departs?",
+      "options": [
+        "Move and stow the bags so the exit remains accessible.",
+        "Leave them if passengers are told to use the main door.",
+        "Leave them if the driver can reach the bags from the front."
+      ],
+      "answer": 0,
+      "explanation": "Emergency exits must remain accessible because the main door may be unusable in an emergency.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Emergency exits, page 35",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Emergency exits must remain accessible because the main door may be unusable in an emergency.",
+        "scope": "Passenger vehicle with an emergency exit."
+      }
+    },
+    {
+      "id": "topic-unknown-ramp-controls",
+      "scenarioId": "unknown-ramp-controls",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "You are assigned a bus with a wheelchair lift you have not used before. What should be part of your preparation before service?",
+      "options": [
+        "Learn the operator’s procedure and confirm that the lift operates properly.",
+        "Wait for the first passenger to show you how to use it.",
+        "Assume all wheelchair lifts have the same controls."
+      ],
+      "answer": 0,
+      "explanation": "The RSA includes accessible equipment in pre-use checks. Use the procedure for the specific vehicle.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Checking safety equipment",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA includes accessible equipment in pre-use checks. Use the procedure for the specific vehicle.",
+        "scope": "Bus fitted with a wheelchair lift."
+      }
+    },
+    {
+      "id": "topic-bus-engine-fuel-cutoff-location",
+      "scenarioId": "bus-engine-fuel-cutoff-location",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "topic",
+      "question": "When taking charge of an unfamiliar bus, why should you identify its emergency engine and fuel cut-offs?",
+      "options": [
+        "To use them as the normal controls when approaching a bus stop.",
+        "To adjust the running fuel consumption between stops.",
+        "To know how to stop the engine or fuel supply if an emergency requires it."
+      ],
+      "answer": 2,
+      "explanation": "Emergency cut-offs let the driver isolate the engine or fuel supply when appropriate.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Engine and fuel cut off, page 36",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Emergency cut-offs let the driver isolate the engine or fuel supply when appropriate.",
+        "scope": "Vehicle fitted with emergency engine and fuel controls."
+      }
+    },
+    {
+      "id": "topic-vehicle-limit-not-universal",
+      "scenarioId": "vehicle-limit-not-universal",
+      "topic": "dimensions",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "A colleague proposes using a weight figure from a different truck to decide whether your loaded combination is legal. What should you do?",
+      "options": [
+        "Use the other figure if both vehicles are operated by the same company.",
+        "Check the limits for your particular vehicle combination and design.",
+        "Use the other figure if both trailers have the same number of axles."
+      ],
+      "answer": 1,
+      "explanation": "Legal limits can vary with the configuration and design. Check the actual combination.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/road-safety/road-users/professional-drivers/vehicle-safety-legislation/weights-and-dimensions",
+        "section": "Frequently asked questions, How do I know if the load exceeds legal limits?",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Legal limits can vary with the configuration and design. Check the actual combination.",
+        "scope": "Commercial goods vehicles with potentially different configurations."
+      }
+    },
+    {
+      "id": "topic-axle-limit-separate-gross",
+      "scenarioId": "axle-limit-separate-gross",
+      "topic": "dimensions",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "A vehicle is within its overall gross limit but one axle exceeds the applicable limit. Is the load acceptable as it stands?",
+      "options": [
+        "Yes, because the gross limit takes priority.",
+        "No. The axle limit must also be met.",
+        "Yes, if another axle is under its limit by the same amount."
+      ],
+      "answer": 1,
+      "explanation": "Gross and axle limits are separate checks. Rework the load and verify the weights before moving.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/road-safety/road-users/professional-drivers/vehicle-safety-legislation/weights-and-dimensions",
+        "section": "Maximum permitted weights and dimensions",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Gross and axle limits are separate checks. Rework the load and verify the weights before moving.",
+        "scope": "A separately applicable axle limit has been exceeded."
+      }
+    },
+    {
+      "id": "topic-loaded-bridge-height",
+      "scenarioId": "loaded-bridge-height",
+      "topic": "dimensions",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "A route has a signed overhead restriction below the height of your loaded truck. What should you do?",
+      "options": [
+        "Continue if the unloaded truck fits beneath the restriction.",
+        "Use a route with adequate clearance.",
+        "Approach slowly and see whether the load clears."
+      ],
+      "answer": 1,
+      "explanation": "Compare the restriction with the vehicle’s height as loaded. Use a route with sufficient clearance.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Railway bridges and overhead structures",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Compare the restriction with the vehicle’s height as loaded. Use a route with sufficient clearance.",
+        "scope": "Signed overhead restriction lower than the actual loaded height."
+      }
+    },
+    {
+      "id": "topic-abnormal-permit-mixed-route",
+      "scenarioId": "abnormal-permit-mixed-route",
+      "topic": "dimensions",
+      "categories": [
+        "C"
+      ],
+      "use": "topic",
+      "question": "An abnormal indivisible load requires a Garda permit on the designated route and will then travel over local roads. What should the operator check before the move?",
+      "options": [
+        "Whether the Garda permit removes all local-road requirements.",
+        "Whether a second driver can take over and bypass permit requirements.",
+        "Whether the local-road sections also need the relevant local authority permits."
+      ],
+      "answer": 2,
+      "explanation": "The RSA distinguishes designated routes covered by the Garda permit from roads requiring local authority permits.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/road-safety/road-users/professional-drivers/vehicle-safety-legislation/weights-and-dimensions",
+        "section": "Frequently asked questions, abnormal loads on designated and local roads",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA distinguishes designated routes covered by the Garda permit from roads requiring local authority permits.",
+        "scope": "Abnormal indivisible load travelling over designated and local roads."
+      }
+    },
+    {
+      "id": "topic-motorway-warning-triangle-risk",
+      "scenarioId": "motorway-warning-triangle-risk",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "Your vehicle has broken down on a motorway. Should you walk back along the shoulder to place a warning triangle?",
+      "options": [
+        "No. The RSA advises against placing a triangle on a motorway.",
+        "Yes, if you wear a high-visibility vest.",
+        "Yes, whenever the triangle is carried as required equipment."
+      ],
+      "answer": 0,
+      "explanation": "Walking back to place the triangle exposes you to motorway traffic. Follow motorway breakdown procedures.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, What to do if your vehicle breaks down",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Walking back to place the triangle exposes you to motorway traffic. Follow motorway breakdown procedures.",
+        "scope": "Motorway breakdown, irrespective of whether the vehicle carries a triangle."
+      }
+    },
+    {
+      "id": "topic-emergency-red-light",
+      "scenarioId": "emergency-red-light",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "An ambulance using its siren is behind you at a red signal. There is no safe movement available and nobody is directing you through. What should you do?",
+      "options": [
+        "Cross the red light because the ambulance gives you priority.",
+        "Remain behind the red light and make room only when you can do so safely and lawfully.",
+        "Reverse without checking so the ambulance can move alongside."
+      ],
+      "answer": 1,
+      "explanation": "The RSA says drivers should not break a red light to let an emergency vehicle pass unless directed by Gardaí or emergency personnel.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 12, What to do when an emergency service vehicle approaches",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA says drivers should not break a red light to let an emergency vehicle pass unless directed by Gardaí or emergency personnel.",
+        "scope": "No applicable direction from Gardaí or emergency service personnel."
+      }
+    },
+    {
+      "id": "topic-collision-injury-no-garda",
+      "scenarioId": "collision-injury-no-garda",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "A person is injured in a collision you are involved in. No Garda is at the scene. After arranging immediate help, where must the collision be reported?",
+      "options": [
+        "Only to the operator at the end of the shift.",
+        "Only to the person’s insurer.",
+        "To the nearest Garda station."
+      ],
+      "answer": 2,
+      "explanation": "The RSA requires reporting an injury collision to the nearest Garda station when no Garda is at the scene.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 14, What drivers must do at an incident or in an emergency",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA requires reporting an injury collision to the nearest Garda station when no Garda is at the scene.",
+        "scope": "Driver involved in an injury collision."
+      }
+    },
+    {
+      "id": "topic-fire-ahead-tunnel",
+      "scenarioId": "fire-ahead-tunnel",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You are stopped in a tunnel and there is a fire in another vehicle ahead. What should you do according to the RSA?",
+      "options": [
+        "Drive forward past the burning vehicle if there is an open lane.",
+        "Switch off, leave your vehicle and use the nearest available emergency exit.",
+        "Stay in the vehicle with the engine running until the smoke clears."
+      ],
+      "answer": 1,
+      "explanation": "With a fire ahead, leave the vehicle and use an emergency exit, taking account of signs and the safest route.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Fire in another vehicle",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "With a fire ahead, leave the vehicle and use an emergency exit, taking account of signs and the safest route.",
+        "scope": "Vehicle already stopped, fire ahead in the tunnel."
+      }
+    },
+    {
+      "id": "topic-wrong-way-motorway-emergency",
+      "scenarioId": "wrong-way-motorway-emergency",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You realise you have entered the motorway against traffic and can reach the hard shoulder. What should you do?",
+      "options": [
+        "Make a U-turn using the live lanes as soon as a gap appears.",
+        "Reverse along the carriageway to the point where you entered.",
+        "Pull in and stop, call the Gardaí and wait in a safe place."
+      ],
+      "answer": 2,
+      "explanation": "The RSA advises stopping on the hard shoulder and calling 999 or 112 rather than attempting to turn around.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, On the motorway, wrong-way driving",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises stopping on the hard shoulder and calling 999 or 112 rather than attempting to turn around.",
+        "scope": "Wrong-way motorway entry with reachable hard shoulder."
+      }
+    },
+    {
+      "id": "topic-emergency-convoy-followup",
+      "scenarioId": "emergency-convoy-followup",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "topic",
+      "question": "You pulled in safely and the first emergency vehicle has passed. What should you check before rejoining traffic?",
+      "options": [
+        "Whether you can follow closely behind the first emergency vehicle.",
+        "Whether another emergency vehicle is following and whether it is safe to move out.",
+        "Whether a vehicle behind has copied your signal."
+      ],
+      "answer": 1,
+      "explanation": "Emergency vehicles may be travelling in succession. Observe and signal before merging back.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 12, What to do when an emergency service vehicle approaches",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Emergency vehicles may be travelling in succession. Observe and signal before merging back.",
+        "scope": "Stopped safely to let emergency vehicles pass."
+      }
+    },
+    {
+      "id": "mock-normal-week-start",
+      "scenarioId": "normal-week-start",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "For the EU drivers’ hours weekly limit, when does a new week normally begin?",
+      "options": [
+        "At the start of the driver’s first shift after a weekly rest.",
+        "At 00:00 on Monday.",
+        "At 00:00 on Sunday."
+      ],
+      "answer": 1,
+      "explanation": "The regulation defines a fixed Monday-to-Sunday week for the weekly driving total.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 4(i)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The regulation defines a fixed Monday-to-Sunday week for the weekly driving total.",
+        "scope": "Uses the statutory week. Weekly rest deadlines are a separate calculation."
+      }
+    },
+    {
+      "id": "mock-daily-hours-across-midnight",
+      "scenarioId": "daily-hours-across-midnight",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "An in-scope driver starts after daily rest at 21:00 and works past midnight. Does midnight by itself start a new daily driving allowance?",
+      "options": [
+        "Yes, because the calendar date changes.",
+        "No. Daily driving is accumulated between the relevant rest periods.",
+        "Yes, provided the driver changes vehicles after midnight."
+      ],
+      "answer": 1,
+      "explanation": "The daily driving total follows the rest periods that define the day, not the calendar boundary.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 4(k)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The daily driving total follows the rest periods that define the day, not the calendar boundary.",
+        "scope": "No new daily or weekly rest has started at midnight."
+      }
+    },
+    {
+      "id": "mock-weekly-rest-start-deadline",
+      "scenarioId": "weekly-rest-start-deadline",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A driver’s weekly rest ended at 06:00 on Monday. With no derogation, what is the latest time to start the next weekly rest?",
+      "options": [
+        "06:00 on the following Monday.",
+        "06:00 on Sunday.",
+        "Midnight on Sunday night."
+      ],
+      "answer": 1,
+      "explanation": "The next weekly rest must begin by the end of six consecutive 24-hour periods from the previous weekly rest’s end.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 8(6)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The next weekly rest must begin by the end of six consecutive 24-hour periods from the previous weekly rest’s end.",
+        "scope": "Standard timing rule. Other limits may require an earlier start."
+      }
+    },
+    {
+      "id": "mock-reduced-weekly-rest-owed",
+      "scenarioId": "reduced-weekly-rest-owed",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "An in-scope driver takes a permitted 32-hour reduced weekly rest. How much additional rest is owed for that reduction?",
+      "options": [
+        "8 hours.",
+        "13 hours.",
+        "24 hours."
+      ],
+      "answer": 1,
+      "explanation": "Compare the reduced rest with the 45-hour regular weekly minimum. The difference is 13 hours.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 4(h) and Article 8(6b)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Compare the reduced rest with the 45-hour regular weekly minimum. The difference is 13 hours.",
+        "scope": "A lawful single reduction. Compensation timing and attachment rules also apply."
+      }
+    },
+    {
+      "id": "mock-compensation-attachment",
+      "scenarioId": "compensation-attachment",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A driver is arranging the compensation owed for a reduced weekly rest. What kind of rest must it be attached to?",
+      "options": [
+        "Any 45-minute break during the driving day.",
+        "Another rest period of at least nine hours.",
+        "Any period of availability longer than nine hours."
+      ],
+      "answer": 1,
+      "explanation": "Compensatory rest must be attached to another rest of at least nine hours.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 8(7)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Compensatory rest must be attached to another rest of at least nine hours.",
+        "scope": "Standard EU rule. The compensation must also be taken in one block by the applicable deadline."
+      }
+    },
+    {
+      "id": "mock-two-driver-second-arrival",
+      "scenarioId": "two-driver-second-arrival",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "For standard multi-manning, when can the first driver be alone at the start of the relevant driving period?",
+      "options": [
+        "Until the first 45-minute break.",
+        "For up to half of the driving period.",
+        "During the first hour only."
+      ],
+      "answer": 2,
+      "explanation": "The second driver’s presence is optional in the first hour and required for the rest of the multi-manning period.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 4(o)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The second driver’s presence is optional in the first hour and required for the rest of the multi-manning period.",
+        "scope": "Both drivers otherwise satisfy the conditions for multi-manning."
+      }
+    },
+    {
+      "id": "mock-multi-driver-break-assistance",
+      "scenarioId": "multi-driver-break-assistance",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are the second driver in a moving vehicle and want the next 45 minutes to count as your break. What must you avoid?",
+      "options": [
+        "Assisting the driver who is driving.",
+        "Remaining in the cab while the vehicle moves.",
+        "Taking the break until the vehicle is back at its base."
+      ],
+      "answer": 0,
+      "explanation": "A multi-manning break can be taken in the moving vehicle if the resting driver does not assist the driver at the wheel.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 7, final paragraph",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A multi-manning break can be taken in the moving vehicle if the resting driver does not assist the driver at the wheel.",
+        "scope": "An in-scope multi-manned journey. The break must meet other applicable conditions."
+      }
+    },
+    {
+      "id": "mock-accompanied-ferry-rest-interruptions",
+      "scenarioId": "accompanied-ferry-rest-interruptions",
+      "topic": "hours",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A truck driver accompanies the vehicle on a ferry and has an appropriate bunk. They are taking regular daily rest under the ferry provision. What is the interruption limit?",
+      "options": [
+        "No more than two interruptions of up to one hour each.",
+        "Any number of interruptions provided the total is no more than one hour.",
+        "No more than two interruptions totalling no more than one hour."
+      ],
+      "answer": 2,
+      "explanation": "Both limits apply: at most two interruptions and a combined total of no more than one hour.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 9(1)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Both limits apply: at most two interruptions and a combined total of no more than one hour.",
+        "scope": "Regular daily rest under the accompanied ferry provision. Other conditions still apply."
+      }
+    },
+    {
+      "id": "mock-drive-car-to-remote-pickup",
+      "scenarioId": "drive-car-to-remote-pickup",
+      "topic": "hours",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "You drive a car outside the regulation’s scope to collect an in-scope truck parked away from home and away from your normal base. How is the car journey classified?",
+      "options": [
+        "Daily rest.",
+        "A driving break.",
+        "Other work."
+      ],
+      "answer": 2,
+      "explanation": "Driving an out-of-scope vehicle to take over the in-scope vehicle at a remote location counts as other work.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 9(3)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Driving an out-of-scope vehicle to take over the in-scope vehicle at a remote location counts as other work.",
+        "scope": "The driver personally drives to a location that is neither home nor their normal operational centre."
+      }
+    },
+    {
+      "id": "mock-replacement-card-deadline",
+      "scenarioId": "replacement-card-deadline",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "Your digital tachograph driver card has stopped working. Within what period must you apply for its replacement?",
+      "options": [
+        "Seven working days.",
+        "Seven calendar days.",
+        "Fifteen calendar days."
+      ],
+      "answer": 1,
+      "explanation": "Apply within seven calendar days to the competent authority in your normal country of residence.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/eli/reg/2014/165/2024-12-31/eng",
+        "section": "Regulation 165/2014, Article 29(4)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Apply within seven calendar days to the competent authority in your normal country of residence.",
+        "scope": "Damaged, malfunctioning, lost or stolen card. Separate recording duties apply."
+      }
+    },
+    {
+      "id": "mock-stolen-card-declaration",
+      "scenarioId": "stolen-card-declaration",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "Your tachograph driver card is stolen while working in another Member State. Where must you formally declare the theft?",
+      "options": [
+        "To the competent authorities in the state where it was stolen.",
+        "Only to the authority in the state that issued the card.",
+        "Only to the vehicle operator in Ireland."
+      ],
+      "answer": 0,
+      "explanation": "The theft declaration is made in the state where the theft occurred. The replacement application is a separate step.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/eli/reg/2014/165/2024-12-31/eng",
+        "section": "Regulation 165/2014, Article 29(2)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The theft declaration is made in the state where the theft occurred. The replacement application is a separate step.",
+        "scope": "The card was stolen. Lost cards follow a different declaration rule."
+      }
+    },
+    {
+      "id": "mock-digital-records-control-window",
+      "scenarioId": "digital-records-control-window",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "At a roadside check in a digital-tachograph vehicle, what time window applies to any manual records and printouts made by the driver?",
+      "options": [
+        "Today and the preceding 28 days.",
+        "Today and the preceding 56 days.",
+        "Only the current calendar week."
+      ],
+      "answer": 1,
+      "explanation": "The current digital-tachograph inspection window includes the day of the check and the previous 56 days for such records.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/eli/reg/2014/165/2024-12-31/eng",
+        "section": "Regulation 165/2014, Article 36(2)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The current digital-tachograph inspection window includes the day of the check and the previous 56 days for such records.",
+        "scope": "Any manual records and printouts made in that period. Other records may also be required."
+      }
+    },
+    {
+      "id": "mock-away-from-tachograph-manual-entry",
+      "scenarioId": "away-from-tachograph-manual-entry",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You carry out other work away from a vehicle and therefore cannot enter it at the digital tachograph when it occurs. What should you do when recording the period?",
+      "options": [
+        "Leave it blank because it happened outside the cab.",
+        "Enter it as driving because it happened during a shift.",
+        "Enter the period on the driver card using the tachograph’s manual entry facility."
+      ],
+      "answer": 2,
+      "explanation": "The manual input facility is used to capture qualifying activity that could not be recorded at the time.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/eli/reg/2014/165/2024-12-31/eng",
+        "section": "Regulation 165/2014, Article 34(3)(b) and 34(5)(b)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The manual input facility is used to capture qualifying activity that could not be recorded at the time.",
+        "scope": "Digital tachograph and an in-scope driver recording other work."
+      }
+    },
+    {
+      "id": "mock-takeover-card-start",
+      "scenarioId": "takeover-card-start",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "When should you start using your driver card on a day when you drive a vehicle fitted with a digital tachograph?",
+      "options": [
+        "When you first enter a motorway.",
+        "At the end of the first driving period.",
+        "From the moment you take over the vehicle."
+      ],
+      "answer": 2,
+      "explanation": "Daily use begins when the driver takes over the vehicle, rather than at a later point in the trip.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/eli/reg/2014/165/2024-12-31/eng",
+        "section": "Regulation 165/2014, Article 34(1)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Daily use begins when the driver takes over the vehicle, rather than at a later point in the trip.",
+        "scope": "A vehicle and driver subject to tachograph requirements."
+      }
+    },
+    {
+      "id": "mock-distance-incentive-safety",
+      "scenarioId": "distance-incentive-safety",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "An operator offers a distance bonus structured in a way that encourages drivers to exceed legal driving limits. What does the regulation say?",
+      "options": [
+        "It is allowed if the bonus is part of regular wages.",
+        "The operator must not give a payment structured in that way.",
+        "It is allowed provided the operator also pays for rest time."
+      ],
+      "answer": 1,
+      "explanation": "Distance-related payments are prohibited if they endanger road safety or encourage infringements of the regulation.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 10(1)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Distance-related payments are prohibited if they endanger road safety or encourage infringements of the regulation.",
+        "scope": "A payment with the stated harmful effect. The rule is conditional."
+      }
+    },
+    {
+      "id": "mock-front-blind-spot-mirror-role",
+      "scenarioId": "front-blind-spot-mirror-role",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "Which area does a Class VI front mirror help a driver see on a heavy vehicle?",
+      "options": [
+        "Directly behind the rear axle.",
+        "Immediately in front of the vehicle.",
+        "The full length of the offside of the vehicle."
+      ],
+      "answer": 1,
+      "explanation": "The front-view mirror addresses the blind area close to the front of the vehicle.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/road-safety/road-users/professional-drivers/vehicle-safety-legislation/heavy-commercial-vehicles/mirrors",
+        "section": "Mirrors on heavy commercial vehicles",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The front-view mirror addresses the blind area close to the front of the vehicle.",
+        "scope": "A heavy vehicle equipped with a Class VI front mirror."
+      }
+    },
+    {
+      "id": "mock-moving-off-information-alert",
+      "scenarioId": "moving-off-information-alert",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A truck’s moving-off information system gives a warning as you begin to pull away slowly. What is its purpose?",
+      "options": [
+        "To alert you to pedestrians or cyclists detected near the vehicle in the monitored area.",
+        "To confirm the vehicle’s parking brake has released.",
+        "To report a service interval for the wheel bearings."
+      ],
+      "answer": 0,
+      "explanation": "The system can detect vulnerable road users close to the vehicle at low speed or when moving off.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/road-safety/road-users/professional-drivers/vehicle-safety-legislation/heavy-commercial-vehicles/mirrors",
+        "section": "Vehicle Safety Features, Moving Off Information System",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The system can detect vulnerable road users close to the vehicle at low speed or when moving off.",
+        "scope": "A vehicle fitted with MOIS. It assists observations."
+      }
+    },
+    {
+      "id": "mock-reversing-guide-lost",
+      "scenarioId": "reversing-guide-lost",
+      "topic": "risk",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "An authorised guide is helping you reverse a truck at a workplace. They disappear from your view. What should you do?",
+      "options": [
+        "Keep reversing slowly until the guide reappears.",
+        "Stop immediately and re-establish safe communication before moving again.",
+        "Switch on the hazard lights and continue to the bay."
+      ],
+      "answer": 1,
+      "explanation": "HSA guidance requires a stop if the guide is no longer visible.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Publications_and_Forms/Publications/Information_Sheets/Workplace_Transport_Safety_Reversing_Vehicles.pdf",
+        "section": "Can I use a reversing assistant?",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "HSA guidance requires a stop if the guide is no longer visible.",
+        "scope": "A workplace using an authorised reversing assistant."
+      }
+    },
+    {
+      "id": "mock-one-way-site-design",
+      "scenarioId": "one-way-site-design",
+      "topic": "risk",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "You are choosing between two approved workplace routes. One lets you drive through in a one-way loop and the other requires reversing along a busy yard. Which arrangement removes the reversing hazard on that movement?",
+      "options": [
+        "The reversing route with the longest straight section.",
+        "The reversing route if the vehicle has an alarm.",
+        "The drive-through one-way loop."
+      ],
+      "answer": 2,
+      "explanation": "A drive-through layout can eliminate the reversing manoeuvre. Alarms assist drivers where reversing remains necessary.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Publications_and_Forms/Publications/Information_Sheets/Workplace_Transport_Safety_Reversing_Vehicles.pdf",
+        "section": "Workplace Transport Safety, reducing reversing risks",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A drive-through layout can eliminate the reversing manoeuvre. Alarms assist drivers where reversing remains necessary.",
+        "scope": "Both routes are authorised. The question compares the specific reversing hazard."
+      }
+    },
+    {
+      "id": "mock-washer-function-check",
+      "scenarioId": "washer-function-check",
+      "topic": "checks",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A truck’s wipers operate but no washer fluid reaches the windscreen during the check. How should the check be recorded?",
+      "options": [
+        "As satisfactory because the blades still move.",
+        "As a washer defect for follow-up.",
+        "As satisfactory if the reservoir appears full."
+      ],
+      "answer": 1,
+      "explanation": "The checklist includes both wipers and washers. The washer function has failed even if the blades move.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/assets/pdf/HCV%20Walk%20Around%20Check%20Form%20and%20defect%20report.pdf",
+        "section": "Walk-around check items, Windscreen Wipers & Washers",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The checklist includes both wipers and washers. The washer function has failed even if the blades move.",
+        "scope": "A fitted washer system fails its operation check."
+      }
+    },
+    {
+      "id": "mock-wheel-fixings-pre-use",
+      "scenarioId": "wheel-fixings-pre-use",
+      "topic": "checks",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "You are checking the wheels before using an HGV. What should be considered along with tyre condition and inflation?",
+      "options": [
+        "Only whether the tread pattern matches the spare.",
+        "The condition and security of wheel fixings.",
+        "Whether the wheel trim matches the fleet specification."
+      ],
+      "answer": 1,
+      "explanation": "The checklist distinguishes tyres from wheels and their fixings. Inspect both under your operator’s procedure.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/assets/pdf/HCV%20Walk%20Around%20Check%20Form%20and%20defect%20report.pdf",
+        "section": "Walk-around check items, Wheels & Fixings",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The checklist distinguishes tyres from wheels and their fixings. Inspect both under your operator’s procedure.",
+        "scope": "A pre-use heavy goods vehicle inspection."
+      }
+    },
+    {
+      "id": "mock-abs-warning-check",
+      "scenarioId": "abs-warning-check",
+      "topic": "checks",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "An EBS warning light remains on after the normal start-up check. What is the appropriate pre-use response?",
+      "options": [
+        "Cover the light because the foot brake still feels normal.",
+        "Record and report it for assessment before taking the vehicle out.",
+        "Assume it will clear once the vehicle reaches road speed."
+      ],
+      "answer": 1,
+      "explanation": "ABS and EBS warning indications are part of the walk-around checklist. A continuing warning needs investigation.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/assets/pdf/HCV%20Walk%20Around%20Check%20Form%20and%20defect%20report.pdf",
+        "section": "Walk-around check items, ABS/EBS warning lights",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "ABS and EBS warning indications are part of the walk-around checklist. A continuing warning needs investigation.",
+        "scope": "The light stays on beyond the vehicle’s normal self-check."
+      }
+    },
+    {
+      "id": "mock-sideguard-security",
+      "scenarioId": "sideguard-security",
+      "topic": "checks",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "During an HGV inspection you find a sideguard has become loose. How should you treat it?",
+      "options": [
+        "As a defect in the vehicle’s protective equipment.",
+        "As cosmetic damage that never needs reporting.",
+        "As a load-securing fault to be fixed with a lashing strap."
+      ],
+      "answer": 0,
+      "explanation": "The HGV checklist includes sideguards and other underrun protection. A loose guard should be reported.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/assets/pdf/HCV%20Walk%20Around%20Check%20Form%20and%20defect%20report.pdf",
+        "section": "Walk-around check items, Bumpers, Sideguards & Under-run protection",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The HGV checklist includes sideguards and other underrun protection. A loose guard should be reported.",
+        "scope": "A fitted sideguard is loose."
+      }
+    },
+    {
+      "id": "mock-unexpected-air-pressure-drop",
+      "scenarioId": "unexpected-air-pressure-drop",
+      "topic": "checks",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "You notice an unusual air-pressure drop during the vehicle check. What should you do?",
+      "options": [
+        "Keep the engine running at high speed and start the route.",
+        "Treat it as normal whenever the vehicle is unloaded.",
+        "Report the pressure loss and have it investigated before use."
+      ],
+      "answer": 2,
+      "explanation": "The check includes air leaks and pressure drop. An abnormal loss may affect systems that rely on compressed air.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/assets/pdf/HCV%20Walk%20Around%20Check%20Form%20and%20defect%20report.pdf",
+        "section": "Walk-around check items, Air leaks & pressure drop",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The check includes air leaks and pressure drop. An abnormal loss may affect systems that rely on compressed air.",
+        "scope": "Abnormal loss rather than the vehicle’s normal behaviour."
+      }
+    },
+    {
+      "id": "mock-direct-lashing-lc",
+      "scenarioId": "direct-lashing-lc",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "You are reviewing a direct-lashing design. Which strap rating does the HSA identify as the relevant one for deciding the required restraints?",
+      "options": [
+        "Lashing capacity.",
+        "Standard hand force.",
+        "Breaking force."
+      ],
+      "answer": 0,
+      "explanation": "Direct restraint design uses lashing capacity. The breaking force is not the permitted working tension.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "Webbing straps and ratchets",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Direct restraint design uses lashing capacity. The breaking force is not the permitted working tension.",
+        "scope": "Direct lashing. The full design also depends on configuration and equipment."
+      }
+    },
+    {
+      "id": "mock-indirect-lashing-stf",
+      "scenarioId": "indirect-lashing-stf",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "In a tie-down arrangement, the calculation depends on the tension applied by the ratchet. Which strap-label figure does the HSA identify for this purpose?",
+      "options": [
+        "The length of the webbing.",
+        "Standard tension force.",
+        "The breaking force of the complete assembly."
+      ],
+      "answer": 1,
+      "explanation": "For indirect tie-down, standard tension force is the relevant strap figure for calculating the number of straps.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "Webbing straps and ratchets",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "For indirect tie-down, standard tension force is the relevant strap figure for calculating the number of straps.",
+        "scope": "Indirect tie-down, subject to the full securing calculation."
+      }
+    },
+    {
+      "id": "mock-damaged-webbing-fray",
+      "scenarioId": "damaged-webbing-fray",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A webbing restraint has a frayed area discovered before loading. What should you do?",
+      "options": [
+        "Remove it from use and use a serviceable restraint.",
+        "Put the frayed area around a smooth corner and use it.",
+        "Use it with lower tension if a second strap is present."
+      ],
+      "answer": 0,
+      "explanation": "The HSA says straps with fraying, tears or holes should be discarded.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "Requirements for webbing straps",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The HSA says straps with fraying, tears or holes should be discarded.",
+        "scope": "A strap with visible fraying in the webbing."
+      }
+    },
+    {
+      "id": "mock-anchor-rope-hooks",
+      "scenarioId": "anchor-rope-hooks",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "The only convenient fittings beside a pallet are ordinary rope hooks. Should you use them for the webbing straps?",
+      "options": [
+        "Yes, if both straps are attached to the same hook.",
+        "Yes, if the hooks look stronger than the strap end fittings.",
+        "No. Use suitable, rated lashing points and follow the securing plan."
+      ],
+      "answer": 2,
+      "explanation": "HSA guidance says not to attach webbing restraints to rope hooks.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "Requirements for webbing straps",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "HSA guidance says not to attach webbing restraints to rope hooks.",
+        "scope": "Ordinary rope hooks, not rated lashing points."
+      }
+    },
+    {
+      "id": "mock-round-timber-load-shift",
+      "scenarioId": "round-timber-load-shift",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "Why does a stack of round timber need a restraint system that accounts for movement within the load?",
+      "options": [
+        "The logs become a rigid unit as soon as the truck starts moving.",
+        "Individual logs can move independently when restraint is insufficient.",
+        "Timber always slides as one solid mass, so internal movement cannot occur."
+      ],
+      "answer": 1,
+      "explanation": "Round timber can shift in parts. The securing plan has to address that movement and overall stability.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/kjxkdtqp/round-timbers-information-sheet.pdf",
+        "section": "Safe Load Securing of Round Timber, introduction",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Round timber can shift in parts. The securing plan has to address that movement and overall stability.",
+        "scope": "Round timber. Use a load-specific restraint plan."
+      }
+    },
+    {
+      "id": "mock-bridge-contact-no-visible-damage",
+      "scenarioId": "bridge-contact-no-visible-damage",
+      "topic": "emergency",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "Your truck strikes a railway bridge. From the road you cannot see any obvious damage. What should you do?",
+      "options": [
+        "Continue and report it only if the railway operator later finds damage.",
+        "Report the strike immediately using the bridge’s emergency contact and identification details.",
+        "Finish the delivery and check again on your return."
+      ],
+      "answer": 1,
+      "explanation": "Report the strike immediately even without visible damage. Give Iarnród Éireann the bridge identification number and what happened. If you cannot reach them immediately, notify An Garda Síochána straight away.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Railway bridges and overhead structures, Emergency actions",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Report the strike immediately even without visible damage. Give Iarnród Éireann the bridge identification number and what happened. If you cannot reach them immediately, notify An Garda Síochána straight away.",
+        "scope": "An actual vehicle impact with a railway bridge or structure."
+      }
+    },
+    {
+      "id": "mock-cyclist-passing-room-fast-road",
+      "scenarioId": "cyclist-passing-room-fast-road",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "On a road with an 80 km/h speed limit you are deciding whether there is enough room to pass a cyclist. What minimum clearance does the RSA recommend in that speed zone?",
+      "options": [
+        "At least 1 metre.",
+        "At least 1.5 metres.",
+        "At least half a metre."
+      ],
+      "answer": 1,
+      "explanation": "The RSA recommends at least 1.5 metres where the speed limit exceeds 50 km/h. Wait if a safe pass is not possible.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, Sharing the road with cyclists",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA recommends at least 1.5 metres where the speed limit exceeds 50 km/h. Wait if a safe pass is not possible.",
+        "scope": "A recommendation for a speed zone above 50 km/h. Allow more space when circumstances require it."
+      }
+    },
+    {
+      "id": "mock-overtake-hidden-dip",
+      "scenarioId": "overtake-hidden-dip",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You want to pass a slow vehicle on a road where a dip hides part of the oncoming lane. When should you start the overtake?",
+      "options": [
+        "Wait until you can see far enough to complete it safely.",
+        "Start as soon as you reach a broken centre line.",
+        "Start if a vehicle ahead has just overtaken successfully."
+      ],
+      "answer": 0,
+      "explanation": "A dip can conceal oncoming traffic. A broken line alone does not establish that the manoeuvre is safe.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, Overtaking",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A dip can conceal oncoming traffic. A broken line alone does not establish that the manoeuvre is safe.",
+        "scope": "Ordinary two-way road with a dip obscuring the road ahead."
+      }
+    },
+    {
+      "id": "mock-cyclist-centre-of-lane-reason",
+      "scenarioId": "cyclist-centre-of-lane-reason",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A cyclist moves towards the middle of the lane before a junction where visibility is poor. What might they be doing?",
+      "options": [
+        "Giving following vehicles a signal to pass immediately.",
+        "Showing that they are about to stop cycling.",
+        "Improving their view and making themselves easier for others to see."
+      ],
+      "answer": 2,
+      "explanation": "The RSA notes that cyclists may use a more central position to see and be seen near hazards.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, Sharing the road with cyclists",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA notes that cyclists may use a more central position to see and be seen near hazards.",
+        "scope": "A cyclist taking a more visible position near a junction."
+      }
+    },
+    {
+      "id": "mock-blocked-inner-motorway-lane",
+      "scenarioId": "blocked-inner-motorway-lane",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A vehicle normally prohibited from using the outside motorway lane cannot proceed in the inner lane because of an obstruction. What exception does the RSA describe?",
+      "options": [
+        "It may use the outside lane whenever an inner lane is moving more slowly.",
+        "It must always stop until the obstruction is removed, even if directed around it.",
+        "It may use the outside lane to get past the obstruction when safe."
+      ],
+      "answer": 2,
+      "explanation": "The exception is for an obstruction that prevents progress in the inner lane. It is different from normal overtaking.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Using lanes properly, outside-lane exceptions",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The exception is for an obstruction that prevents progress in the inner lane. It is different from normal overtaking.",
+        "scope": "Applicable vehicle restriction and a genuine obstruction. Follow site directions and signs."
+      }
+    },
+    {
+      "id": "mock-orange-diamond-roadwork-warning",
+      "scenarioId": "orange-diamond-roadwork-warning",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "An orange diamond sign ahead has a black symbol of a worker digging. What does it warn you about?",
+      "options": [
+        "The end of a detour.",
+        "A school crossing ahead.",
+        "Roadworks ahead."
+      ],
+      "answer": 2,
+      "explanation": "Orange warning signs are used for roadworks. This symbol alerts drivers to work ahead so they can adapt early.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Roadwork signs",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Orange warning signs are used for roadworks. This symbol alerts drivers to work ahead so they can adapt early.",
+        "scope": "Standard roadwork warning sign."
+      }
+    },
+    {
+      "id": "mock-red-traffic-light-no-line",
+      "scenarioId": "red-traffic-light-no-line",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You approach a red traffic light and there is no stop line. Where does the RSA say you must stop?",
+      "options": [
+        "Before the traffic light.",
+        "Past the light if the first crossing is clear.",
+        "At the far side of the junction."
+      ],
+      "answer": 0,
+      "explanation": "Where no stop line is provided, the red signal still prohibits proceeding beyond the light.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 7, Traffic lights",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Where no stop line is provided, the red signal still prohibits proceeding beyond the light.",
+        "scope": "Steady red, no stop line and no direction overriding the signal."
+      }
+    },
+    {
+      "id": "mock-warning-diamond-dangerous-bends",
+      "scenarioId": "warning-diamond-dangerous-bends",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "What does the yellow diamond with a black winding arrow warn about?",
+      "options": [
+        "A mandatory U-turn ahead.",
+        "A one-way lane that ends ahead.",
+        "A series of dangerous bends ahead."
+      ],
+      "answer": 2,
+      "explanation": "The winding arrow on a yellow warning diamond signals a series of bends requiring care.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Warning signs",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The winding arrow on a yellow warning diamond signals a series of bends requiring care.",
+        "scope": "The standard warning sign for a series of dangerous bends."
+      }
+    },
+    {
+      "id": "mock-bus-transaction-moving-off",
+      "scenarioId": "bus-transaction-moving-off",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A passenger has boarded and is still paying at the ticket machine beside the driver. What should happen before moving off?",
+      "options": [
+        "Finish the transaction while the bus is stationary.",
+        "Begin pulling away and finish taking payment in motion.",
+        "Signal left while continuing the transaction and then move without another check."
+      ],
+      "answer": 0,
+      "explanation": "The RSA advises completing customer transactions before moving the bus.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Boarding and alighting, page 27",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises completing customer transactions before moving the bus.",
+        "scope": "Ordinary passenger service at a stop."
+      }
+    },
+    {
+      "id": "mock-offside-boarding-on-two-way-road",
+      "scenarioId": "offside-boarding-on-two-way-road",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are at a safe hail-and-ride stopping point on a two-way road. It is not a designated bus stop. Which side should you use for routine boarding?",
+      "options": [
+        "The nearside, away from opposing traffic.",
+        "The offside so passengers can be seen by oncoming drivers.",
+        "Whichever side leaves the driver closer to the centre line."
+      ],
+      "answer": 0,
+      "explanation": "The RSA guidance is to board and alight on the nearside in this situation. It describes exceptions for designated stops or one-way streets.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Boarding and alighting, note following page 27",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA guidance is to board and alight on the nearside in this situation. It describes exceptions for designated stops or one-way streets.",
+        "scope": "Two-way road, normal boarding, safe location, not a designated stop."
+      }
+    },
+    {
+      "id": "mock-hand-operated-pa-stationary",
+      "scenarioId": "hand-operated-pa-stationary",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A coach driver wants to make a non-urgent announcement using a hand-operated public address system. When should they use it?",
+      "options": [
+        "When the coach is stationary.",
+        "When the coach is moving slowly in a queue.",
+        "Any time there are no pedestrians nearby."
+      ],
+      "answer": 0,
+      "explanation": "The RSA advises drivers to use hand-operated public address equipment while stationary.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "PA (Public Address System), page 36",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises drivers to use hand-operated public address equipment while stationary.",
+        "scope": "Hand-operated system used by the driver, routine announcement."
+      }
+    },
+    {
+      "id": "mock-braking-under-steering-load",
+      "scenarioId": "braking-under-steering-load",
+      "topic": "braking",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You have time to adjust speed before a bend on a low-grip road. Which action makes a skid more likely?",
+      "options": [
+        "Allowing extra space and slowing progressively.",
+        "A sudden, hard brake application.",
+        "Taking account of the road surface before choosing speed."
+      ],
+      "answer": 1,
+      "explanation": "Harsh inputs can exceed the grip available. Slow progressively when the traffic situation allows it.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Skidding",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Harsh inputs can exceed the grip available. Slow progressively when the traffic situation allows it.",
+        "scope": "Planned speed adjustment with time to slow progressively. Emergency braking techniques are outside the scenario."
+      }
+    },
+    {
+      "id": "mock-lower-road-and-vehicle-limit",
+      "scenarioId": "lower-road-and-vehicle-limit",
+      "topic": "braking",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A road is posted at 80 km/h, but the category of vehicle you are driving has a lower applicable limit. Which upper limit controls?",
+      "options": [
+        "The lower limit for the vehicle.",
+        "The posted 80 km/h limit because it is on a sign.",
+        "An average of the two limits."
+      ],
+      "answer": 0,
+      "explanation": "When road and vehicle limits differ, the lower one governs. Conditions can require an even lower speed.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Speed limits for vehicles",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "When road and vehicle limits differ, the lower one governs. Conditions can require an even lower speed.",
+        "scope": "A vehicle-specific limit applies and is lower than the road limit."
+      }
+    },
+    {
+      "id": "mock-collision-property-owner-details",
+      "scenarioId": "collision-property-owner-details",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You damage a wall in a road incident. Nobody is injured and no Garda is present, but the property owner is there. Who should receive the required details?",
+      "options": [
+        "Only the operator who employs you.",
+        "The property owner or person in charge.",
+        "Nobody unless a person is injured."
+      ],
+      "answer": 1,
+      "explanation": "When property alone is damaged and no Garda is available, give the required information to the owner or person in charge.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 14, What drivers must do at an incident or in an emergency",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "When property alone is damaged and no Garda is available, give the required information to the owner or person in charge.",
+        "scope": "Property-only damage. If neither recipient is available, the RSA directs the driver to report to a Garda station."
+      }
+    },
+    {
+      "id": "mock-tunnel-stop-radio-instructions",
+      "scenarioId": "tunnel-stop-radio-instructions",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A tunnel signal instructs you to stop and you are waiting at a safe gap behind the vehicle ahead. Where can you check for further instructions?",
+      "options": [
+        "Only the navigation app’s next-turn instructions.",
+        "The reversing camera display.",
+        "The tunnel signs and radio announcements from the operator."
+      ],
+      "answer": 2,
+      "explanation": "The RSA advises checking electronic signs and listening for the tunnel operator’s instructions.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Stopping in a tunnel",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises checking electronic signs and listening for the tunnel operator’s instructions.",
+        "scope": "You have been instructed to stop in a tunnel. Follow directions and evacuate if required."
+      }
+    },
+    {
+      "id": "mock-disconnect-airline-stow",
+      "scenarioId": "disconnect-airline-stow",
+      "topic": "trailers",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "The semi-trailer is secured and you have disconnected its air lines as part of the approved uncoupling procedure. What should you do with the disconnected lines before moving the tractor?",
+      "options": [
+        "Leave them hanging between the tractor and trailer.",
+        "Rest the ends on the ground where the tractor will drive.",
+        "Stow them safely as the procedure specifies."
+      ],
+      "answer": 2,
+      "explanation": "The uncoupling guidance calls for stowing the disconnected lines so they do not hang loose.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/ekrfb0bh/roadsense-guide.pdf",
+        "section": "Uncoupling Procedure",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The uncoupling guidance calls for stowing the disconnected lines so they do not hang loose.",
+        "scope": "Conventional semi-trailer, with all other uncoupling steps still required."
+      }
+    },
+    {
+      "id": "mock-stow-landing-gear-handle",
+      "scenarioId": "stow-landing-gear-handle",
+      "topic": "trailers",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "After coupling a conventional semi-trailer, you have raised the landing gear. What should you do with its winding handle?",
+      "options": [
+        "Leave it extended so you can lower the gear quickly on arrival.",
+        "Wedge it against an air line to hold it in place.",
+        "Stow it securely in its intended position."
+      ],
+      "answer": 2,
+      "explanation": "The procedure calls for putting the handle away after raising the landing gear.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/ekrfb0bh/roadsense-guide.pdf",
+        "section": "Coupling Procedure",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The procedure calls for putting the handle away after raising the landing gear.",
+        "scope": "Conventional trailer with a landing-gear winding handle."
+      }
+    },
+    {
+      "id": "mock-ratchet-extension-bar",
+      "scenarioId": "ratchet-extension-bar",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A colleague offers you a long extension bar to increase tension on an ordinary hand-operated ratchet. The device is not designed for an extension. What should you do?",
+      "options": [
+        "Use the ratchet as designed and avoid the extension bar.",
+        "Use the bar whenever the load is above one tonne.",
+        "Use the bar only for the last click of the ratchet."
+      ],
+      "answer": 0,
+      "explanation": "The HSA warns against using levers or bars unless the tensioner is designed for them.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "Requirements for webbing straps",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The HSA warns against using levers or bars unless the tensioner is designed for them.",
+        "scope": "Standard ratchet without approved mechanical aid."
+      }
+    },
+    {
+      "id": "mock-road-restraint-direction",
+      "scenarioId": "road-restraint-direction",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "In the HSA curtain-sided vehicle example for road transport, which horizontal direction has the highest restraint demand?",
+      "options": [
+        "Rearward.",
+        "Sideways.",
+        "Forward."
+      ],
+      "answer": 2,
+      "explanation": "The HSA example calls for greater forward resistance than sideways or rearward resistance, reflecting the effect of braking.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "Load restraint methods, Figure 2",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The HSA example calls for greater forward resistance than sideways or rearward resistance, reflecting the effect of braking.",
+        "scope": "Road transport in the cited example. Other transport modes and load designs can have additional requirements."
+      }
+    },
+    {
+      "id": "mock-dgvw-sign-unladen-lorry",
+      "scenarioId": "dgvw-sign-unladen-lorry",
+      "topic": "dimensions",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "An unladen lorry weighs less than the number shown on a sign that restricts maximum design gross vehicle weight. Its design gross vehicle weight exceeds that number. Can it pass on the basis that it is empty?",
+      "options": [
+        "No. The sign refers to the design gross vehicle weight.",
+        "Yes. Only the vehicle’s actual weight that day matters.",
+        "Yes. A design-weight sign applies only to vehicles with trailers attached."
+      ],
+      "answer": 0,
+      "explanation": "This sign uses the design weight, which does not change when cargo is removed.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Upright signs, maximum design gross vehicle weight sign",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "This sign uses the design weight, which does not change when cargo is removed.",
+        "scope": "A sign explicitly restricting design gross vehicle weight, without a relevant exception."
+      }
+    },
+    {
+      "id": "mock-short-ferry-regular-weekly-rest",
+      "scenarioId": "short-ferry-regular-weekly-rest",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A ferry crossing is scheduled to take six hours. The driver has a sleeper cabin and wants to apply the ferry interruption rule to a regular weekly rest. What prevents using that rule?",
+      "options": [
+        "The regular-weekly-rest ferry provision requires a crossing scheduled for at least eight hours.",
+        "A sleeper cabin is never allowed for rest on a ferry.",
+        "Regular weekly rest can use the rule only if the crossing is overnight."
+      ],
+      "answer": 0,
+      "explanation": "For regular weekly rest, the provision requires both a suitably long scheduled journey and access to a sleeper cabin.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 9(1), regular weekly rest",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "For regular weekly rest, the provision requires both a suitably long scheduled journey and access to a sleeper cabin.",
+        "scope": "Regular weekly rest on an accompanied ferry journey. Shorter daily-rest provisions differ."
+      }
+    }
+  ]
+}

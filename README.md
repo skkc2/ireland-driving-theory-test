@@ -1,22 +1,27 @@
-# RoadReady Ireland
+# RoadReady Ireland — Irish truck & bus theory practice
 
-A static HTML/CSS/JavaScript starter site for Irish truck (C/C1/CE/C1E) and bus (D) theory revision. No backend or build process.
+A static HTML/CSS/JavaScript revision site. No backend, build step or account required.
 
 ## Run locally
-From the repository root run `python3 -m http.server 8000` and visit http://localhost:8000.
+Run `python3 -m http.server 8000` from the repository root and open http://localhost:8000.
 
 ## GitHub Pages
-A GitHub Actions workflow deploys the repository root on every push to `main`. In repository Settings → Pages, select **GitHub Actions** as the deployment source if it is not already selected.
+The workflow `.github/workflows/pages.yml` deploys the repository root on pushes to `main`. In Settings → Pages choose **GitHub Actions** as the source if required.
 
-## Update the question bank
-Edit `data/questions.json`. Each question needs a unique `id`, a topic ID, question text, 3–4 options, a zero-based `answer` index and a concise explanation. Topic notes live in the same file. Questions must be original and not copied from RSA or Prometric question banks.
+## What's included
+- 500 original questions across 12 topics (50 per topic).
+- Five disjoint mock exams, each 100 questions, with a 120-minute timer and 74/100 practice pass mark.
+- Question navigation, answer selection, review flags and results with explanations for wrong or unanswered questions.
+- Topic notes and 50-question quizzes with immediate feedback.
+- Browser-only score history in localStorage.
 
-## Important scope / accuracy warning
-This is an early starter implementation with 23 original questions. It is **not yet five full-length non-repeating mock tests**. Current mock sets divide the available bank into small unique practice sets; the countdown shown is scaled for the small beta sets. Expand the bank to at least 500 distinct, checked questions before publishing as a full exam simulator. Do not treat the current question coverage as sufficient exam preparation.
+## Editing the question bank
+Edit `data/questions.json`. Each question has a unique `id`, topic ID, question text, 3 options, zero-based correct `answer` index, and explanation. Keep IDs unique. Every mock exam uses a non-overlapping 100-question slice of the bank; maintain at least 500 questions if you want to retain five full, non-repeating mocks. Topic IDs must match an entry in `topics`.
 
-The RSA states that individual Category C and D tests have 100 multiple-choice questions and require 74 correct; combined CD has 140 questions and requires 104. The RSA page does not specify a time limit in its summary; Prometric/Citizens Information list 120 minutes for C/D and 180 minutes for CD. Sources:
-- [RSA — Theory test](https://www.rsa.ie/services/professional-drivers/cpc/become-a-professional-cpc-driver/2.-theory-test)
-- [Prometric — FAQs](https://theorytest.ie/general-information/faqs/)
+## Accuracy and exam format
+The single-category professional theory test information is summarised by the RSA as 100 questions and 74 correct to pass for C and D; the combined CD test is 140 questions and 104 correct. Time limits shown in this practice site are 120 minutes for single category and 180 minutes for combined CD; verify the current details on the official booking/provider information before your exam:
+- [RSA — Professional driver theory test](https://www.rsa.ie/services/professional-drivers/cpc/become-a-professional-cpc-driver/2.-theory-test)
+- [Prometric — Theory test FAQs](https://theorytest.ie/general-information/faqs/)
 - [Citizens Information — Driver theory test](https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driving-tests/driver-theory-test/)
 
-Standard EU drivers' hours rules have exceptions and special cases. Dangerous goods content requires checking current ADR and Irish rules. This resource is independent, is not legal advice and is not affiliated with RSA or Prometric.
+EU drivers' hours rules have exceptions and special cases; dangerous goods content is introductory and must be checked against current ADR and Irish requirements. A number of scenarios are broad safety principles rather than definitive legal advice. Have a qualified instructor verify the bank before treating it as authoritative. This is an independent study aid, not affiliated with RSA or Prometric.

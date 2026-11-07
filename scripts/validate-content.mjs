@@ -6,7 +6,7 @@ const [study, draft, queue] = await Promise.all([
   read('../data/study.json'), read('../data/questions.json'), read('../review/questions.json'),
 ]);
 const content = loadContent(study);
-loadReviewQueue(study.topics, queue.questions);
+loadReviewQueue(study.topics, queue.questions, queue.papers);
 const queuedIds = new Set(queue.questions.map(q => q.id));
 const queuedScenarios = new Set(queue.questions.map(q => q.scenarioId));
 if (study.questions.some(q => queuedIds.has(q.id) || queuedScenarios.has(q.scenarioId))) {
@@ -26,4 +26,4 @@ for (const q of draft.questions) {
   }
   questionIds.add(q.id);
 }
-console.log(`${content.topics.length} lessons, ${content.practice.length} practice questions, ${content.papers.length} released mocks, ${questionIds.size} quarantined rows, ${queue.questions.length} AI-checked candidates awaiting independent review`);
+console.log(`${content.topics.length} lessons, ${content.practice.length} practice questions, ${content.papers.length} released mocks, ${questionIds.size} quarantined rows, ${queue.questions.length} AI-checked candidates and ${queue.papers?.length ?? 0} candidate papers awaiting independent review`);

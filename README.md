@@ -4,7 +4,7 @@ A free static revision hub for Irish professional-driver theory study. No accoun
 
 ## Study content
 
-The site includes 12 source-linked lessons. The candidate bank in `review/questions.json` contains 100 topic questions and 50 mock candidates. Each has an AI editorial source check dated 7 November 2026. Independent review is pending for all 150. Practice and mocks stay paused until the relevant questions are independently approved.
+The site includes 12 source-linked lessons. The candidate bank in `review/questions.json` contains 100 topic questions and 112 mock candidates. Each has an AI editorial source check dated 7 November 2026. Independent review is pending for all 212. The first Category C mock has 100 allocated candidates covering ten topics. Practice and mocks stay paused until the relevant questions are independently approved.
 
 The original 600 rows are archived in `data/questions.json`. The structural audit found 264 distinct scenario stems and 336 repeated rows. The public app loads only `data/study.json`. The review queue is separate from both files.
 
@@ -59,7 +59,7 @@ The review page records decisions. The release bank is updated separately after 
 
 ## Adding release content
 
-Add source-checked candidates to `review/questions.json` with a stable unique ID, a distinct scenario ID, supported categories (`C` and/or `D`), and an intended use (`topic` or `mock`). Evidence includes an exact source URL, section, check date, AI reviewer, rationale and scope.
+Add source-checked candidates to `review/questions.json` with a stable unique ID, a distinct scenario ID, supported categories (`C` and/or `D`), and an intended use (`topic` or `mock`). Candidate papers list their question IDs, category and coverage review in the same file. Evidence includes an exact source URL, section, check date, AI reviewer, rationale and scope.
 
 Move approved candidates to `data/study.json` only after checking the review export against their exact revision. Record the independent reviewer and review date on every released question. Specialist questions require a relevant qualification and independent sign-off on the associated lesson. Give each mock an explicit list of question IDs, category and documented coverage review. Mock papers may never share questions.
 

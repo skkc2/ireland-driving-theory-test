@@ -3989,6 +3989,1763 @@
         "rationale": "For regular weekly rest, the provision requires both a suitably long scheduled journey and access to a sleeper cabin.",
         "scope": "Regular weekly rest on an accompanied ferry journey. Shorter daily-rest provisions differ."
       }
+    },
+    {
+      "id": "mock-lane-red-x-no-pass",
+      "scenarioId": "lane-red-x-no-pass",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "Your lane shows a red X on an overhead lane-control sign. The pavement beyond looks clear. What does the signal require?",
+      "options": [
+        "Do not pass the sign in that lane.",
+        "Stay in the lane until you can see the obstruction.",
+        "Continue below the last posted speed limit."
+      ],
+      "answer": 0,
+      "explanation": "The red X closes the lane. If you can change to an open lane safely before the sign, do so in accordance with the directions.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Traffic lane control signs, page 71",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The red X closes the lane. If you can change to an open lane safely before the sign, do so in accordance with the directions.",
+        "scope": "Applies to the closed lane under a red X."
+      }
+    },
+    {
+      "id": "mock-lane-arrow-move-right",
+      "scenarioId": "lane-arrow-move-right",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A green directional arrow above your lane points to the right. What should you do?",
+      "options": [
+        "Continue straight because all green arrows only confirm your lane is open.",
+        "Move to the right-hand lane when you can change lanes safely.",
+        "Move left so vehicles behind can follow the arrow."
+      ],
+      "answer": 1,
+      "explanation": "A sideways arrow directs drivers to the lane it points towards. Make the lane change safely.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Traffic lane control signs, page 71",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A sideways arrow directs drivers to the lane it points towards. Make the lane change safely.",
+        "scope": "An overhead directional lane-control signal, not a downward arrow or junction filter."
+      }
+    },
+    {
+      "id": "mock-advance-cycle-stop-line",
+      "scenarioId": "advance-cycle-stop-line",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "At a red light there are two white stop lines with a cycle waiting area between them. Which line should a truck stop behind on approach?",
+      "options": [
+        "The first line it reaches.",
+        "The line at the far edge of the cycle area.",
+        "Either line if no cyclist is waiting."
+      ],
+      "answer": 0,
+      "explanation": "Motor traffic waits behind the first line so the cycle area remains available.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Road markings, advanced stop line, page 74",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Motor traffic waits behind the first line so the cycle area remains available.",
+        "scope": "Red signal on approach to an advanced cycle stop line."
+      }
+    },
+    {
+      "id": "mock-yellow-box-railway-turn",
+      "scenarioId": "yellow-box-railway-turn",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You plan to turn right beyond a railway crossing. The queue ahead means part of your vehicle would stop in the marked box over the crossing. May you enter it to wait?",
+      "options": [
+        "No. Wait until you can clear the railway box without stopping.",
+        "Yes. The ordinary yellow-box right-turn exception applies over railway tracks.",
+        "Yes, as long as the traffic lights for the railway are unlit."
+      ],
+      "answer": 0,
+      "explanation": "The railway box must remain clear. The right-turn exception for some road junctions does not allow stopping in a railway box.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 9, Yellow box junctions, page 132; Section 6, Railway level crossings",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The railway box must remain clear. The right-turn exception for some road junctions does not allow stopping in a railway box.",
+        "scope": "A yellow box at a railway level crossing."
+      }
+    },
+    {
+      "id": "mock-broken-yield-line-empty",
+      "scenarioId": "broken-yield-line-empty",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You approach a marked yield line. You slow and can see clearly that no traffic needs to be given way to. Is a complete stop always required?",
+      "options": [
+        "Yes. Every yield line requires the same stop as a stop line.",
+        "No. Stop if necessary to give way, otherwise proceed when safe.",
+        "No. A yield line gives you priority over traffic on the major road."
+      ],
+      "answer": 1,
+      "explanation": "A yield line requires giving way. Whether you need to stop depends on the traffic and visibility.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Road markings, page 74; Section 9, Junctions",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A yield line requires giving way. Whether you need to stop depends on the traffic and visibility.",
+        "scope": "A yield line with a clear view and no conflicting traffic."
+      }
+    },
+    {
+      "id": "mock-shortening-centre-mark-gaps",
+      "scenarioId": "shortening-centre-mark-gaps",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "The gaps between the broken white centre lines become shorter as you approach a bend. What is the purpose of this change?",
+      "options": [
+        "It warns of a hazard or reduced visibility ahead.",
+        "It marks a section where overtaking is preferred.",
+        "It means both directions may share the same lane."
+      ],
+      "answer": 0,
+      "explanation": "Longer lines or shorter gaps warn that extra caution may be needed, such as before a bend or junction.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Road markings, page 75",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Longer lines or shorter gaps warn that extra caution may be needed, such as before a bend or junction.",
+        "scope": "Broken centre markings with longer lines or shorter gaps, not a continuous line."
+      }
+    },
+    {
+      "id": "mock-tram-access-only-shortcut",
+      "scenarioId": "tram-access-only-shortcut",
+      "topic": "signs",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A street has a No Entry sign with an Except Trams and Access plate. You have no delivery or other access need on the street. May you use it as a shortcut?",
+      "options": [
+        "Yes. Any goods vehicle can use a street with an access plate.",
+        "No. The access exception does not cover a through journey.",
+        "Yes. The restriction applies only while a tram is visible."
+      ],
+      "answer": 1,
+      "explanation": "The plate permits access to premises. It does not open the street to ordinary through traffic.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Regulatory signs for tram lanes, page 88",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The plate permits access to premises. It does not open the street to ordinary through traffic.",
+        "scope": "The driver needs no access to premises on the street."
+      }
+    },
+    {
+      "id": "mock-school-warden-still-in-road",
+      "scenarioId": "school-warden-still-in-road",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "The children have finished crossing and the school warden lowers the sign, but the warden is still in the road. When can you move?",
+      "options": [
+        "As soon as the last child reaches the pavement.",
+        "As soon as the sign is lowered, regardless of the warden’s position.",
+        "After the warden has safely returned to the footpath and the road is clear."
+      ],
+      "answer": 2,
+      "explanation": "The RSA requires drivers to remain stopped until the children are clear, the sign is lowered and the warden is safely back on the footpath.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 19, School wardens, page 223",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA requires drivers to remain stopped until the children are clear, the sign is lowered and the warden is safely back on the footpath.",
+        "scope": "An adult school warden controlling a crossing."
+      }
+    },
+    {
+      "id": "mock-already-on-railway-crossing",
+      "scenarioId": "already-on-railway-crossing",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A warning begins while your vehicle is already on an automatic railway crossing, and the exit is clear. What should you do?",
+      "options": [
+        "Stop on the tracks and wait for the warning to end.",
+        "Reverse back onto the approach road.",
+        "Move clear promptly."
+      ],
+      "answer": 2,
+      "explanation": "Once already on the crossing with a clear exit, move off the tracks as quickly as safely possible.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Automated railway level crossings with barriers and flashing red lights, page 98",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Once already on the crossing with a clear exit, move off the tracks as quickly as safely possible.",
+        "scope": "Vehicle already on the crossing with the exit clear."
+      }
+    },
+    {
+      "id": "mock-with-flow-bus-lane-timed-truck",
+      "scenarioId": "with-flow-bus-lane-timed-truck",
+      "topic": "signs",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A with-flow bus lane’s plate shows it is reserved from 07:00 to 10:00. At 08:30, may a goods vehicle use it to bypass a queue?",
+      "options": [
+        "Yes, because the bus lane runs in the same direction.",
+        "No. Stay in a lane available to goods vehicles.",
+        "Yes, if no bus is currently visible."
+      ],
+      "answer": 1,
+      "explanation": "A timed with-flow bus lane is reserved for permitted users while its restriction is in force.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Bus signs, with-flow bus lane, pages 84–85",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A timed with-flow bus lane is reserved for permitted users while its restriction is in force.",
+        "scope": "Ordinary goods vehicle passing a queue during the signed operating period."
+      }
+    },
+    {
+      "id": "mock-being-overtaken-hold-pace",
+      "scenarioId": "being-overtaken-hold-pace",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A vehicle begins a legal overtake on a two-way road. It remains safe for you to maintain your current speed. What should you do?",
+      "options": [
+        "Increase your speed to keep the same gap from traffic ahead.",
+        "Move right so the passing driver can see further down the road.",
+        "Keep a steady pace and do not accelerate."
+      ],
+      "answer": 2,
+      "explanation": "Maintaining a steady pace and keeping as far left as is safe helps avoid making the overtake harder.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, What to do when somebody overtakes you, page 57",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Maintaining a steady pace and keeping as far left as is safe helps avoid making the overtake harder.",
+        "scope": "Normal overtake by another vehicle. Adjust if keeping pace becomes unsafe."
+      }
+    },
+    {
+      "id": "mock-pass-left-right-turning-vehicle",
+      "scenarioId": "pass-left-right-turning-vehicle",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A driver ahead has moved out and signalled right. You are continuing straight and can pass on the left safely and legally. What does the RSA allow?",
+      "options": [
+        "Passing on the left in this situation.",
+        "Passing only on the right, even across the driver’s intended turn.",
+        "Using the footpath to leave extra room."
+      ],
+      "answer": 0,
+      "explanation": "Passing on the left is an exception where the vehicle ahead has moved out to turn right and it is safe to continue straight.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, You may overtake on the left when, page 57",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Passing on the left is an exception where the vehicle ahead has moved out to turn right and it is safe to continue straight.",
+        "scope": "There is a lawful, safe route on the left and no other prohibition."
+      }
+    },
+    {
+      "id": "mock-overtaking-at-crossing",
+      "scenarioId": "overtaking-at-crossing",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A vehicle slows on the approach to a zebra crossing. You cannot yet see the far side of it. May you overtake before the crossing?",
+      "options": [
+        "No. Do not overtake at or near the crossing.",
+        "Yes, if the stripes are clear on your side.",
+        "Yes, if the vehicle ahead has signalled no turn."
+      ],
+      "answer": 0,
+      "explanation": "Overtaking at or near a pedestrian crossing can hide a person from view and is prohibited.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, You must not overtake when, page 57",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Overtaking at or near a pedestrian crossing can hide a person from view and is prohibited.",
+        "scope": "An approach to a zebra crossing."
+      }
+    },
+    {
+      "id": "mock-motorway-deceleration-lane",
+      "scenarioId": "motorway-deceleration-lane",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "Conditions are good and there is room in the motorway exit lane. Where should you normally start reducing speed for the slip road?",
+      "options": [
+        "In the deceleration lane, after moving into it safely.",
+        "Well before the exit while still in the main traffic lane, regardless of conditions.",
+        "Only after completing the bend on the slip road."
+      ],
+      "answer": 0,
+      "explanation": "The RSA advises keeping up your speed until the deceleration lane where possible, then slowing for the slip road.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Leaving the motorway, page 154",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises keeping up your speed until the deceleration lane where possible, then slowing for the slip road.",
+        "scope": "Normal clear conditions. Earlier slowing can be needed if traffic or conditions require it."
+      }
+    },
+    {
+      "id": "mock-near-junction-parking-distance",
+      "scenarioId": "near-junction-parking-distance",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You want to park three metres from a road junction. No parking spaces are marked there. May you park in that position?",
+      "options": [
+        "Yes, if the junction is quiet.",
+        "Yes, if the vehicle does not cover a yellow line.",
+        "No. It is within five metres of the junction without a marked space."
+      ],
+      "answer": 2,
+      "explanation": "Parking within five metres of a junction is prohibited unless parking spaces are clearly marked.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 10, No parking, page 144",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Parking within five metres of a junction is prohibited unless parking spaces are clearly marked.",
+        "scope": "Ordinary parking without a marked bay or other applicable exception."
+      }
+    },
+    {
+      "id": "mock-footpath-partial-parking",
+      "scenarioId": "footpath-partial-parking",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A roadside parking space looks too narrow, so a driver considers putting two wheels on the footpath. What should they do?",
+      "options": [
+        "Put two wheels up if a pedestrian can still squeeze past.",
+        "Find a lawful place where the whole vehicle fits without using the footpath.",
+        "Use the footpath if the vehicle is within sight of the driver."
+      ],
+      "answer": 1,
+      "explanation": "Parking partly on a footpath obstructs the space intended for pedestrians and is prohibited.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 10, No parking, page 144",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Parking partly on a footpath obstructs the space intended for pedestrians and is prohibited.",
+        "scope": "Ordinary public-road parking."
+      }
+    },
+    {
+      "id": "mock-loading-bay-waiting-for-goods",
+      "scenarioId": "loading-bay-waiting-for-goods",
+      "topic": "rules",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "You are in a goods vehicle and arrive at a signed loading bay 25 minutes before the collection team is ready. May you use the bay as a waiting space?",
+      "options": [
+        "No. The bay is reserved for actual loading or unloading.",
+        "Yes. A goods vehicle can use it for any purpose for up to 30 minutes.",
+        "Yes, as long as the driver stays in the cab."
+      ],
+      "answer": 0,
+      "explanation": "The restriction concerns the activity as well as the vehicle. Use a loading bay only for loading or unloading within its applicable time limit.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 10, No parking, loading bays, page 144",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The restriction concerns the activity as well as the vehicle. Use a loading bay only for loading or unloading within its applicable time limit.",
+        "scope": "A signed ordinary loading bay, with no loading or unloading taking place."
+      }
+    },
+    {
+      "id": "mock-handheld-dispatch-message",
+      "scenarioId": "handheld-dispatch-message",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "While driving, your dispatcher sends a routine message. How should you deal with it?",
+      "options": [
+        "Wait until you are safely and legally parked before reading it.",
+        "Read it when stopped briefly in a moving queue.",
+        "Read it while holding the phone low in the cab."
+      ],
+      "answer": 0,
+      "explanation": "The RSA prohibits reading phone messages while driving. A routine dispatch message is not an emergency.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.irishstatutebook.ie/eli/2014/si/178/made/en/print",
+        "section": "Regulation 4 and interpretation in Regulation 3",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA prohibits reading phone messages while driving. A routine dispatch message is not an emergency.",
+        "scope": "Routine non-emergency message and no need to handle the phone while driving."
+      }
+    },
+    {
+      "id": "mock-left-turn-cyclist-not-pass",
+      "scenarioId": "left-turn-cyclist-not-pass",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are approaching a junction to turn left. A cyclist ahead near the kerb may be going straight. What is the safest approach?",
+      "options": [
+        "Pass the cyclist just before turning so they can see your indicator.",
+        "Move left early to prevent the cyclist continuing straight.",
+        "Stay behind and turn only when the cyclist’s path is clear."
+      ],
+      "answer": 2,
+      "explanation": "Avoid overtaking a cyclist just before you turn left. They may continue straight across your intended path.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 19, Turning left, page 225",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Avoid overtaking a cyclist just before you turn left. They may continue straight across your intended path.",
+        "scope": "Cyclist near the kerb approaching the same junction."
+      }
+    },
+    {
+      "id": "mock-cab-door-cyclist-check",
+      "scenarioId": "cab-door-cyclist-check",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "After parking legally, you need to open the driver’s door towards moving traffic. What should you check first?",
+      "options": [
+        "Open it slightly first to warn anyone approaching.",
+        "Check only the pavement because your vehicle is stationary.",
+        "Look for cyclists and others passing and give them space before opening the door."
+      ],
+      "answer": 2,
+      "explanation": "Use the mirrors and check the area beside the door. An opening door can obstruct a passing cyclist.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 19, Cycle tracks and parking, page 225",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Use the mirrors and check the area beside the door. An opening door can obstruct a passing cyclist.",
+        "scope": "Door opens towards traffic after a legal stop."
+      }
+    },
+    {
+      "id": "mock-shared-space-speed-choice",
+      "scenarioId": "shared-space-speed-choice",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You enter an area where pedestrians, cyclists and vehicles share the same low-speed space. How should you drive there?",
+      "options": [
+        "At the speed used on the main road immediately before it.",
+        "Very slowly, allowing time to react to people sharing the space.",
+        "At a steady speed so pedestrians can predict your path, even when people are close."
+      ],
+      "answer": 1,
+      "explanation": "Shared spaces call for very low speed because people and vehicles can use the same area.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 19, Shared Spaces, page 226",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Shared spaces call for very low speed because people and vehicles can use the same area.",
+        "scope": "A designated shared space."
+      }
+    },
+    {
+      "id": "mock-horn-builtup-night",
+      "scenarioId": "horn-builtup-night",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "At midnight in a built-up area, a colleague suggests sounding the horn to let a depot worker know you have arrived. There is no traffic emergency. What should you do?",
+      "options": [
+        "Give one short blast because you are driving a work vehicle.",
+        "Use another way to contact them.",
+        "Sound the horn if the depot worker has asked you to do so."
+      ],
+      "answer": 1,
+      "explanation": "The RSA prohibits using the horn in a built-up area from 23:30 to 07:00 unless there is a traffic emergency.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, Using a horn, page 66",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA prohibits using the horn in a built-up area from 23:30 to 07:00 unless there is a traffic emergency.",
+        "scope": "Midnight in a built-up area, no emergency."
+      }
+    },
+    {
+      "id": "mock-night-headlight-alignment",
+      "scenarioId": "night-headlight-alignment",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "Why should a driver have misaligned headlights adjusted even if both lights work?",
+      "options": [
+        "Poor aim affects only the dashboard brightness.",
+        "Misalignment only matters if one bulb is completely out.",
+        "Poor aim can reduce the useful light on the road and dazzle others."
+      ],
+      "answer": 2,
+      "explanation": "A working headlamp must also aim correctly to light the road without excessive glare.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, Driving at night, page 63",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A working headlamp must also aim correctly to light the road without excessive glare.",
+        "scope": "Headlights function but are misaligned."
+      }
+    },
+    {
+      "id": "mock-following-night-dip",
+      "scenarioId": "following-night-dip",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "On an unlit road at night you catch up with another vehicle. Which headlights should you normally use while following?",
+      "options": [
+        "Main beam so the driver ahead can see farther.",
+        "Dipped headlights.",
+        "Sidelights alone to prevent mirror glare."
+      ],
+      "answer": 1,
+      "explanation": "Dipped headlights help avoid dazzling the driver ahead through their mirrors.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, When to use headlights, page 64",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Dipped headlights help avoid dazzling the driver ahead through their mirrors.",
+        "scope": "Ordinary night driving while following another vehicle."
+      }
+    },
+    {
+      "id": "mock-traffic-stop-space-emergency",
+      "scenarioId": "traffic-stop-space-emergency",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are stopping in a queue where emergency vehicles may need to get through. What can you do before one arrives to preserve room to move?",
+      "options": [
+        "Stop as close as possible to the vehicle ahead.",
+        "Stop partly in the adjacent lane to keep it empty.",
+        "Leave manoeuvring space in front when stopping."
+      ],
+      "answer": 2,
+      "explanation": "Leaving some space when stopped gives you room to move safely if an emergency vehicle needs to pass.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 12, What to do when an emergency service vehicle approaches, page 171",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Leaving some space when stopped gives you room to move safely if an emergency vehicle needs to pass.",
+        "scope": "Ordinary stopped traffic. Follow directions and move only if safe."
+      }
+    },
+    {
+      "id": "mock-animal-passing-no-horn",
+      "scenarioId": "animal-passing-no-horn",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are approaching a person controlling an animal on the road. What is the safest way to prepare to pass?",
+      "options": [
+        "Use the horn to make the animal move aside.",
+        "Slow down, allow plenty of room and be ready to stop.",
+        "Pass at normal speed before the animal can move."
+      ],
+      "answer": 1,
+      "explanation": "Animals may react unpredictably. Approach slowly and give the person room to control the animal.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 19, Animal traffic, page 226",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Animals may react unpredictably. Approach slowly and give the person room to control the animal.",
+        "scope": "Ordinary approach to animal traffic. Avoid startling animals."
+      }
+    },
+    {
+      "id": "mock-rail-crossing-stalled-vehicle",
+      "scenarioId": "rail-crossing-stalled-vehicle",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "Your vehicle stalls on railway tracks at a level crossing. What should you do first?",
+      "options": [
+        "Keep everyone in the vehicle while trying to restart it.",
+        "Ask a passenger to stand on the track and signal approaching trains.",
+        "Get everyone well clear of the railway."
+      ],
+      "answer": 2,
+      "explanation": "People should move well clear of the railway. Then contact the railway controller using the crossing information.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Emergency actions at level crossings, page 92",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "People should move well clear of the railway. Then contact the railway controller using the crossing information.",
+        "scope": "Vehicle stalled on railway tracks."
+      }
+    },
+    {
+      "id": "mock-motorway-object-report",
+      "scenarioId": "motorway-object-report",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You see an object obstructing traffic on a motorway. You have passed it and can report it from a safe location. What does the RSA advise?",
+      "options": [
+        "Return on foot along the shoulder and move it yourself.",
+        "Wait to report it until you see a vehicle strike it.",
+        "Tell the Gardaí and leave removal to those who can manage it safely."
+      ],
+      "answer": 2,
+      "explanation": "The RSA advises reporting motorway obstructions and warns drivers against trying to remove them themselves.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Obstructions, page 159",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises reporting motorway obstructions and warns drivers against trying to remove them themselves.",
+        "scope": "Road user reporting an obstruction from a safe place."
+      }
+    },
+    {
+      "id": "mock-tunnel-fire-behind",
+      "scenarioId": "tunnel-fire-behind",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A fire has started in another vehicle behind you in a tunnel. The road ahead is clear and the operator has issued no contrary instructions. What should you do?",
+      "options": [
+        "Continue out of the tunnel safely.",
+        "Reverse towards the fire to warn the other driver.",
+        "Stop in your lane and wait for the fire to reach you."
+      ],
+      "answer": 0,
+      "explanation": "The RSA advises driving out if the fire is behind you. Conditions and instructions still determine whether the route ahead is safe.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Fire in another vehicle, page 164",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises driving out if the fire is behind you. Conditions and instructions still determine whether the route ahead is safe.",
+        "scope": "Fire behind the driver with a usable route ahead."
+      }
+    },
+    {
+      "id": "mock-awkward-vehicle-level-crossing",
+      "scenarioId": "awkward-vehicle-level-crossing",
+      "topic": "dimensions",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "You are moving an unusually long, low vehicle over a minor-road level crossing protected by lights only. What should you arrange before crossing?",
+      "options": [
+        "Contact the railway using the crossing information to obtain permission.",
+        "Proceed whenever a smaller vehicle crosses immediately ahead.",
+        "Wait for a regular train to pass and then cross without contacting anyone."
+      ],
+      "answer": 0,
+      "explanation": "The RSA calls for contacting the railway before unusual vehicle movements at the specified crossing types.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Unusual movements across level crossings, page 92",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA calls for contacting the railway before unusual vehicle movements at the specified crossing types.",
+        "scope": "An awkward vehicle at a minor-road crossing protected by traffic lights only."
+      }
+    },
+    {
+      "id": "mock-deep-tyre-cut-found",
+      "scenarioId": "deep-tyre-cut-found",
+      "topic": "checks",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "An HGV tyre has a deep cut with signs of carcass damage, but it is still holding air. How should you treat it?",
+      "options": [
+        "Use it at a lower speed if the pressure holds.",
+        "Put the damaged tyre on a different axle and drive.",
+        "Keep the truck out of service and report it for qualified assessment."
+      ],
+      "answer": 2,
+      "explanation": "A tyre can be unsafe despite holding air. Deep cuts and carcass damage are part of the roadworthiness check.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/en-US/Operator-Driver-Obligations/maintenance-and-repairs/~/assets/pdf/Guide_to_keeping_your_commercial_vehicle_roadworthy_pdf",
+        "section": "Section 6, External vehicle checks, tyres, page 44",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A tyre can be unsafe despite holding air. Deep cuts and carcass damage are part of the roadworthiness check.",
+        "scope": "Deep cut with signs of structural tyre damage."
+      }
+    },
+    {
+      "id": "mock-dash-gauge-sensor-check",
+      "scenarioId": "dash-gauge-sensor-check",
+      "topic": "checks",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "On a familiar truck, a dashboard gauge gives no reading when it would normally be active. What should you do before use?",
+      "options": [
+        "Rely on the last value recorded by the previous driver.",
+        "Drive if none of the exterior lamps are affected.",
+        "Record and report the fault so it can be assessed."
+      ],
+      "answer": 2,
+      "explanation": "Instruments and warning devices are included in the HGV check. A missing reading should be investigated.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/assets/pdf/HCV%20Walk%20Around%20Check%20Form%20and%20defect%20report.pdf",
+        "section": "Walk-around check items, Instruments, gauges and warning devices",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Instruments and warning devices are included in the HGV check. A missing reading should be investigated.",
+        "scope": "An active instrument fails its normal function check."
+      }
+    },
+    {
+      "id": "mock-fuel-oil-puddle-source",
+      "scenarioId": "fuel-oil-puddle-source",
+      "topic": "checks",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "Before departure you see a fresh patch beneath the truck that appears to be fuel or oil. What should you do?",
+      "options": [
+        "Assume it was left by the last vehicle to park there and continue.",
+        "Drive to warm the vehicle and see whether the patch disappears.",
+        "Check and report the suspected leak before taking the vehicle out."
+      ],
+      "answer": 2,
+      "explanation": "The HGV checklist includes fuel and oil leaks. Have a suspected leak assessed under the operator’s procedure.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/assets/pdf/HCV%20Walk%20Around%20Check%20Form%20and%20defect%20report.pdf",
+        "section": "Walk-around check items, Fuel/Oil Leaks",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The HGV checklist includes fuel and oil leaks. Have a suspected leak assessed under the operator’s procedure.",
+        "scope": "Fresh fluid of uncertain origin noticed during a pre-use check."
+      }
+    },
+    {
+      "id": "mock-seatbelt-latch-fails",
+      "scenarioId": "seatbelt-latch-fails",
+      "topic": "checks",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "The driver’s seat belt will not latch during a pre-use check. What is appropriate?",
+      "options": [
+        "Keep the webbing across your lap without latching it.",
+        "Report the defect and have it addressed before driving.",
+        "Drive if the seat itself is correctly adjusted."
+      ],
+      "answer": 1,
+      "explanation": "The seat belt is a distinct safety item. A failed latch prevents the belt working as intended.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/assets/pdf/HCV%20Walk%20Around%20Check%20Form%20and%20defect%20report.pdf",
+        "section": "Walk-around check items, Driver’s seat and seat belts",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The seat belt is a distinct safety item. A failed latch prevents the belt working as intended.",
+        "scope": "The driver’s fitted seat belt cannot be fastened."
+      }
+    },
+    {
+      "id": "mock-reflector-surface-dirty",
+      "scenarioId": "reflector-surface-dirty",
+      "topic": "checks",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "Road dirt obscures an HGV’s rear reflectors, although its tail lights work. What should you do before departure?",
+      "options": [
+        "Leave the reflectors because the lamps are working.",
+        "Switch on rear fog lights to compensate.",
+        "Clean the reflectors and confirm they are visible."
+      ],
+      "answer": 2,
+      "explanation": "Reflectors are a separate visibility check. Keep them clean so they can return light from other vehicles.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 4, Lights and reflectors",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Reflectors are a separate visibility check. Keep them clean so they can return light from other vehicles.",
+        "scope": "Working tail lights and dirt-obscured reflectors."
+      }
+    },
+    {
+      "id": "mock-spray-suppression-damaged",
+      "scenarioId": "spray-suppression-damaged",
+      "topic": "checks",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "You find a damaged spray-suppression flap during your HGV check. Should you ignore it because the road is dry?",
+      "options": [
+        "No. Record and report it as a defect for assessment.",
+        "Yes, unless it is raining at the time of the check.",
+        "Yes, as long as the rear lights are still visible."
+      ],
+      "answer": 0,
+      "explanation": "The checklist includes spray-suppression equipment. Current weather does not remove the need to record a defect.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/assets/pdf/HCV%20Walk%20Around%20Check%20Form%20and%20defect%20report.pdf",
+        "section": "Walk-around check items, Spray Suppression/Wings",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The checklist includes spray-suppression equipment. Current weather does not remove the need to record a defect.",
+        "scope": "HGV equipped with a spray-suppression flap."
+      }
+    },
+    {
+      "id": "mock-number-plate-hidden",
+      "scenarioId": "number-plate-hidden",
+      "topic": "checks",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A rear plate is hidden by road grime after a previous shift. What should you do before the next journey?",
+      "options": [
+        "Write the registration on a note in the cab instead.",
+        "Clean it at the next annual vehicle test.",
+        "Clean the plate so its characters can be read."
+      ],
+      "answer": 2,
+      "explanation": "Number and marker plates are part of the HGV check. A plate needs to be legible from outside the vehicle.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/assets/pdf/HCV%20Walk%20Around%20Check%20Form%20and%20defect%20report.pdf",
+        "section": "Walk-around check items, Number plates and marker plates",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Number and marker plates are part of the HGV check. A plate needs to be legible from outside the vehicle.",
+        "scope": "A fitted rear number plate is obscured by dirt."
+      }
+    },
+    {
+      "id": "mock-heavy-items-low-stack",
+      "scenarioId": "heavy-items-low-stack",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "Your load plan permits two kinds of boxes to be stacked and the lower boxes can support the load. Where should the heavier boxes go to improve stability?",
+      "options": [
+        "At the top so they press down on the lighter boxes.",
+        "Lower in the stack, with the weight suitably distributed.",
+        "Alternating at the top corners to equalise the height."
+      ],
+      "answer": 1,
+      "explanation": "Putting heavier items lower helps keep the centre of gravity down. Check the weight and strength of the complete stack.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/txnlygzl/safetyloadsonvehicles.pdf",
+        "section": "Section 3.12, basic principles, page 19",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Putting heavier items lower helps keep the centre of gravity down. Check the weight and strength of the complete stack.",
+        "scope": "Stackable cargo with suitable supporting packaging and a securing plan."
+      }
+    },
+    {
+      "id": "mock-part-delivery-recheck-distribution",
+      "scenarioId": "part-delivery-recheck-distribution",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "After taking part of a multi-drop load off a vehicle, what should the driver check before continuing?",
+      "options": [
+        "Only that the gross weight has fallen.",
+        "How the remaining weight is distributed and how the remaining load is secured.",
+        "Only that the doors can be closed without touching the goods."
+      ],
+      "answer": 1,
+      "explanation": "Removing cargo changes the loading pattern and can affect axle weights, stability and the remaining restraint.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/txnlygzl/safetyloadsonvehicles.pdf",
+        "section": "Section 7.3, General Freight, page 41",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Removing cargo changes the loading pattern and can affect axle weights, stability and the remaining restraint.",
+        "scope": "A partial delivery changes the original load arrangement."
+      }
+    },
+    {
+      "id": "mock-container-positive-twistlock",
+      "scenarioId": "container-positive-twistlock",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A conventional ISO freight container is placed on a compatible skeletal trailer. Which fittings provide positive restraint through the container’s corner castings?",
+      "options": [
+        "The ordinary curtain buckles.",
+        "The trailer’s serviceable twist locks.",
+        "The air lines between tractor and trailer."
+      ],
+      "answer": 1,
+      "explanation": "The twist locks engage the container’s corner castings. The operator must confirm the fitted system is correctly engaged before transport.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/txnlygzl/safetyloadsonvehicles.pdf",
+        "section": "Section 12.2–12.3, ISO/BS Containers, page 73",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The twist locks engage the container’s corner castings. The operator must confirm the fitted system is correctly engaged before transport.",
+        "scope": "Compatible container and skeletal trailer designed for twist-lock restraint."
+      }
+    },
+    {
+      "id": "mock-part-filled-liquid-movement",
+      "scenarioId": "part-filled-liquid-movement",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "Why can a partially filled bulk liquid container affect a truck’s stability when it changes direction?",
+      "options": [
+        "The liquid can move inside the container and shift the load’s effect on the vehicle.",
+        "Part filling always locks the liquid in place.",
+        "Direction changes affect the container only when it is empty."
+      ],
+      "answer": 0,
+      "explanation": "A liquid load can surge inside a partly filled container. The effect is relevant when choosing how to drive and carry it.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/txnlygzl/safetyloadsonvehicles.pdf",
+        "section": "Section 12.5, Bulk Liquid Containers, page 74",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A liquid load can surge inside a partly filled container. The effect is relevant when choosing how to drive and carry it.",
+        "scope": "Partially filled bulk liquid container."
+      }
+    },
+    {
+      "id": "mock-sharp-edge-lashing-protection",
+      "scenarioId": "sharp-edge-lashing-protection",
+      "topic": "loads",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A webbing lashing in an approved securing plan passes over an edge that could damage it. What should the driver check?",
+      "options": [
+        "That appropriate edge protection is fitted before tensioning it.",
+        "That the lashing is twisted so the edge cannot be seen.",
+        "That the strap has a high breaking force, which makes edge protection unnecessary."
+      ],
+      "answer": 0,
+      "explanation": "Use suitable edge protection to protect the webbing and distribute the tie-down force.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/eng/Vehicles_at_Work/Load_Securing/Guidance_and_Publications/Curtain_Sided_Info_Sheet.pdf",
+        "section": "Edge protector example, Figure 8",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Use suitable edge protection to protect the webbing and distribute the tie-down force.",
+        "scope": "Webbing contacts an edge. Use equipment compatible with the securing plan."
+      }
+    },
+    {
+      "id": "mock-trailer-lock-positive-check",
+      "scenarioId": "trailer-lock-positive-check",
+      "topic": "trailers",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "You heard a click during fifth-wheel coupling. What further check does the cited procedure describe to verify engagement?",
+      "options": [
+        "A controlled low-gear pull check against the secured trailer, following the operator’s procedure.",
+        "Move straight onto the road because the click verifies the lock.",
+        "Release the trailer brake and lift the trailer with the landing gear to test it."
+      ],
+      "answer": 0,
+      "explanation": "The procedure uses a controlled pull to help check that the locking mechanism has engaged. Complete all other locking and visual checks.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/ekrfb0bh/roadsense-guide.pdf",
+        "section": "Coupling Procedure",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The procedure uses a controlled pull to help check that the locking mechanism has engaged. Complete all other locking and visual checks.",
+        "scope": "Conventional fifth wheel. The vehicle’s approved safe procedure governs the sequence."
+      }
+    },
+    {
+      "id": "mock-uncoupling-place-selection",
+      "scenarioId": "uncoupling-place-selection",
+      "topic": "trailers",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "You need to leave a semi-trailer temporarily. What should you decide before beginning uncoupling?",
+      "options": [
+        "Whether other vehicles are likely to hear the air lines disconnect.",
+        "Whether the tractor can leave before the trailer brakes are applied.",
+        "Whether there is a safe and legal place to park and support it."
+      ],
+      "answer": 2,
+      "explanation": "The uncoupling procedure starts by selecting a safe, legal parking position. Trailer support and movement must be controlled.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.hsa.ie/media/ekrfb0bh/roadsense-guide.pdf",
+        "section": "Uncoupling Procedure",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The uncoupling procedure starts by selecting a safe, legal parking position. Trailer support and movement must be controlled.",
+        "scope": "Choose the site before uncoupling. Follow the operator’s full procedure."
+      }
+    },
+    {
+      "id": "mock-air-line-before-departure",
+      "scenarioId": "air-line-before-departure",
+      "topic": "trailers",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "The trailer is mechanically coupled and its lights work. Which separate connection check still relates to the trailer braking system?",
+      "options": [
+        "Check that the trailer brake connections are correct and secure.",
+        "Check the lighting connector twice in place of the brake check.",
+        "Check only that the trailer number plate is fitted."
+      ],
+      "answer": 0,
+      "explanation": "Electrical lighting and trailer brake connections are separate pre-use checks.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.cvrt.ie/assets/pdf/HCV%20Walk%20Around%20Check%20Form%20and%20defect%20report.pdf",
+        "section": "Walk-around check items, Trailer Brake Connections",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Electrical lighting and trailer brake connections are separate pre-use checks.",
+        "scope": "A coupled trailer with separate brake and lighting connections."
+      }
+    },
+    {
+      "id": "mock-retarder-purpose-long-descent",
+      "scenarioId": "retarder-purpose-long-descent",
+      "topic": "braking",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "On a long descent, why may an appropriate retarder be useful in a truck?",
+      "options": [
+        "It provides more grip at the tyres regardless of conditions.",
+        "It replaces the need to select an appropriate speed before descending.",
+        "It can help control speed while reducing reliance on the wheel brakes."
+      ],
+      "answer": 2,
+      "explanation": "Endurance braking can control speed through the driveline so that less continuous use of the service brakes is needed.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/truck-driver-cpc-module-5.3-s1-web.pdf?sfvrsn=af5c4a30_3",
+        "section": "Endurance Braking Systems and Retarders",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Endurance braking can control speed through the driveline so that less continuous use of the service brakes is needed.",
+        "scope": "A truck fitted with a retarder. Use it according to the vehicle procedure and conditions."
+      }
+    },
+    {
+      "id": "mock-abs-helps-steering",
+      "scenarioId": "abs-helps-steering",
+      "topic": "braking",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A wheel is about to lock during braking on a slippery road. What is the principal benefit of the truck’s working ABS?",
+      "options": [
+        "It helps preserve steering control by limiting wheel lock.",
+        "It guarantees a shorter stopping distance in every condition.",
+        "It increases the available grip between the tyre and the road."
+      ],
+      "answer": 0,
+      "explanation": "ABS changes brake pressure to reduce wheel lock and help the driver retain steering. It does not guarantee a shorter stop.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/truck-driver-cpc-module-5.3-s1-web.pdf?sfvrsn=af5c4a30_3",
+        "section": "Antilock Braking System (ABS)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "ABS changes brake pressure to reduce wheel lock and help the driver retain steering. It does not guarantee a shorter stop.",
+        "scope": "Vehicle with working ABS. Use the manufacturer’s braking instructions."
+      }
+    },
+    {
+      "id": "mock-front-tyre-blowout-space-ahead",
+      "scenarioId": "front-tyre-blowout-space-ahead",
+      "topic": "emergency",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A front tyre blows on a straight road and you have clear space ahead. What immediate response does the RSA advise?",
+      "options": [
+        "Apply the foot brake as hard as possible before correcting the steering.",
+        "Hold the steering wheel firmly, ease off the accelerator and avoid harsh braking.",
+        "Accelerate until the steering feels lighter."
+      ],
+      "answer": 1,
+      "explanation": "A front blowout can pull the vehicle sideways. Steer firmly and allow speed to reduce when space permits.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/truck-driver-cpc-module-5.3-s1-web.pdf?sfvrsn=af5c4a30_3",
+        "section": "If your vehicle suffers a tyre blowout",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A front blowout can pull the vehicle sideways. Steer firmly and allow speed to reduce when space permits.",
+        "scope": "Front tyre blowout with space ahead. Respond to the immediate road situation."
+      }
+    },
+    {
+      "id": "mock-unattended-rail-gates-resecure",
+      "scenarioId": "unattended-rail-gates-resecure",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "After safely crossing an unattended gated level crossing, what should you do about the gates?",
+      "options": [
+        "Leave them open for the next road user.",
+        "Shut and fasten them after you.",
+        "Close only the gate on the side from which you approached."
+      ],
+      "answer": 1,
+      "explanation": "The RSA directs users to shut and fasten the gates after crossing. Open gates can expose others to the railway.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Unattended level crossings, page 91",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA directs users to shut and fasten the gates after crossing. Open gates can expose others to the railway.",
+        "scope": "User-worked, unattended level crossing with gates."
+      }
+    },
+    {
+      "id": "mock-physical-width-approach",
+      "scenarioId": "physical-width-approach",
+      "topic": "dimensions",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "The width of your vehicle exceeds the number on a signed maximum-width restriction. Can you proceed if the road ahead has no oncoming traffic?",
+      "options": [
+        "Yes, as long as you keep to the middle of the road.",
+        "No. Find a route that meets the signed width restriction.",
+        "Yes, if you fold a mirror in and drive slowly past the sign."
+      ],
+      "answer": 1,
+      "explanation": "The width limit applies even when other traffic is absent. Plan a suitable alternative.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Upright signs, maximum width, page 69",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The width limit applies even when other traffic is absent. Plan a suitable alternative.",
+        "scope": "Vehicle exceeds the dimension to which the signed restriction applies."
+      }
+    },
+    {
+      "id": "mock-permit-indivisible-definition",
+      "scenarioId": "permit-indivisible-definition",
+      "topic": "dimensions",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "What makes an over-limit load indivisible in the RSA’s abnormal-load guidance?",
+      "options": [
+        "The load cannot be divided into smaller loads.",
+        "The load has been placed on a single trailer.",
+        "The customer prefers it to arrive in one delivery."
+      ],
+      "answer": 0,
+      "explanation": "The indivisible element concerns whether the load itself can be divided. The abnormal element concerns exceeding a relevant limit.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/road-safety/road-users/professional-drivers/vehicle-safety-legislation/weights-and-dimensions",
+        "section": "Frequently asked questions, What is an abnormal indivisible load?",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The indivisible element concerns whether the load itself can be divided. The abnormal element concerns exceeding a relevant limit.",
+        "scope": "Use the RSA guidance to determine what permits apply to the actual move."
+      }
+    },
+    {
+      "id": "mock-height-permit-authority",
+      "scenarioId": "height-permit-authority",
+      "topic": "dimensions",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A non-agricultural indivisible load exceeds the ordinary legal height limit. Which authority’s permit does the RSA table identify for excess height?",
+      "options": [
+        "A Driver Theory Test Service permit.",
+        "A Garda designated-route permit for length and width alone.",
+        "A local authority permit."
+      ],
+      "answer": 2,
+      "explanation": "The RSA table directs over-height cases in this category to the local authority. Other excess dimensions can create additional requirements.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/road-safety/road-users/professional-drivers/vehicle-safety-legislation/weights-and-dimensions",
+        "section": "Frequently asked questions, How do I know which permit to apply for?",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA table directs over-height cases in this category to the local authority. Other excess dimensions can create additional requirements.",
+        "scope": "Non-agricultural abnormal indivisible load exceeding the height limit."
+      }
+    },
+    {
+      "id": "mock-digital-tacho-country-start-end",
+      "scenarioId": "digital-tacho-country-start-end",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "An in-scope driver uses a digital tachograph without automatic recording of the country data in question. Which country information is required for the daily working period?",
+      "options": [
+        "The countries in which the daily working period begins and ends.",
+        "Only the country that issued the driver’s licence.",
+        "Only the country where the vehicle was registered."
+      ],
+      "answer": 0,
+      "explanation": "Country symbols identify where the daily work begins and ends. Automatic recording and border entries have separate provisions.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/eli/reg/2014/165/2024-12-31/eng",
+        "section": "Regulation 165/2014, Article 34(7)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Country symbols identify where the daily work begins and ends. Automatic recording and border entries have separate provisions.",
+        "scope": "Digital tachograph without the applicable automatic location recording."
+      }
+    },
+    {
+      "id": "mock-card-malfunction-normal-residence",
+      "scenarioId": "card-malfunction-normal-residence",
+      "topic": "hours",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "Your tachograph card malfunctions while you are away from home. Where should you return the malfunctioning card?",
+      "options": [
+        "To the competent authority in your Member State of normal residence.",
+        "To the police in the country where you noticed the fault.",
+        "To the vehicle manufacturer."
+      ],
+      "answer": 0,
+      "explanation": "The return rule for a damaged or malfunctioning card uses normal residence. Theft and loss have separate declaration rules.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/eli/reg/2014/165/2024-12-31/eng",
+        "section": "Regulation 165/2014, Article 29(2)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The return rule for a damaged or malfunctioning card uses normal residence. Theft and loss have separate declaration rules.",
+        "scope": "Malfunctioning card, not a stolen or lost card."
+      }
+    },
+    {
+      "id": "mock-two-week-rest-pattern",
+      "scenarioId": "two-week-rest-pattern",
+      "topic": "hours",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "Under the standard EU two-week rule, what is the permitted minimum pattern if an in-scope goods driver takes one reduced weekly rest?",
+      "options": [
+        "Two reduced weekly rests of 24 hours with no regular weekly rest.",
+        "One regular weekly rest and one reduced weekly rest of 15 hours.",
+        "One regular weekly rest and one reduced weekly rest of at least 24 hours."
+      ],
+      "answer": 2,
+      "explanation": "The standard pattern in two consecutive weeks permits one regular weekly rest and one reduced weekly rest of at least 24 hours.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 8(6), first subparagraph",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The standard pattern in two consecutive weeks permits one regular weekly rest and one reduced weekly rest of at least 24 hours.",
+        "scope": "No exception for qualifying international goods operations. Compensation and timing rules still apply."
+      }
+    },
+    {
+      "id": "mock-regular-daily-rest-deadline",
+      "scenarioId": "regular-daily-rest-deadline",
+      "topic": "hours",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "An in-scope solo goods driver finishes their previous rest at 05:00 on Tuesday. With no exception, by when must the required new daily rest have been taken?",
+      "options": [
+        "By the end of Wednesday’s calendar day.",
+        "By 05:00 on Wednesday.",
+        "It only has to start by 05:00 on Wednesday."
+      ],
+      "answer": 1,
+      "explanation": "The required new daily rest must fall within the 24-hour period following the end of the previous daily or weekly rest.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 8(2)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The required new daily rest must fall within the 24-hour period following the end of the previous daily or weekly rest.",
+        "scope": "Standard solo rule. The applicable rest length and any split are separate requirements."
+      }
+    },
+    {
+      "id": "mock-contra-flow-bus-lane-after-hours",
+      "scenarioId": "contra-flow-bus-lane-after-hours",
+      "topic": "signs",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "At night, a goods driver sees an empty contra-flow bus lane running opposite the traffic beside it. May they use it as a shortcut?",
+      "options": [
+        "Yes. All bus lanes become general lanes after the evening peak.",
+        "No. The contra-flow lane is reserved and does not open to ordinary trucks at night.",
+        "Yes, if the truck uses its dipped headlights."
+      ],
+      "answer": 1,
+      "explanation": "A contra-flow bus lane is reserved in both daytime and night-time. A permitted cycling exception does not cover a goods vehicle.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Contra-flow bus lane, page 85",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A contra-flow bus lane is reserved in both daytime and night-time. A permitted cycling exception does not cover a goods vehicle.",
+        "scope": "An ordinary goods vehicle without an authorised exemption."
+      }
+    },
+    {
+      "id": "mock-centre-lines-nearer-solid",
+      "scenarioId": "centre-lines-nearer-solid",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "One continuous white line and one broken white line run together along the centre of a two-way road. The continuous line is nearest you. Which line applies to you?",
+      "options": [
+        "The continuous line nearest your lane.",
+        "The broken line because it is visible beside the continuous one.",
+        "Whichever one gives the larger lane on approach."
+      ],
+      "answer": 0,
+      "explanation": "Drivers obey the line nearest them. A broken line on the other side does not cancel the nearer continuous line.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Road markings, page 75",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Drivers obey the line nearest them. A broken line on the other side does not cancel the nearer continuous line.",
+        "scope": "Ordinary driving without an applicable exception to the continuous line."
+      }
+    },
+    {
+      "id": "mock-begin-journey-fatigue-night-shift",
+      "scenarioId": "begin-journey-fatigue-night-shift",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You have just finished a night shift and are planning a long drive after very little sleep. What is the safest change to the plan?",
+      "options": [
+        "Keep the same plan but leave before traffic increases.",
+        "Drive faster in daylight so the journey takes less time.",
+        "Arrange to get adequate sleep before driving or use another safe means of travel."
+      ],
+      "answer": 2,
+      "explanation": "Sleep is the basis for managing fatigue, and driving after night work is a recognised risk.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 13, Driver tiredness and fatigue, page 176",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Sleep is the basis for managing fatigue, and driving after night work is a recognised risk.",
+        "scope": "Trip planning before setting off, not an immediate on-road response."
+      }
+    },
+    {
+      "id": "mock-speed-vehicle-limit-motorway",
+      "scenarioId": "speed-vehicle-limit-motorway",
+      "topic": "braking",
+      "categories": [
+        "C"
+      ],
+      "use": "mock",
+      "question": "A rigid goods vehicle has a maximum authorised mass above 3,500 kg and is travelling on a motorway signed at 120 km/h. It is towing nothing. What vehicle speed limit applies?",
+      "options": [
+        "80 km/h.",
+        "90 km/h.",
+        "100 km/h."
+      ],
+      "answer": 1,
+      "explanation": "The motorway-specific vehicle limit for this goods vehicle is 90 km/h. A lower posted limit or conditions can require less.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Speed limits for vehicles, pages 120–121",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The motorway-specific vehicle limit for this goods vehicle is 90 km/h. A lower posted limit or conditions can require less.",
+        "scope": "Ordinary rigid goods vehicle above 3,500 kg, motorway, no trailer and no lower limit."
+      }
+    },
+    {
+      "id": "mock-learner-motorway-restriction",
+      "scenarioId": "learner-motorway-restriction",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A driver holds only a learner permit for the vehicle they are driving. Can they use a motorway if a qualified accompanying driver is in the cab?",
+      "options": [
+        "Yes. A qualified accompanying driver removes the motorway restriction.",
+        "No. A learner permit for that vehicle does not allow motorway driving.",
+        "Yes, if the learner stays in the left lane."
+      ],
+      "answer": 1,
+      "explanation": "Learner permit holders cannot drive on a motorway under the ordinary rules, even with an accompanying driver.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, General rules, page 148",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Learner permit holders cannot drive on a motorway under the ordinary rules, even with an accompanying driver.",
+        "scope": "Driver holds a learner permit for the category and has no full entitlement for it."
+      }
+    },
+    {
+      "id": "mock-rearview-dazzle-mirror-mode",
+      "scenarioId": "rearview-dazzle-mirror-mode",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A vehicle behind dazzles you through a fitted interior mirror with a night-driving setting. What can help reduce the glare?",
+      "options": [
+        "Turn the mirror away from the road and leave it there.",
+        "Switch your rear fog lights on to warn the following driver.",
+        "Use the mirror’s night-driving setting while retaining a rear view."
+      ],
+      "answer": 2,
+      "explanation": "The RSA advises using the interior mirror’s night setting when reflected glare comes from behind.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 5, What to do if you are dazzled, page 65",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises using the interior mirror’s night setting when reflected glare comes from behind.",
+        "scope": "Vehicle fitted with an interior mirror and a night-driving setting."
+      }
+    }
+  ],
+  "papers": [
+    {
+      "id": "truck-c-1",
+      "name": "Truck mock 1",
+      "category": "C",
+      "questionIds": [
+        "mock-physical-width-approach",
+        "mock-with-flow-bus-lane-timed-truck",
+        "mock-distance-incentive-safety",
+        "mock-damaged-webbing-fray",
+        "mock-shortening-centre-mark-gaps",
+        "mock-one-way-site-design",
+        "mock-disconnect-airline-stow",
+        "mock-abs-helps-steering",
+        "mock-weekly-rest-start-deadline",
+        "mock-wheel-fixings-pre-use",
+        "mock-height-permit-authority",
+        "mock-round-timber-load-shift",
+        "mock-reversing-guide-lost",
+        "mock-anchor-rope-hooks",
+        "mock-permit-indivisible-definition",
+        "mock-unexpected-air-pressure-drop",
+        "mock-lower-road-and-vehicle-limit",
+        "mock-broken-yield-line-empty",
+        "mock-part-filled-liquid-movement",
+        "mock-number-plate-hidden",
+        "mock-cyclist-centre-of-lane-reason",
+        "mock-centre-lines-nearer-solid",
+        "mock-learner-motorway-restriction",
+        "mock-abs-warning-check",
+        "mock-reduced-weekly-rest-owed",
+        "mock-left-turn-cyclist-not-pass",
+        "mock-motorway-object-report",
+        "mock-sideguard-security",
+        "mock-compensation-attachment",
+        "mock-tunnel-stop-radio-instructions",
+        "mock-overtake-hidden-dip",
+        "mock-collision-property-owner-details",
+        "mock-rail-crossing-stalled-vehicle",
+        "mock-tunnel-fire-behind",
+        "mock-sharp-edge-lashing-protection",
+        "mock-pass-left-right-turning-vehicle",
+        "mock-contra-flow-bus-lane-after-hours",
+        "mock-begin-journey-fatigue-night-shift",
+        "mock-warning-diamond-dangerous-bends",
+        "mock-trailer-lock-positive-check",
+        "mock-cab-door-cyclist-check",
+        "mock-away-from-tachograph-manual-entry",
+        "mock-uncoupling-place-selection",
+        "mock-footpath-partial-parking",
+        "mock-traffic-stop-space-emergency",
+        "mock-direct-lashing-lc",
+        "mock-night-headlight-alignment",
+        "mock-advance-cycle-stop-line",
+        "mock-dash-gauge-sensor-check",
+        "mock-fuel-oil-puddle-source",
+        "mock-part-delivery-recheck-distribution",
+        "mock-red-traffic-light-no-line",
+        "mock-cyclist-passing-room-fast-road",
+        "mock-reflector-surface-dirty",
+        "mock-animal-passing-no-horn",
+        "mock-indirect-lashing-stf",
+        "mock-digital-tacho-country-start-end",
+        "mock-overtaking-at-crossing",
+        "mock-lane-red-x-no-pass",
+        "mock-handheld-dispatch-message",
+        "mock-already-on-railway-crossing",
+        "mock-retarder-purpose-long-descent",
+        "mock-school-warden-still-in-road",
+        "mock-stow-landing-gear-handle",
+        "mock-speed-vehicle-limit-motorway",
+        "mock-horn-builtup-night",
+        "mock-seatbelt-latch-fails",
+        "mock-following-night-dip",
+        "mock-road-restraint-direction",
+        "mock-bridge-contact-no-visible-damage",
+        "mock-replacement-card-deadline",
+        "mock-takeover-card-start",
+        "mock-container-positive-twistlock",
+        "mock-yellow-box-railway-turn",
+        "mock-near-junction-parking-distance",
+        "mock-digital-records-control-window",
+        "mock-orange-diamond-roadwork-warning",
+        "mock-tram-access-only-shortcut",
+        "mock-rearview-dazzle-mirror-mode",
+        "mock-lane-arrow-move-right",
+        "mock-two-week-rest-pattern",
+        "mock-deep-tyre-cut-found",
+        "mock-shared-space-speed-choice",
+        "mock-ratchet-extension-bar",
+        "mock-braking-under-steering-load",
+        "mock-front-blind-spot-mirror-role",
+        "mock-front-tyre-blowout-space-ahead",
+        "mock-blocked-inner-motorway-lane",
+        "mock-motorway-deceleration-lane",
+        "mock-awkward-vehicle-level-crossing",
+        "mock-loading-bay-waiting-for-goods",
+        "mock-air-line-before-departure",
+        "mock-heavy-items-low-stack",
+        "mock-dgvw-sign-unladen-lorry",
+        "mock-moving-off-information-alert",
+        "mock-spray-suppression-damaged",
+        "mock-being-overtaken-hold-pace",
+        "mock-unattended-rail-gates-resecure",
+        "mock-regular-daily-rest-deadline",
+        "mock-washer-function-check"
+      ],
+      "reviewer": "Codex (editorial coverage check)",
+      "checkedOn": "2026-11-07",
+      "coverage": "Editorial allocation: 5 braking, 12 checks, 5 dimensions, 8 emergency, 11 hours, 12 loads, 11 risk, 17 rules, 14 signs, 5 trailers. This is a practice blueprint. It does not claim to reproduce the official question distribution."
     }
   ]
 }

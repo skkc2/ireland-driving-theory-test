@@ -153,7 +153,7 @@ get('#export').addEventListener('submit', event => {
 
 try {
   const [bank, study] = await Promise.all([fetchJson('questions.json'), fetchJson('../data/study.json')]);
-  topics = loadReviewQueue(study.topics, bank.questions);
+  topics = loadReviewQueue(study.topics, bank.questions, bank.papers);
   questions = bank.questions;
   const encoder = new TextEncoder();
   revisions = new Map(await Promise.all(questions.map(async q => {

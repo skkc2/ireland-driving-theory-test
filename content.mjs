@@ -8,7 +8,7 @@ const present = value => typeof value === 'string' && value.trim().length > 0;
 const id = value => present(value) && /^[a-z0-9-]+$/.test(value);
 const date = value => /^\d{4}-\d{2}-\d{2}$/.test(value) &&
   Number.isFinite(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
-const authority = /^(www\.)?(rsa\.ie|theorytest\.ie|cvrt\.ie|hsa\.ie|tii\.ie|irishstatutebook\.ie|eur-lex\.europa\.eu)$/;
+const authority = /^(www\.)?(rsa\.ie|theorytest\.ie|transportforireland\.ie|cvrt\.ie|hsa\.ie|tii\.ie|irishstatutebook\.ie|eur-lex\.europa\.eu)$/;
 const normal = value => value.toLowerCase().trim().replace(/\s+/g, ' ').replace(/[.!?]+$/, '');
 
 function source(value) {

@@ -4,7 +4,7 @@ A free static revision hub for Irish professional-driver theory study. No accoun
 
 ## Study content
 
-The site includes 12 source-linked lessons. The candidate bank in `review/questions.json` contains 100 topic questions and 112 mock candidates. Each has an AI editorial source check dated 7 November 2026. Independent review is pending for all 212. The first Category C mock has 100 allocated candidates covering ten topics. Practice and mocks stay paused until the relevant questions are independently approved.
+The site includes 12 source-linked lessons. The candidate bank in `review/questions.json` contains 100 topic questions and 202 mock candidates. Each has an AI editorial source check dated 7 November 2026. Independent review is pending for all 302. The first Category C and Category D mocks each have 100 allocated candidates and share no questions. Practice and mocks stay paused until the relevant questions are independently approved.
 
 The original 600 rows are archived in `data/questions.json`. The structural audit found 264 distinct scenario stems and 336 repeated rows. The public app loads only `data/study.json`. The review queue is separate from both files.
 

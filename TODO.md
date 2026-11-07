@@ -34,7 +34,7 @@ Build a free, reliable study website for Irish professional-driver theory prepar
 - [x] Separated CPC case-study guidance from the multiple-choice exam formats.
 - [x] Added 12 source-linked lessons. The site distinguishes core road-safety study, professional-driver guidance and supplementary ADR study. These labels do not represent an official test blueprint.
 - [x] Built the starter quiz interface with immediate feedback and a review of incorrect and unanswered questions.
-- [x] Prepared 100 topic questions and 112 mock candidates with an AI source check. Allocated 100 to the first Category C candidate paper.
+- [x] Prepared 100 topic questions and 202 mock candidates with an AI source check. Allocated 100 each to the first C and D candidate papers, with no shared questions.
 - [x] Added the independent review page with answer-first review, change requests and versioned export.
 - [x] Added a shared content gate and a timed mock interface with instructions, question navigation, flagging, submission review and raw-mark scoring.
 - [x] Added automated checks and a Pages publishing step that excludes the archived draft bank.
@@ -52,7 +52,7 @@ Build a free, reliable study website for Irish professional-driver theory prepar
 - [ ] Remove semantic duplicates and unsupported, ambiguous or out-of-scope questions.
 - [ ] Write original questions in a clear Irish heavy-vehicle context.
 - [ ] Build a target bank of 600 distinct, individually checked questions:
-  - [ ] Write and check 388 more mock candidates, then complete allocations for the four remaining papers.
+  - [ ] Write and check 298 more mock candidates, then complete allocations for the three remaining papers.
   - [x] Write and AI source-check 100 topic questions. Independent review remains open.
 - [ ] Ensure there is no question overlap between the five mock papers.
 - [ ] Give every question 3–4 plausible options, one defensible correct answer and a concise explanation.
@@ -126,7 +126,7 @@ Additional checks:
 | Learning material | 12 source-linked lessons |
 | Existing question rows | 600 draft rows; not validated |
 | Distinct scenario stems in current bank | 264 found by structural audit |
-| AI source-check queue | 100 topic questions and 112 mock candidates, including one 100-question Category C paper |
+| AI source-check queue | 100 topic questions and 202 mock candidates, including one 100-question paper each for C and D |
 | Independent instructor review | Not completed |
 | Mock exams | Paused |
 | Topic quizzes | Paused until independent review |

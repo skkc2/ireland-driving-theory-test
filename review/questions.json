@@ -5634,6 +5634,2368 @@
         "rationale": "The RSA advises using the interior mirror’s night setting when reflected glare comes from behind.",
         "scope": "Vehicle fitted with an interior mirror and a night-driving setting."
       }
+    },
+    {
+      "id": "mock-kerb-gap-boarding",
+      "scenarioId": "kerb-gap-boarding",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "At a clear bus stop, you can pull in closer to the kerb safely. Why does that matter for boarding?",
+      "options": [
+        "A larger gap gives passengers more time to see the bus.",
+        "A smaller gap makes it easier for passengers who have difficulty stepping across it.",
+        "The gap affects only the passengers’ view of the destination display."
+      ],
+      "answer": 1,
+      "explanation": "Stop suitably close to the kerb where practical to reduce the step across for passengers.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section A, Hurrying loading/unloading passengers, p. 4",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Stop suitably close to the kerb where practical to reduce the step across for passengers.",
+        "scope": "A safe, clear stop where positioning nearer the kerb is possible."
+      }
+    },
+    {
+      "id": "mock-crowded-stop-door-closing",
+      "scenarioId": "crowded-stop-door-closing",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "As you are about to close the doors, your mirror shows another passenger about to step into the entrance. What should you do?",
+      "options": [
+        "Keep the doors open while it is safe and make sure boarding is complete before closing them.",
+        "Close the doors immediately if everyone already inside has paid.",
+        "Close the doors slowly so the boarding passenger can push them open."
+      ],
+      "answer": 0,
+      "explanation": "Use the door-area and blind-spot checks before closing. Do not close the doors on someone clearly about to board.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section C, Boarding and alighting, p. 27",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Use the door-area and blind-spot checks before closing. Do not close the doors on someone clearly about to board.",
+        "scope": "Bus stationary at a safe, authorised stop."
+      }
+    },
+    {
+      "id": "mock-announce-service-white-cane",
+      "scenarioId": "announce-service-white-cane",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A person using a white cane is waiting at a stop you serve and may not see your destination display. How should you help them identify your service?",
+      "options": [
+        "Wait for them to read the display before stopping.",
+        "Stop and tell them the service number and destination.",
+        "Tell a nearby passenger to point to the destination display."
+      ],
+      "answer": 1,
+      "explanation": "The RSA advises identifying the route and destination verbally to find out whether the person wants your service.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section F, Passengers with impaired vision, p. 36",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises identifying the route and destination verbally to find out whether the person wants your service.",
+        "scope": "Person at a stop on your route who may need the service identified."
+      }
+    },
+    {
+      "id": "mock-guide-dog-working",
+      "scenarioId": "guide-dog-working",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A passenger boards with a guide dog that is working. How should you interact with the dog?",
+      "options": [
+        "Call the dog to your seat so the passenger can find the entrance.",
+        "Avoid distracting it. Speak directly to the passenger if they need help.",
+        "Offer it food while the passenger finds a seat."
+      ],
+      "answer": 1,
+      "explanation": "Distracting a working guide dog can interfere with the assistance it provides.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section F, Guide dogs, p. 36",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Distracting a working guide dog can interfere with the assistance it provides.",
+        "scope": "Working guide dog accompanying a passenger."
+      }
+    },
+    {
+      "id": "mock-nonvisible-disability-ramp-request",
+      "scenarioId": "nonvisible-disability-ramp-request",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A passenger asks for the accessible ramp. You cannot see any obvious disability. How should you respond?",
+      "options": [
+        "Refuse unless the passenger is using a wheelchair.",
+        "Use the ramp when safe and follow your vehicle’s procedure.",
+        "Wait for them to prove why they cannot use the step."
+      ],
+      "answer": 1,
+      "explanation": "A need for step-free access may be non-visible. RSA guidance says to use the ramp when requested.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section F, Ramp guidance, p. 37",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A need for step-free access may be non-visible. RSA guidance says to use the ramp when requested.",
+        "scope": "A passenger requests the ramp and the stop and equipment allow safe use."
+      }
+    },
+    {
+      "id": "mock-designated-wheelchair-space-priority",
+      "scenarioId": "designated-wheelchair-space-priority",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A TFI low-floor bus has a designated wheelchair space currently occupied by luggage. A wheelchair user needs it. What is the space’s priority use?",
+      "options": [
+        "The first passenger to occupy the space keeps it throughout the journey.",
+        "The wheelchair user has priority. Ask for the luggage to be moved safely.",
+        "Use the aisle for the wheelchair so the luggage can stay in the space."
+      ],
+      "answer": 1,
+      "explanation": "TFI gives wheelchair users priority in the designated space. Keep the aisle and access route clear.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.transportforireland.ie/support/using-a-wheelchair-on-tfi-services/",
+        "section": "Bus, wheelchair space",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "TFI gives wheelchair users priority in the designated space. Keep the aisle and access route clear.",
+        "scope": "TFI low-floor service with a designated wheelchair space."
+      }
+    },
+    {
+      "id": "mock-boarding-kneeling-ramp-rest",
+      "scenarioId": "boarding-kneeling-ramp-rest",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A TFI bus is still kneeling and its ramp has not reached the footpath. When should the passenger start boarding via the ramp?",
+      "options": [
+        "As soon as the driver activates the ramp switch.",
+        "After the vehicle and ramp have settled safely and the ramp rests on the footpath.",
+        "While the ramp is descending, if the passenger can reach it."
+      ],
+      "answer": 1,
+      "explanation": "The guidance asks passengers to keep clear during deployment and wait for the ramp to rest on the footpath.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.transportforireland.ie/support/using-a-wheelchair-on-tfi-services/",
+        "section": "Bus, boarding advice",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The guidance asks passengers to keep clear during deployment and wait for the ramp to rest on the footpath.",
+        "scope": "A TFI bus kneeling and deploying its ramp at a suitable stop."
+      }
+    },
+    {
+      "id": "mock-passenger-hearing-face-them",
+      "scenarioId": "passenger-hearing-face-them",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A passenger appears to have difficulty hearing your boarding instructions. What should you do when speaking to them?",
+      "options": [
+        "Turn to face the road while repeating the instructions.",
+        "Give the instructions only to a person standing beside them.",
+        "Face the passenger and speak clearly."
+      ],
+      "answer": 2,
+      "explanation": "Facing and addressing the passenger directly makes communication easier, particularly if they use visual cues.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section A, Hurrying loading/unloading passengers, p. 4",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Facing and addressing the passenger directly makes communication easier, particularly if they use visual cues.",
+        "scope": "Individual boarding assistance while the bus is stopped."
+      }
+    },
+    {
+      "id": "mock-schedule-pressure-boarding",
+      "scenarioId": "schedule-pressure-boarding",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are running behind schedule. A stop is busy and boarding needs more time than planned. What should take priority?",
+      "options": [
+        "Allow the time needed for safe boarding.",
+        "Start moving as soon as the doors can close to recover time.",
+        "Ask passengers to step on faster to meet the timetable."
+      ],
+      "answer": 0,
+      "explanation": "A timetable can create pressure to rush. Passenger safety and correct procedures take precedence.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section A, Driving to schedule, p. 4",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A timetable can create pressure to rush. Passenger safety and correct procedures take precedence.",
+        "scope": "Ordinary service delay with safe boarding still in progress."
+      }
+    },
+    {
+      "id": "mock-coach-overhead-luggage-secured",
+      "scenarioId": "coach-overhead-luggage-secured",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A bag fits on an overhead rack but can slide out if the coach brakes. What should you do?",
+      "options": [
+        "Leave it there if the passenger sits directly below it.",
+        "Ask the passenger to hold it in place only when the coach is turning.",
+        "Use a place or restraint that keeps the bag from moving."
+      ],
+      "answer": 2,
+      "explanation": "Carry-on luggage needs secure stowage so it cannot move and injure someone during braking or a collision.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section D, Luggage, p. 28",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Carry-on luggage needs secure stowage so it cannot move and injure someone during braking or a collision.",
+        "scope": "A carry-on bag that is unsecured on an overhead rack."
+      }
+    },
+    {
+      "id": "mock-luggage-lift-help",
+      "scenarioId": "luggage-lift-help",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A passenger’s bag is too heavy or awkward for you to lift into the hold safely on your own. What should you do?",
+      "options": [
+        "Lift it quickly to reduce the time you are holding it.",
+        "Twist towards the hold while lifting to avoid moving your feet.",
+        "Get suitable assistance or use an available handling aid."
+      ],
+      "answer": 2,
+      "explanation": "Plan the lift and get help or an aid if the load is beyond what you can safely manage.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section A, Loading of luggage/goods, pp. 4–5",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Plan the lift and get help or an aid if the load is beyond what you can safely manage.",
+        "scope": "An awkward or heavy bag. Follow the operator’s handling procedure."
+      }
+    },
+    {
+      "id": "mock-seated-passengers-belt-notice",
+      "scenarioId": "seated-passengers-belt-notice",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A coach has working passenger seat belts. How can the operator inform seated passengers that they must use them while the coach is moving?",
+      "options": [
+        "Use an announcement or the appropriate signs or other approved information method.",
+        "Mention it only if a passenger asks about a particular belt.",
+        "Use a notice in the driver’s paperwork which passengers cannot see."
+      ],
+      "answer": 0,
+      "explanation": "Passengers must be informed of the requirement. An announcement or appropriate signage can convey it.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/road-safety/road-users/passengers/public-vehicle-passengers",
+        "section": "Informing passengers of the need to wear a seat belt",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Passengers must be informed of the requirement. An announcement or appropriate signage can convey it.",
+        "scope": "Coach service with fitted belts. The question is about informing passengers."
+      }
+    },
+    {
+      "id": "mock-end-trip-upper-saloon-sweep",
+      "scenarioId": "end-trip-upper-saloon-sweep",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "Your double-decker has reached the end of its final journey. The lower deck looks empty from your seat. What should you do before securing the bus?",
+      "options": [
+        "Check only the lower deck because the upper deck cannot be seen from the cab.",
+        "Walk through both decks to check for remaining passengers and lost property.",
+        "Lock the bus and wait for a passenger to contact the depot if anything was left."
+      ],
+      "answer": 1,
+      "explanation": "A physical sweep of both decks helps find passengers who have stayed on board and items left behind.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section E, Park safely, p. 44",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A physical sweep of both decks helps find passengers who have stayed on board and items left behind.",
+        "scope": "End-of-trip check before locking a double-decker."
+      }
+    },
+    {
+      "id": "mock-unattended-coach-external-locks",
+      "scenarioId": "unattended-coach-external-locks",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A coach will be unattended during a planned stop. An externally accessible luggage compartment can be locked. How should it be left?",
+      "options": [
+        "Open a little for ventilation while passengers are away.",
+        "Unlocked so a passenger can collect bags without staff present.",
+        "Closed and locked against unauthorised access."
+      ],
+      "answer": 2,
+      "explanation": "The RSA advises securing accessible compartments when they can be locked. Follow the operator’s security checks.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section E, Security precautions, p. 44",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises securing accessible compartments when they can be locked. Follow the operator’s security checks.",
+        "scope": "An unattended coach with lockable external compartments."
+      }
+    },
+    {
+      "id": "mock-luggage-before-reboard-accounting",
+      "scenarioId": "luggage-before-reboard-accounting",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "Before leaving on a coach service with checked luggage, why reconcile the luggage with the passengers travelling?",
+      "options": [
+        "To account for what was loaded and identify luggage that does not match the boarding records.",
+        "To estimate how many empty seats remain without counting passengers.",
+        "To replace the need for a secure luggage compartment."
+      ],
+      "answer": 0,
+      "explanation": "Reconciliation is a security and custody check. The operator should be able to account for loaded bags.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section E, Accounting for luggage, p. 45",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Reconciliation is a security and custody check. The operator should be able to account for loaded bags.",
+        "scope": "An operation using checked luggage and the operator’s reconciliation procedure."
+      }
+    },
+    {
+      "id": "mock-ordinary-stop-authorised-place",
+      "scenarioId": "ordinary-stop-authorised-place",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "On a fixed-stop bus service, a passenger asks you to open the doors between authorised stops for convenience. There is no emergency. What should you do?",
+      "options": [
+        "Open the doors once the bus is stopped in traffic.",
+        "Let them off at any location provided they ask clearly.",
+        "Keep the doors closed and use an authorised stop."
+      ],
+      "answer": 2,
+      "explanation": "The RSA distinguishes normal boarding and alighting at authorised stops from emergency procedures and safe hail-and-ride operations.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section C, Boarding and alighting, p. 27",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA distinguishes normal boarding and alighting at authorised stops from emergency procedures and safe hail-and-ride operations.",
+        "scope": "Fixed-stop service, no emergency and no hail-and-ride provision."
+      }
+    },
+    {
+      "id": "mock-passenger-belt-retract-fault",
+      "scenarioId": "passenger-belt-retract-fault",
+      "topic": "checks",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A passenger’s retractable belt pulls out but does not retract as designed. How should you record it?",
+      "options": [
+        "As a defect for qualified assessment and repair.",
+        "As satisfactory because the webbing still comes out.",
+        "As a defect only if the belt is also visibly torn."
+      ],
+      "answer": 0,
+      "explanation": "A fitted belt must operate correctly as well as being free of damage. Failed retraction needs attention.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section D, Roadworthiness and seat belt maintenance, p. 37",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A fitted belt must operate correctly as well as being free of damage. Failed retraction needs attention.",
+        "scope": "Passenger belt designed to retract automatically."
+      }
+    },
+    {
+      "id": "mock-emergency-buzzer-function",
+      "scenarioId": "emergency-buzzer-function",
+      "topic": "checks",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "An emergency exit door opens, but its warning buzzer fails the check. What is the right response?",
+      "options": [
+        "Mark the whole check satisfactory because the door opens.",
+        "Report the failed warning as a defect.",
+        "Disable the alarm permanently so it cannot distract the driver."
+      ],
+      "answer": 1,
+      "explanation": "The walk-around check covers the emergency exit and its buzzer separately. A working door does not establish that its warning works.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section A, Bus / PSV Driver Walk-Around Check Sheet, PSV checks",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The walk-around check covers the emergency exit and its buzzer separately. A working door does not establish that its warning works.",
+        "scope": "Bus with an emergency-exit buzzer fitted."
+      }
+    },
+    {
+      "id": "mock-boarding-step-loose-surface",
+      "scenarioId": "boarding-step-loose-surface",
+      "topic": "checks",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "Before departure you find a loose surface on a passenger entry step. What should you do?",
+      "options": [
+        "Leave it because passengers can use the handrail.",
+        "Wait for someone to trip before deciding whether it matters.",
+        "Report it and have it made safe before using the step for boarding."
+      ],
+      "answer": 2,
+      "explanation": "Access steps and surfaces are checked for defects. A loose surface presents a trip hazard.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section A, Bus / PSV Driver Walk-Around Check Sheet, vehicle access",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Access steps and surfaces are checked for defects. A loose surface presents a trip hazard.",
+        "scope": "Passenger access step with a loose surface."
+      }
+    },
+    {
+      "id": "mock-coach-leaning-precheck",
+      "scenarioId": "coach-leaning-precheck",
+      "topic": "checks",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "On level ground at normal ride height, an unfamiliar coach is visibly leaning to one side. What should you do?",
+      "options": [
+        "Assume it is normal on all air-suspended coaches.",
+        "Load luggage on the opposite side until it appears level.",
+        "Have the abnormal lean investigated before taking the coach into service."
+      ],
+      "answer": 2,
+      "explanation": "The walk-around includes checking that the vehicle sits square. An unexplained lean needs assessment.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section A, Bus / PSV Driver Walk-Around Check Sheet, external vehicle checks",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The walk-around includes checking that the vehicle sits square. An unexplained lean needs assessment.",
+        "scope": "Vehicle is on level ground and should be at normal ride height, not intentionally kneeling."
+      }
+    },
+    {
+      "id": "mock-coach-hold-door-latch",
+      "scenarioId": "coach-hold-door-latch",
+      "topic": "checks",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "You have finished loading luggage. What final exterior check concerns the luggage hold itself before you drive off?",
+      "options": [
+        "Check only that the passengers’ seats are occupied.",
+        "Leave the door slightly open until the vehicle warms up.",
+        "Confirm the hold door is closed and latched securely."
+      ],
+      "answer": 2,
+      "explanation": "The pre-departure check includes securing the luggage door so it cannot open in transit.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section A, Bus / PSV Driver Walk-Around Check Sheet, prior to leaving depot",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The pre-departure check includes securing the luggage door so it cannot open in transit.",
+        "scope": "Coach with an exterior luggage hold."
+      }
+    },
+    {
+      "id": "mock-coach-demister-test",
+      "scenarioId": "coach-demister-test",
+      "topic": "checks",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "Before a damp morning departure, the demister fails to direct air to the windscreen. How should you treat this?",
+      "options": [
+        "Ignore it if the windscreen is clear while parked.",
+        "Drive and wipe the windscreen by hand whenever it fogs.",
+        "Report it as a defect affecting your ability to keep the windscreen clear."
+      ],
+      "answer": 2,
+      "explanation": "A working demister is part of the in-cab check. Visibility can deteriorate once the bus is in use.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section A, Bus / PSV Driver Walk-Around Check Sheet, in-cab checks",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A working demister is part of the in-cab check. Visibility can deteriorate once the bus is in use.",
+        "scope": "Pre-use check with demister unable to clear the windscreen as intended."
+      }
+    },
+    {
+      "id": "mock-coach-extinguisher-gauge",
+      "scenarioId": "coach-extinguisher-gauge",
+      "topic": "checks",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A fitted fire extinguisher has a pressure gauge. The needle is outside its serviceable range during the pre-use check. What should you do?",
+      "options": [
+        "Report it for repair or replacement before the bus is driven.",
+        "Leave it in service if the safety pin is intact.",
+        "Shake the extinguisher and then use the bus as normal."
+      ],
+      "answer": 0,
+      "explanation": "An out-of-range gauge may indicate a discharged or faulty extinguisher. It needs attention before departure.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section D, Fire extinguishers, p. 33",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "An out-of-range gauge may indicate a discharged or faulty extinguisher. It needs attention before departure.",
+        "scope": "Extinguisher with a gauge showing pressure outside the safe range."
+      }
+    },
+    {
+      "id": "mock-passenger-handrail-loose",
+      "scenarioId": "passenger-handrail-loose",
+      "topic": "checks",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A handrail next to the entrance moves when you check it. How should you respond?",
+      "options": [
+        "Treat it as normal movement when passengers put weight on it.",
+        "Cover it with a sign and keep boarding people normally.",
+        "Report the loose handrail and have it made safe before passengers rely on it."
+      ],
+      "answer": 2,
+      "explanation": "Handrails are part of the passenger-area check. A loose one may fail when someone uses it for support.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section A, Bus / PSV Driver Walk-Around Check Sheet, PSV checks",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Handrails are part of the passenger-area check. A loose one may fail when someone uses it for support.",
+        "scope": "A passenger grab rail that should be rigid is loose."
+      }
+    },
+    {
+      "id": "mock-evacuation-no-return-for-bag",
+      "scenarioId": "evacuation-no-return-for-bag",
+      "topic": "emergency",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "Your coach has been evacuated because of smoke. Someone asks to get back on for a passport. What should you do?",
+      "options": [
+        "Keep them away from the coach and tell responders what is needed.",
+        "Let them return if they know exactly where the passport is.",
+        "Send another passenger in to collect it quickly."
+      ],
+      "answer": 0,
+      "explanation": "The RSA advises keeping everyone out of an evacuated vehicle, including people seeking belongings.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section D, Emergency evacuation, p. 33",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises keeping everyone out of an evacuated vehicle, including people seeking belongings.",
+        "scope": "Coach evacuated because of smoke. Follow emergency responders’ directions."
+      }
+    },
+    {
+      "id": "mock-engine-fire-cover-closed",
+      "scenarioId": "engine-fire-cover-closed",
+      "topic": "emergency",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "Everyone is clear of a coach and an engine-bay fire is suspected. Should you lift the engine cover to inspect it?",
+      "options": [
+        "Yes, lift it fully so smoke can escape.",
+        "Yes, if another person films the condition for the operator.",
+        "No. Leave the engine cover closed and let the fire service deal with it."
+      ],
+      "answer": 2,
+      "explanation": "The RSA says to leave the cover of an engine fire for the fire brigade. Keep people clear.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section D, Emergency evacuation, p. 33",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA says to leave the cover of an engine fire for the fire brigade. Keep people clear.",
+        "scope": "Suspected engine-compartment fire after evacuation."
+      }
+    },
+    {
+      "id": "mock-evacuated-upwind-refuge",
+      "scenarioId": "evacuated-upwind-refuge",
+      "topic": "emergency",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "Your bus is safely stopped and passengers are evacuating because of a fire. Where should you direct them if that location is accessible?",
+      "options": [
+        "To a safe place upwind, well away from the bus and passing traffic.",
+        "Along the traffic lane so emergency responders can find them.",
+        "Immediately behind the bus so they can watch for smoke."
+      ],
+      "answer": 0,
+      "explanation": "An upwind location away from the bus and traffic reduces exposure to smoke and other hazards.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section D, Emergency evacuation, p. 33",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "An upwind location away from the bus and traffic reduces exposure to smoke and other hazards.",
+        "scope": "Evacuation location can be reached safely."
+      }
+    },
+    {
+      "id": "mock-fire-call-passengers-aboard",
+      "scenarioId": "fire-call-passengers-aboard",
+      "topic": "emergency",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "When calling emergency services from safety about a bus fire, what passenger information is especially important?",
+      "options": [
+        "Give only the number of seats on the vehicle.",
+        "Wait for an exact headcount before mentioning anyone still on board.",
+        "Tell them if anyone may still be on board."
+      ],
+      "answer": 2,
+      "explanation": "Tell responders your location and any known or suspected remaining passengers so they can plan the response.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section D, Emergency evacuation, p. 33",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Tell responders your location and any known or suspected remaining passengers so they can plan the response.",
+        "scope": "Fire reported to emergency services from a safe place."
+      }
+    },
+    {
+      "id": "mock-automatic-suppression-limit",
+      "scenarioId": "automatic-suppression-limit",
+      "topic": "emergency",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A coach’s automatic engine-fire system activates. Why must the driver still stop safely and evacuate?",
+      "options": [
+        "It covers the engine compartment and has limited capacity. The fire can recur.",
+        "It makes the vehicle safe to keep running until the next scheduled stop.",
+        "It means passengers elsewhere on the coach can remain without assessment."
+      ],
+      "answer": 0,
+      "explanation": "An automatic system can suppress an engine-bay fire, but it has limited coverage and the fire can reignite.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section D, Engine Fire Suppression Systems, p. 33",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "An automatic system can suppress an engine-bay fire, but it has limited coverage and the fire can reignite.",
+        "scope": "Activation indicating a possible fire on a vehicle fitted with engine-bay suppression."
+      }
+    },
+    {
+      "id": "mock-emergency-hammer-exit-check",
+      "scenarioId": "emergency-hammer-exit-check",
+      "topic": "emergency",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A coach has a designated break-glass exit with a fitted emergency hammer. What should you check before carrying passengers?",
+      "options": [
+        "That the hammer is accessible at its intended location and the exit is identifiable.",
+        "That the hammer is locked in the luggage hold to prevent theft.",
+        "That a hammer is stored somewhere in the driver’s personal bag."
+      ],
+      "answer": 0,
+      "explanation": "The equipment must be readily available to use if the designated window is needed for evacuation.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section D, Emergency window hammers and emergency exits, pp. 34–35",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The equipment must be readily available to use if the designated window is needed for evacuation.",
+        "scope": "A designated break-glass exit requiring the fitted tool."
+      }
+    },
+    {
+      "id": "mock-coach-tail-swing-pedestrian",
+      "scenarioId": "coach-tail-swing-pedestrian",
+      "topic": "dimensions",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "You begin a slow left turn in a coach with significant rear overhang. Which movement can endanger someone alongside the back of the coach?",
+      "options": [
+        "The rear will always stay inside the front wheels’ path.",
+        "The rear can only move straight back.",
+        "The rear can swing out to the right."
+      ],
+      "answer": 2,
+      "explanation": "The rear overhang can swing opposite to the direction of the turn. Check clearance on that side before and during the manoeuvre.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section C, Tail Swing, p. 23",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The rear overhang can swing opposite to the direction of the turn. Check clearance on that side before and during the manoeuvre.",
+        "scope": "Left turn in a coach with significant tail swing."
+      }
+    },
+    {
+      "id": "mock-articulated-bus-inner-track",
+      "scenarioId": "articulated-bus-inner-track",
+      "topic": "dimensions",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "When an articulated bus goes round a tight corner, how can the rear section’s path differ from the front’s?",
+      "options": [
+        "It can cut in and take a shorter path around the bend.",
+        "It always follows the front wheels exactly.",
+        "It always moves further out than the front section throughout the turn."
+      ],
+      "answer": 0,
+      "explanation": "The rear section can take an inside path around a bend. Allow for the inside clearance as well as tail swing.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section C, Articulated buses, p. 24",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The rear section can take an inside path around a bend. Allow for the inside clearance as well as tail swing.",
+        "scope": "An articulated bus negotiating a tight corner."
+      }
+    },
+    {
+      "id": "mock-coach-hump-grounding",
+      "scenarioId": "coach-hump-grounding",
+      "topic": "dimensions",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A long, low coach is approaching a hump-back bridge. What should the driver assess in addition to width and overhead height?",
+      "options": [
+        "Whether the destination display can be read from the bridge.",
+        "Whether the underside or overhang may ground as the coach crosses the crest.",
+        "Whether crossing faster will lift the vehicle over the crest."
+      ],
+      "answer": 1,
+      "explanation": "A sharp crest or ramp can cause grounding even where the route is wide and clear overhead.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section C, Road Sharing, turning and grounding, p. 23",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A sharp crest or ramp can cause grounding even where the route is wide and clear overhead.",
+        "scope": "A low vehicle approaching a sharp crest. Assess the route before committing."
+      }
+    },
+    {
+      "id": "mock-contra-flow-ends-yield",
+      "scenarioId": "contra-flow-ends-yield",
+      "topic": "signs",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "Your bus reaches a yield sign where its contra-flow lane rejoins normal traffic. Who should give way?",
+      "options": [
+        "You should give way to traffic on the road you are joining.",
+        "Other vehicles must wait because you were in a reserved lane.",
+        "You may merge first whenever the bus is indicating."
+      ],
+      "answer": 0,
+      "explanation": "The yield sign still controls the merge. A reserved lane does not confer priority beyond its end.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Contra-flow bus lane, p. 85",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The yield sign still controls the merge. A reserved lane does not confer priority beyond its end.",
+        "scope": "Bus merging at a signed yield point."
+      }
+    },
+    {
+      "id": "mock-no-left-from-bus-lane",
+      "scenarioId": "no-left-from-bus-lane",
+      "topic": "signs",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are in a continuous bus lane signed No Left Turn from Bus Lane. What does that sign mean for a bus in the lane?",
+      "options": [
+        "Turn left whenever the neighbouring lane receives a green signal.",
+        "Use the left turn only when the bus is empty.",
+        "Do not turn left from that lane."
+      ],
+      "answer": 2,
+      "explanation": "The sign restricts the movement from the bus lane. Follow the authorised lane and turn arrangements.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Continuous bus lanes, p. 85",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The sign restricts the movement from the bus lane. Follow the authorised lane and turn arrangements.",
+        "scope": "The No Left Turn from Bus Lane sign applies to the current lane."
+      }
+    },
+    {
+      "id": "mock-toucan-shared-crossing",
+      "scenarioId": "toucan-shared-crossing",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A sign and signals identify a toucan crossing. Which road users is that crossing designed for?",
+      "options": [
+        "Pedestrians only; cyclists must always use a separate crossing.",
+        "Pedestrians and cyclists.",
+        "Buses and taxis using a reserved turning lane."
+      ],
+      "answer": 1,
+      "explanation": "A toucan crossing is designed to let pedestrians and cyclists cross under signal control.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 18, Toucan crossing, p. 219",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A toucan crossing is designed to let pedestrians and cyclists cross under signal control.",
+        "scope": "A signal-controlled toucan crossing."
+      }
+    },
+    {
+      "id": "mock-flashing-amber-directional-yield",
+      "scenarioId": "flashing-amber-directional-yield",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A left-turn arrow flashes amber and a cyclist in the adjacent cycle track is approaching the junction across your intended path. What should you do?",
+      "options": [
+        "Give way and turn only when it is safe.",
+        "Turn first because an illuminated arrow always gives priority.",
+        "Treat the arrow as an instruction to wait for a steady red light."
+      ],
+      "answer": 0,
+      "explanation": "A flashing amber directional signal permits cautious movement subject to giving way to conflicting traffic, including cyclists.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 7, Traffic lights, flashing amber arrow, p. 109",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A flashing amber directional signal permits cautious movement subject to giving way to conflicting traffic, including cyclists.",
+        "scope": "A flashing amber directional arrow, not a steady green arrow or pelican signal."
+      }
+    },
+    {
+      "id": "mock-amber-stop-would-danger",
+      "scenarioId": "amber-stop-would-danger",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "The main signal turns steady amber when you are already so close to the line that stopping would be dangerous. What does the RSA allow?",
+      "options": [
+        "Always brake as hard as possible to stop behind the line.",
+        "Continue with care if stopping at the line would be dangerous.",
+        "Accelerate because amber gives unrestricted priority."
+      ],
+      "answer": 1,
+      "explanation": "The normal instruction is to stop. The exception applies where you are too close to stop safely when amber first appears.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 7, Traffic lights, p. 109",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The normal instruction is to stop. The exception applies where you are too close to stop safely when amber first appears.",
+        "scope": "Steady amber first appears at an unsafe stopping distance."
+      }
+    },
+    {
+      "id": "mock-continuous-double-yellow-overnight",
+      "scenarioId": "continuous-double-yellow-overnight",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You find double yellow lines along a quiet street late at night. There is no sign indicating a special exemption. May you park there?",
+      "options": [
+        "Yes, because no daytime restriction plate is present.",
+        "Yes, if you are ready to move when asked.",
+        "No. The double yellow lines prohibit parking at any time."
+      ],
+      "answer": 2,
+      "explanation": "Unlike a timed single yellow line, double yellow lines prohibit ordinary parking at any time.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 10, Road markings, p. 142",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Unlike a timed single yellow line, double yellow lines prohibit ordinary parking at any time.",
+        "scope": "Ordinary parking without a relevant exemption."
+      }
+    },
+    {
+      "id": "mock-diamond-school-ahead-symbol",
+      "scenarioId": "diamond-school-ahead-symbol",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "An Irish yellow diamond shows the silhouettes of two children. What should you expect?",
+      "options": [
+        "A school ahead, where children may be near the road.",
+        "A playground for parking outside school hours.",
+        "A mandatory route for vehicles carrying children."
+      ],
+      "answer": 0,
+      "explanation": "The warning sign identifies a school ahead. Adjust your observation and speed for the conditions.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 6, Warning signs, p. 76",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The warning sign identifies a school ahead. Adjust your observation and speed for the conditions.",
+        "scope": "The standard yellow diamond warning sign showing two children."
+      }
+    },
+    {
+      "id": "mock-motorway-diversion-solid-shape",
+      "scenarioId": "motorway-diversion-solid-shape",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A motorway closure directs you to follow a solid triangle diversion. At the next junction, the signs show both a solid and an outline triangle. Which should you follow?",
+      "options": [
+        "Either triangle, because the shape alone defines the route.",
+        "The solid triangle you were directed to follow.",
+        "The outline triangle, because it replaces the solid one after the first junction."
+      ],
+      "answer": 1,
+      "explanation": "The fill is part of the route symbol. Follow the assigned symbol through the diversion until you can rejoin the motorway.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Emergency closure of sections on the motorway, p. 159",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The fill is part of the route symbol. Follow the assigned symbol through the diversion until you can rejoin the motorway.",
+        "scope": "A signed emergency diversion using distinct solid and outline symbols."
+      }
+    },
+    {
+      "id": "mock-equal-priority-road-right",
+      "scenarioId": "equal-priority-road-right",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "At an unsigned junction of roads of equal importance, another driver is approaching from your right. Who should wait?",
+      "options": [
+        "The driver on the right should wait because your vehicle is larger.",
+        "You should let traffic from the right pass before you proceed.",
+        "Whoever reaches the junction faster should go first."
+      ],
+      "answer": 1,
+      "explanation": "At a junction of equal roads, yield to traffic from your right and proceed cautiously once clear.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 9, Right of way, p. 127",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "At a junction of equal roads, yield to traffic from your right and proceed cautiously once clear.",
+        "scope": "No controlling sign, light, Garda, or major-road priority."
+      }
+    },
+    {
+      "id": "mock-opposing-turns-same-road",
+      "scenarioId": "opposing-turns-same-road",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are turning right at an uncontrolled junction. An oncoming driver is turning left into the same road. Who should go first?",
+      "options": [
+        "The oncoming driver turning left.",
+        "The driver turning right because the manoeuvre takes longer.",
+        "The vehicle with the longer wheelbase."
+      ],
+      "answer": 0,
+      "explanation": "When these two opposing turns conflict, the left-turning driver has priority. Wait before completing your right turn.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 9, Right of way, p. 127",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "When these two opposing turns conflict, the left-turning driver has priority. Wait before completing your right turn.",
+        "scope": "No signals or other controls alter the normal priority."
+      }
+    },
+    {
+      "id": "mock-private-entrance-public-road",
+      "scenarioId": "private-entrance-public-road",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are driving out of a private depot entrance onto a public road. A vehicle is approaching on the public road. Who should yield?",
+      "options": [
+        "You must yield to traffic on the public road.",
+        "The vehicle on the road must yield because you are leaving premises.",
+        "The first driver to indicate has priority."
+      ],
+      "answer": 0,
+      "explanation": "Entering from a private entrance does not give you priority over traffic already using the public road.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 9, Right of way, p. 128",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Entering from a private entrance does not give you priority over traffic already using the public road.",
+        "scope": "Ordinary unsignalised private entrance."
+      }
+    },
+    {
+      "id": "mock-loaded-coach-gap-across-junction",
+      "scenarioId": "loaded-coach-gap-across-junction",
+      "topic": "rules",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are about to cross a busy road in a fully laden coach. Why might you need a larger gap than you would in a small car?",
+      "options": [
+        "Drivers on the busy road must stop when they see the coach.",
+        "The whole coach needs time to clear the road and it may accelerate more slowly.",
+        "Only the front of the coach needs to clear the lane before other traffic reaches it."
+      ],
+      "answer": 1,
+      "explanation": "Allow for both the coach’s length and its acceleration. Wait for a gap that lets the complete vehicle clear safely.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section G, Leaving space when crossing or merging, p. 48",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Allow for both the coach’s length and its acceleration. Wait for a gap that lets the complete vehicle clear safely.",
+        "scope": "Coach crossing a road where other traffic has priority."
+      }
+    },
+    {
+      "id": "mock-right-turn-yellow-box-oncoming",
+      "scenarioId": "right-turn-yellow-box-oncoming",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are turning right at a yellow box on an ordinary road. The exit road is clear and waiting in the box would block nobody. May you enter while waiting for a gap in oncoming traffic?",
+      "options": [
+        "No. The exception applies only to traffic going straight.",
+        "Yes, under the right-turn exception when it does not block traffic with priority.",
+        "Yes, even if the exit road fills and the vehicle will block crossing traffic."
+      ],
+      "answer": 1,
+      "explanation": "The limited right-turn exception covers waiting for oncoming traffic. Do not enter if you would block traffic with priority.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 9, Yellow box junctions, p. 132",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The limited right-turn exception covers waiting for oncoming traffic. Do not enter if you would block traffic with priority.",
+        "scope": "Ordinary road junction, no rail or tram crossing, exit clear and nobody with priority blocked."
+      }
+    },
+    {
+      "id": "mock-zebra-waiting-intent",
+      "scenarioId": "zebra-waiting-intent",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A person is waiting at a zebra crossing and clearly intends to cross. You can stop safely. What does RSA driver guidance call for?",
+      "options": [
+        "Continue because giving way is unnecessary until they reach the middle.",
+        "Slow down and give way so the person can cross safely.",
+        "Stop on the crossing itself to let them pass behind you."
+      ],
+      "answer": 1,
+      "explanation": "The driver guidance says to give way to people at a zebra crossing, including those waiting to cross.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 19, Pedestrians, p. 221",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The driver guidance says to give way to people at a zebra crossing, including those waiting to cross.",
+        "scope": "RSA driver guidance for an obvious intent to cross. Stop safely before the crossing."
+      }
+    },
+    {
+      "id": "mock-slow-queues-left-progress",
+      "scenarioId": "slow-queues-left-progress",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "Both motorway lanes are moving in slow queues. Your existing left lane is moving a little quicker than the right. May you keep progressing with your queue?",
+      "options": [
+        "Yes. Progressing in your existing lane is allowed in these slow-moving queues.",
+        "No. Stop whenever any vehicle to your right falls behind.",
+        "Yes. Move into the left lane specifically to pass at normal motorway speed."
+      ],
+      "answer": 0,
+      "explanation": "The slow-queue exception allows the left queue to progress faster than the right. It is not permission to undertake in free-flowing traffic.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Overtaking on the motorway, p. 153",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The slow-queue exception allows the left queue to progress faster than the right. It is not permission to undertake in free-flowing traffic.",
+        "scope": "Both lanes are moving in slow queues. Remain in the existing lane."
+      }
+    },
+    {
+      "id": "mock-standing-bus-design-speed",
+      "scenarioId": "standing-bus-design-speed",
+      "topic": "rules",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A bus is designed to carry standing passengers but is empty today. On a road signed at 80 km/h, what vehicle limit applies?",
+      "options": [
+        "80 km/h because nobody is standing.",
+        "65 km/h.",
+        "100 km/h because it is running empty."
+      ],
+      "answer": 1,
+      "explanation": "The 65 km/h limit is tied to vehicle design, not how many passengers are aboard on that journey.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Speed limits for vehicles, pp. 120–121",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The 65 km/h limit is tied to vehicle design, not how many passengers are aboard on that journey.",
+        "scope": "Bus designed for standing passengers. A lower road limit or conditions can require less."
+      }
+    },
+    {
+      "id": "mock-seated-coach-dual-limit",
+      "scenarioId": "seated-coach-dual-limit",
+      "topic": "rules",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A coach designed for seated passengers only is on a dual carriageway signed at 100 km/h, and is towing nothing. What is its applicable vehicle limit there?",
+      "options": [
+        "65 km/h.",
+        "100 km/h.",
+        "120 km/h."
+      ],
+      "answer": 1,
+      "explanation": "A seated-only coach may travel up to 100 km/h on a dual carriageway where no lower limit applies.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Speed limits for vehicles, pp. 120–121",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A seated-only coach may travel up to 100 km/h on a dual carriageway where no lower limit applies.",
+        "scope": "Seated-only coach, no trailer, dual carriageway, and no lower applicable limit."
+      }
+    },
+    {
+      "id": "mock-standing-bus-outside-lane-empty",
+      "scenarioId": "standing-bus-outside-lane-empty",
+      "topic": "rules",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "You drive a bus designed for standing passengers on a three-lane motorway. It has no standing passengers today and there is no obstruction. May you use the outermost lane for an ordinary overtake?",
+      "options": [
+        "No. Its design still puts it in the restricted vehicle class.",
+        "Yes. Count only the people who are standing at that moment.",
+        "Yes, if you signal earlier than the other vehicles."
+      ],
+      "answer": 0,
+      "explanation": "The outside-lane restriction applies to the design class. Ordinary overtaking is not the obstruction exception.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Using lanes properly, p. 151",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The outside-lane restriction applies to the design class. Ordinary overtaking is not the obstruction exception.",
+        "scope": "Vehicle designed for standing passengers. No obstruction and no contrary direction."
+      }
+    },
+    {
+      "id": "mock-fog-entry-dipped-beams",
+      "scenarioId": "fog-entry-dipped-beams",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "Visibility drops sharply as you enter dense fog on a dual carriageway. What lighting and speed response does the RSA advise?",
+      "options": [
+        "Use main beam and maintain the speed of surrounding traffic.",
+        "Switch to sidelights alone and follow the lights ahead closely.",
+        "Use dipped headlights, reduce speed and use fog lamps as appropriate."
+      ],
+      "answer": 2,
+      "explanation": "Dense fog calls for lower speed and suitable lighting. Dipped headlights help without the glare associated with main beam.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Driving in fog, p. 160",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Dense fog calls for lower speed and suitable lighting. Dipped headlights help without the glare associated with main beam.",
+        "scope": "Dense fog, fog lamps used in accordance with their permitted conditions."
+      }
+    },
+    {
+      "id": "mock-night-pedestrian-parked-cars",
+      "scenarioId": "night-pedestrian-parked-cars",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You pass parked vehicles near shops and see movement between two of them at kerb level. What should you anticipate?",
+      "options": [
+        "Any pedestrian must wait until you have passed because the road is busy.",
+        "The parked vehicles will prevent anyone from entering the road.",
+        "A pedestrian could emerge into the road with little warning."
+      ],
+      "answer": 2,
+      "explanation": "Parked vehicles can hide people until they step out. Reduce speed and allow space to respond.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 19, Pedestrians, p. 222",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Parked vehicles can hide people until they step out. Reduce speed and allow space to respond.",
+        "scope": "Possible pedestrian movement concealed by parked vehicles."
+      }
+    },
+    {
+      "id": "mock-coach-swan-neck-right-turn",
+      "scenarioId": "coach-swan-neck-right-turn",
+      "topic": "dimensions",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "What does swan-necking describe when a long coach is taking a right turn?",
+      "options": [
+        "Allowing extra space for the rear wheels to track inside the front wheels.",
+        "Passing the appropriate turning point and needing a sharper correction to finish the turn.",
+        "Using a marked left-turn lane to approach a junction."
+      ],
+      "answer": 1,
+      "explanation": "Plan the turning path so you do not overshoot the appropriate point and have to make a sharper correction.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Glossary, Swan neck",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Plan the turning path so you do not overshoot the appropriate point and have to make a sharper correction.",
+        "scope": "A right turn by a long vehicle where the driver can plan the path."
+      }
+    },
+    {
+      "id": "mock-blindspot-bus-stop-nearside",
+      "scenarioId": "blindspot-bus-stop-nearside",
+      "topic": "risk",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are about to pull away from a busy bus stop. What should you check besides the traffic in the lane you intend to join?",
+      "options": [
+        "Only the passengers seated on the upper deck.",
+        "The area immediately alongside the bus for people approaching or still close to it.",
+        "Only the timetable display and the signal light."
+      ],
+      "answer": 1,
+      "explanation": "Check mirrors and relevant blind spots around the bus before moving away, including the area near passengers.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section G, Moving off and use of mirrors, p. 45",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Check mirrors and relevant blind spots around the bus before moving away, including the area near passengers.",
+        "scope": "Routine departure from a busy stop after boarding has finished."
+      }
+    },
+    {
+      "id": "mock-avoid-exhaust-hazard-parking",
+      "scenarioId": "avoid-exhaust-hazard-parking",
+      "topic": "risk",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "An operator’s procedure warns that the exhaust is still very hot. Which place should you avoid when parking a bus?",
+      "options": [
+        "A properly designated bay with a clean hard surface.",
+        "An open area that meets the operator’s parking procedure.",
+        "Over dry vegetation or other easily ignited material."
+      ],
+      "answer": 2,
+      "explanation": "Hot exhaust components can ignite combustible material beneath the vehicle.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section G, Fire risk from exhaust temperatures",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Hot exhaust components can ignite combustible material beneath the vehicle.",
+        "scope": "Bus with a hot exhaust system. Follow the vehicle and operator guidance."
+      }
+    },
+    {
+      "id": "mock-tunnel-dipped-headlights-entry",
+      "scenarioId": "tunnel-dipped-headlights-entry",
+      "topic": "risk",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A road tunnel is lit throughout. Which headlights should you use when driving through it?",
+      "options": [
+        "Main beam because the walls are close.",
+        "Dipped headlights.",
+        "Daytime running lights alone because the tunnel is lit."
+      ],
+      "answer": 1,
+      "explanation": "RSA tunnel guidance calls for dipped headlights while driving in the tunnel.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, Tunnels, pp. 161–162",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "RSA tunnel guidance calls for dipped headlights while driving in the tunnel.",
+        "scope": "Normal driving in a road tunnel."
+      }
+    },
+    {
+      "id": "mock-motorway-incident-location-phone",
+      "scenarioId": "motorway-incident-location-phone",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "After a motorway breakdown, you can safely use a roadside emergency telephone. What location advantage does it provide?",
+      "options": [
+        "The telephone automatically sends your vehicle’s registration.",
+        "The call identifies the telephone’s location to the motorway control centre.",
+        "The telephone means no one needs to explain the nature of the incident."
+      ],
+      "answer": 1,
+      "explanation": "Using the roadside emergency phone lets the control centre identify the call location automatically. Explain what has happened.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 11, What to do if your vehicle breaks down, p. 157",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Using the roadside emergency phone lets the control centre identify the call location automatically. Explain what has happened.",
+        "scope": "A roadside emergency phone can be reached and used safely."
+      }
+    },
+    {
+      "id": "mock-collision-exchange-insurance",
+      "scenarioId": "collision-exchange-insurance",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are involved in a road collision and another person involved requests the required details. No Garda is at the scene. Which information belongs in the exchange?",
+      "options": [
+        "Only the scheduled destination and passenger count.",
+        "The vehicle registration and evidence of insurance, along with the required identity and address information.",
+        "Only the name of the employer and the route number."
+      ],
+      "answer": 1,
+      "explanation": "The RSA lists the vehicle registration and insurance information among the details drivers must give after a collision.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 14, What drivers must do at an incident or in an emergency, p. 179",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA lists the vehicle registration and insurance information among the details drivers must give after a collision.",
+        "scope": "A person involved requests details when no Garda is present."
+      }
+    },
+    {
+      "id": "mock-passenger-area-aisle-light",
+      "scenarioId": "passenger-area-aisle-light",
+      "topic": "checks",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "Before a night service, passenger aisle lighting that should work is out. How should the driver respond?",
+      "options": [
+        "Rely on passengers to use their phone lights.",
+        "Treat the check as satisfactory if the headlamps work.",
+        "Report the lighting defect and have safe use assessed before departure."
+      ],
+      "answer": 2,
+      "explanation": "The check covers lighting in the passenger area. Working exterior lamps do not establish that the interior is safe.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section A, Bus / PSV Driver Walk-Around Check Sheet, PSV checks",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The check covers lighting in the passenger area. Working exterior lamps do not establish that the interior is safe.",
+        "scope": "Bus with failed passenger-area lighting before a night service."
+      }
+    },
+    {
+      "id": "mock-coach-fire-aid-stock-date",
+      "scenarioId": "coach-fire-aid-stock-date",
+      "topic": "checks",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A coach requires a first-aid kit. The box is present, but its contents are past their service dates. What should the walk-around establish?",
+      "options": [
+        "That the kit is properly stocked, in date and ready to use.",
+        "That the box has a label, regardless of the contents.",
+        "That the kit is locked away from passengers during a routine inspection."
+      ],
+      "answer": 0,
+      "explanation": "Presence alone is insufficient. Check that required supplies are in date and available for use.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section A, Completion of daily checks, p. 5",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Presence alone is insufficient. Check that required supplies are in date and available for use.",
+        "scope": "Coach with a required first-aid kit and dated contents."
+      }
+    },
+    {
+      "id": "mock-coach-brake-fade-cause",
+      "scenarioId": "coach-brake-fade-cause",
+      "topic": "braking",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A coach has been held back by continuous use of its service brakes on a long descent. Why can the brakes become less effective?",
+      "options": [
+        "The road speed limit changes the pressure in the tyres.",
+        "Heat builds up in the brakes and can cause brake fade.",
+        "The brakes become more effective as their temperature rises without limit."
+      ],
+      "answer": 1,
+      "explanation": "Prolonged service braking can overheat the brakes and reduce the braking effort available.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section H, Brake Fade, p. 56",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Prolonged service braking can overheat the brakes and reduce the braking effort available.",
+        "scope": "Long descent and repeated or continuous use of service brakes."
+      }
+    },
+    {
+      "id": "mock-standing-passengers-deceleration",
+      "scenarioId": "standing-passengers-deceleration",
+      "topic": "braking",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "You have time to slow for a normal stop with standing passengers aboard. Why is progressive braking important?",
+      "options": [
+        "It keeps passengers upright by causing them to move quickly forward.",
+        "It reduces the sudden forward movement that can make standing passengers lose balance.",
+        "It makes it safe to approach the stop at a higher speed."
+      ],
+      "answer": 1,
+      "explanation": "People continue moving relative to the bus as it slows. Progressive braking limits the abrupt change they have to resist.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section H, Effects of acceleration, braking and cornering on passengers, p. 56",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "People continue moving relative to the bus as it slows. Progressive braking limits the abrupt change they have to resist.",
+        "scope": "Planned stop with time for smooth braking. Immediate hazards may require firmer braking."
+      }
+    },
+    {
+      "id": "mock-cornering-passengers-outside",
+      "scenarioId": "cornering-passengers-outside",
+      "topic": "braking",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "What direction do passengers tend to move relative to the bus if it takes a curve too quickly?",
+      "options": [
+        "Towards the outside of the curve.",
+        "Towards the inside of the curve.",
+        "Directly backwards, regardless of the curve."
+      ],
+      "answer": 0,
+      "explanation": "A sharp turn can throw passengers and loose objects towards the outside of the curve.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section B, Centrifugal force, p. 19",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A sharp turn can throw passengers and loose objects towards the outside of the curve.",
+        "scope": "A bus cornering too quickly. Allow for road conditions and passengers."
+      }
+    },
+    {
+      "id": "mock-traction-budget-corner",
+      "scenarioId": "traction-budget-corner",
+      "topic": "braking",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "Why is it generally better to reduce speed before a bend than rely on heavy braking while already turning?",
+      "options": [
+        "Braking and turning together demand grip from the same tyres.",
+        "Tyre grip automatically increases once the bus begins turning.",
+        "The steering and brakes use separate road surfaces, so their demands do not interact."
+      ],
+      "answer": 0,
+      "explanation": "The tyres have a limited amount of grip. Heavy braking while turning can exceed what is available.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section B, Loss of Control, p. 19",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The tyres have a limited amount of grip. Heavy braking while turning can exceed what is available.",
+        "scope": "Planned approach to a bend where speed can be reduced early."
+      }
+    },
+    {
+      "id": "mock-abs-pedal-pulses",
+      "scenarioId": "abs-pedal-pulses",
+      "topic": "braking",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "During emergency braking in a coach with working ABS, you feel the brake pedal pulsate. Under the cited guidance, what should you do while full emergency braking is still needed?",
+      "options": [
+        "Pump the pedal in time with the pulses.",
+        "Maintain firm brake pressure and let the system manage wheel lock.",
+        "Release the pedal completely until the pulses stop."
+      ],
+      "answer": 1,
+      "explanation": "The pulses can be caused by the system varying pressure. For a vehicle whose instructions match the RSA guidance, keep emergency braking pressure applied.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section H, Correct use of ABS, p. 58",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The pulses can be caused by the system varying pressure. For a vehicle whose instructions match the RSA guidance, keep emergency braking pressure applied.",
+        "scope": "Working ABS during emergency braking. Follow the manufacturer’s instructions for the vehicle."
+      }
+    },
+    {
+      "id": "mock-ebs-response-purpose",
+      "scenarioId": "ebs-response-purpose",
+      "topic": "braking",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "What is one advantage of a working electronically controlled braking system on a coach?",
+      "options": [
+        "It stops the vehicle without any need for tyre grip.",
+        "It makes the service brake redundant whenever passengers are standing.",
+        "It can reduce the time between pressing the pedal and applying braking effort at the wheels."
+      ],
+      "answer": 2,
+      "explanation": "The electronic signal can reduce activation time and help distribute braking effort across the wheels.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section H, Electronically controlled Braking System, p. 58",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The electronic signal can reduce activation time and help distribute braking effort across the wheels.",
+        "scope": "A coach fitted with working EBS. Actual stopping distance still depends on conditions."
+      }
+    },
+    {
+      "id": "mock-reverse-gear-stationary",
+      "scenarioId": "reverse-gear-stationary",
+      "topic": "braking",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "In the manual gearbox described by the RSA, when should you select reverse?",
+      "options": [
+        "While it is still rolling forwards slowly.",
+        "While it is coasting down a gradient.",
+        "When the bus is stationary."
+      ],
+      "answer": 2,
+      "explanation": "The RSA describes selecting reverse only with the vehicle stationary. Follow the manual for the actual gearbox.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section H, Synchromesh Gearboxes, p. 53",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA describes selecting reverse only with the vehicle stationary. Follow the manual for the actual gearbox.",
+        "scope": "Manual bus gearbox covered by the cited guidance."
+      }
+    },
+    {
+      "id": "mock-hill-hold-accelerator-avoid",
+      "scenarioId": "hill-hold-accelerator-avoid",
+      "topic": "braking",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "You are waiting on a hill in a bus with an automated manual transmission. Why should you use its approved hill-hold or parking-brake procedure rather than holding it with the accelerator?",
+      "options": [
+        "Keeping the accelerator partly down is the intended way to secure the bus indefinitely.",
+        "Selecting neutral on its own holds the bus on a gradient.",
+        "The proper holding system prevents movement without relying on the transmission to hold the bus."
+      ],
+      "answer": 2,
+      "explanation": "Use the manufacturer’s specified parking-brake or hill-holding procedure when stationary on a gradient.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section H, Automated Manual Transmission, p. 54",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Use the manufacturer’s specified parking-brake or hill-holding procedure when stationary on a gradient.",
+        "scope": "Automated manual transmission. Use the exact vehicle and operator procedure."
+      }
+    },
+    {
+      "id": "mock-coach-mam-passengers-fuel",
+      "scenarioId": "coach-mam-passengers-fuel",
+      "topic": "dimensions",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A coach driver checks the vehicle against its maximum authorised mass before a tour. Which items must be included in the laden vehicle weight?",
+      "options": [
+        "The vehicle, driver, passengers, fuel and luggage.",
+        "The vehicle and luggage only.",
+        "The vehicle and passengers, excluding fuel and the driver."
+      ],
+      "answer": 0,
+      "explanation": "Maximum authorised mass limits the complete loaded vehicle. People and fuel contribute to the actual laden weight.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section D, Calculation of payload and load distribution, p. 27",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Maximum authorised mass limits the complete loaded vehicle. People and fuel contribute to the actual laden weight.",
+        "scope": "The whole laden coach. Axle limits are separate checks."
+      }
+    },
+    {
+      "id": "mock-coach-unusual-heavy-luggage",
+      "scenarioId": "coach-unusual-heavy-luggage",
+      "topic": "dimensions",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A tour group arrives with unusually heavy equipment and you are uncertain whether the coach remains within its weights. What is the useful check before driving?",
+      "options": [
+        "Establish the loaded weight and axle distribution, using a suitable weighbridge if available.",
+        "Count the passengers and assume the load is legal if seats remain.",
+        "Use the weight recorded before the luggage was added."
+      ],
+      "answer": 0,
+      "explanation": "The nature of the trip affects the load. Verify the actual loaded weights when estimates leave doubt.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section D, What can a driver do to ensure that the vehicle is not overloaded, p. 28",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The nature of the trip affects the load. Verify the actual loaded weights when estimates leave doubt.",
+        "scope": "Passenger coach carrying unusual heavy luggage. Follow the operator’s load plan."
+      }
+    },
+    {
+      "id": "mock-coach-front-overhang-wall",
+      "scenarioId": "coach-front-overhang-wall",
+      "topic": "dimensions",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A long-front-overhang coach is manoeuvring between walls. Why is the wheel turning circle alone insufficient for judging clearance?",
+      "options": [
+        "The front bodywork is always inside the wheel path.",
+        "The front bodywork can extend beyond the path of the front wheels.",
+        "The turning circle accounts only for the back of the coach."
+      ],
+      "answer": 1,
+      "explanation": "The front body extends ahead of the axle and can sweep a larger space than the wheel path suggests.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section C, Front Overhang, p. 23",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The front body extends ahead of the axle and can sweep a larger space than the wheel path suggests.",
+        "scope": "Low-speed manoeuvre with close walls and a large front overhang."
+      }
+    },
+    {
+      "id": "mock-coach-d1-length-entitlement",
+      "scenarioId": "coach-d1-length-entitlement",
+      "topic": "dimensions",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A minibus is built for 16 passengers in addition to the driver, but is 8.5 metres long. Does it meet the D1 vehicle length limit?",
+      "options": [
+        "Yes. Passenger capacity is the only D1 limit.",
+        "No. The D1 vehicle length limit is 8 metres.",
+        "Yes. The length limit applies only when a trailer is attached."
+      ],
+      "answer": 1,
+      "explanation": "The D1 category limits both passenger capacity and vehicle length. Meeting the seating condition does not remove the length condition.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/services/learner-drivers/types-of-licences",
+        "section": "Driving licence categories in Ireland, D1",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The D1 category limits both passenger capacity and vehicle length. Meeting the seating condition does not remove the length condition.",
+        "scope": "D1 vehicle entitlement, no trailer and no exceptional licence conditions."
+      }
+    },
+    {
+      "id": "mock-upper-deck-load-stability",
+      "scenarioId": "upper-deck-load-stability",
+      "topic": "dimensions",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "What can a large concentration of passenger weight high in a double-decker do to its stability?",
+      "options": [
+        "Raise the centre of gravity and make the vehicle more sensitive to sideways forces.",
+        "Lower the centre of gravity because the upper deck is heavier.",
+        "Remove the effect of cornering speed as long as the lower deck is empty."
+      ],
+      "answer": 0,
+      "explanation": "Putting more weight high in the bus raises its centre of gravity. Allow for the vehicle’s stability and load when driving.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section B, Stability test and lateral stability, p. 20",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Putting more weight high in the bus raises its centre of gravity. Allow for the vehicle’s stability and load when driving.",
+        "scope": "General stability principle. Carry passengers only within the approved vehicle capacity."
+      }
+    },
+    {
+      "id": "mock-occasional-coach-rest-one-hour",
+      "scenarioId": "occasional-coach-rest-one-hour",
+      "topic": "hours",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "An in-scope driver is on one seven-day occasional passenger service and drives no more than seven hours that day. If all other conditions for the occasional-service daily-rest option are met, how often can the 25-hour window be used on that service?",
+      "options": [
+        "Twice, because the service lasts more than six days.",
+        "Once.",
+        "Every day on which driving stays below seven hours."
+      ],
+      "answer": 1,
+      "explanation": "The option can be used once on a qualifying service of at least six consecutive 24-hour periods. Twice requires at least eight such periods.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 8(2a)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The option can be used once on a qualifying service of at least six consecutive 24-hour periods. Twice requires at least eight such periods.",
+        "scope": "A single service of seven consecutive 24-hour periods with the other safety and working-time conditions met."
+      }
+    },
+    {
+      "id": "mock-occasional-journey-form-copy",
+      "scenarioId": "occasional-journey-form-copy",
+      "topic": "hours",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A driver wants to rely on the occasional-service split-break option and uses paper documentation under the regulation. What should they have on board for that service?",
+      "options": [
+        "A completed journey form containing the required information for the service.",
+        "A blank journey form to complete only if stopped.",
+        "A copy of the driver’s licence as a substitute for the journey form."
+      ],
+      "answer": 0,
+      "explanation": "For the paper-documentation route the form for the service is completed before the journey. Other record requirements can also apply.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 16(4)(a)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "For the paper-documentation route the form for the service is completed before the journey. Other record requirements can also apply.",
+        "scope": "Occasional passenger service using the specified derogation and the paper documentation route."
+      }
+    },
+    {
+      "id": "mock-tacho-card-stolen-printouts",
+      "scenarioId": "tacho-card-stolen-printouts",
+      "topic": "hours",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "An in-scope driver is lawfully continuing temporarily after a tachograph card is stolen. What record should they make at the start and end of the journey?",
+      "options": [
+        "Use a colleague’s card to avoid making printouts.",
+        "Use tachograph printouts and add the required identification and unrecorded activities.",
+        "Wait for the replacement card and record nothing in the meantime."
+      ],
+      "answer": 1,
+      "explanation": "Without the card, the regulation requires printouts and the specified manual information and signatures.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/eli/reg/2014/165/2024-12-31/eng",
+        "section": "Regulation 165/2014, Article 35(2)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Without the card, the regulation requires printouts and the specified manual information and signatures.",
+        "scope": "Temporary continuation after theft under the applicable limits. The regulation’s declaration and replacement duties still apply."
+      }
+    },
+    {
+      "id": "mock-weekly-rest-postponement-condition",
+      "scenarioId": "weekly-rest-postponement-condition",
+      "topic": "hours",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "An occasional coach operator wants to postpone a weekly rest under the conditional 12-day provision. What kind of weekly rest must precede the period used for that option?",
+      "options": [
+        "Any reduced daily rest of nine hours.",
+        "A regular weekly rest.",
+        "A single 45-minute driving break."
+      ],
+      "answer": 1,
+      "explanation": "The derogation is measured from a previous regular weekly rest and is subject to other eligibility and follow-up conditions.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A02006R0561-20241231",
+        "section": "Regulation 561/2006, Article 8(6a)",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The derogation is measured from a previous regular weekly rest and is subject to other eligibility and follow-up conditions.",
+        "scope": "Qualifying single occasional passenger service. The question asks only about the preceding rest."
+      }
+    },
+    {
+      "id": "mock-school-trip-appropriate-belts",
+      "scenarioId": "school-trip-appropriate-belts",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A coach is booked for a dedicated school outing carrying a group of children. What should the operator verify before assigning it?",
+      "options": [
+        "The coach has the appropriate fitted seat belts for the number of children carried.",
+        "Belts are needed only if the trip crosses a county boundary.",
+        "The number of belts is irrelevant if the trip starts at a school."
+      ],
+      "answer": 0,
+      "explanation": "A vehicle used for organised transport of children needs appropriate belts for the children carried.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/road-safety/road-users/vehicle-components/vehicle-components/seatbelts-and-child-restraints/seatbelts-for-buses",
+        "section": "What is the law on carrying children in buses?",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A vehicle used for organised transport of children needs appropriate belts for the children carried.",
+        "scope": "Dedicated organised group trip covered by the Irish rules."
+      }
+    },
+    {
+      "id": "mock-city-bus-standing-design-exemption",
+      "scenarioId": "city-bus-standing-design-exemption",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A city bus designed for standing passengers is operating its ordinary city route and is not used for organised transport of children. Does the RSA describe an exemption from fitting passenger seat belts for this case?",
+      "options": [
+        "Yes, the ordinary city-bus category is treated differently from a bus used for organised transport of children.",
+        "No, every city bus must retrofit belts before it can carry passengers.",
+        "Yes, and the exemption also applies to any coach hired for a dedicated school outing."
+      ],
+      "answer": 0,
+      "explanation": "The RSA describes the city-bus fitting exemption and the distinct requirement for organised transport of children.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/road-safety/road-users/vehicle-components/vehicle-components/seatbelts-and-child-restraints/seatbelts-for-buses",
+        "section": "Do all buses have to be fitted with seat belts?",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA describes the city-bus fitting exemption and the distinct requirement for organised transport of children.",
+        "scope": "Ordinary city service, not organised transport of children. Concerns fitting, not use of a belt where fitted."
+      }
+    },
+    {
+      "id": "mock-seatbelt-lap-position",
+      "scenarioId": "seatbelt-lap-position",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "A passenger asks how a fitted lap belt should lie across them. Which guidance is appropriate?",
+      "options": [
+        "High across the abdomen and left slack.",
+        "Low across the hips and properly tightened.",
+        "Under one leg so they can release it more easily."
+      ],
+      "answer": 1,
+      "explanation": "A lap belt should restrain at the hips. A high or loose belt can work less effectively and cause injury.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/road-safety/road-users/passengers/public-vehicle-passengers",
+        "section": "How to wear lap belts correctly",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A lap belt should restrain at the hips. A high or loose belt can work less effectively and cause injury.",
+        "scope": "Coach seat fitted with a lap belt. Follow the instructions for the actual restraint."
+      }
+    },
+    {
+      "id": "mock-passenger-aggression-response",
+      "scenarioId": "passenger-aggression-response",
+      "topic": "bus",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "At a safe stop, a passenger is upset about a service problem and asks for help. What is the most appropriate initial response?",
+      "options": [
+        "Argue immediately about who caused the problem.",
+        "Listen calmly and identify the problem before explaining what can be done.",
+        "Dismiss the concern until the passenger leaves the bus."
+      ],
+      "answer": 1,
+      "explanation": "The RSA customer guidance advises listening and understanding the concern before proposing a fair response.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s2_print32d5d2c3-2a1a-4534-bb96-afec6975c868.pdf?sfvrsn=ca86a509_3",
+        "section": "Section C, How to respond to a customer with a complaint, p. 27",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA customer guidance advises listening and understanding the concern before proposing a fair response.",
+        "scope": "A complaint, without an immediate threat requiring emergency procedures."
+      }
+    },
+    {
+      "id": "mock-foreign-traffic-side-attention",
+      "scenarioId": "foreign-traffic-side-attention",
+      "topic": "risk",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "You have begun driving a right-hand-drive coach in a country where traffic keeps right. What should you account for before attempting an overtake?",
+      "options": [
+        "The seating position makes the view past any vehicle ahead better than in Ireland.",
+        "The seating position can limit your view past the vehicle ahead, so stay back and make careful observations.",
+        "The usual view from the cab is unchanged if you sit closer to the vehicle ahead."
+      ],
+      "answer": 1,
+      "explanation": "The RSA warns that the driver’s position can make it harder to see past vehicles where traffic keeps right. Allow more room to see and decide.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section G, Driving in mainland Europe, p. 50",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA warns that the driver’s position can make it harder to see past vehicles where traffic keeps right. Allow more room to see and decide.",
+        "scope": "A right-hand-drive coach in a country that drives on the right. Follow local rules."
+      }
+    },
+    {
+      "id": "mock-highest-gear-without-labouring",
+      "scenarioId": "highest-gear-without-labouring",
+      "topic": "risk",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "On a clear level road in a manual coach, which gear-choice principle supports economical driving?",
+      "options": [
+        "Use a suitably high gear without making the engine labour.",
+        "Use the lowest gear that can maintain the speed.",
+        "Select the highest gear even if the engine struggles."
+      ],
+      "answer": 0,
+      "explanation": "The RSA advises using a high gear that suits the load and speed without labouring the engine.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section G, Eco-driving, p. 50",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The RSA advises using a high gear that suits the load and speed without labouring the engine.",
+        "scope": "Manual coach and stable road conditions. Follow the vehicle’s operating guidance."
+      }
+    },
+    {
+      "id": "mock-depot-designated-walkway",
+      "scenarioId": "depot-designated-walkway",
+      "topic": "risk",
+      "categories": [
+        "D"
+      ],
+      "use": "mock",
+      "question": "You must walk from a parked coach to the depot office. There is a marked pedestrian walkway and buses are manoeuvring nearby. Which route should you take?",
+      "options": [
+        "Use the designated pedestrian walkway.",
+        "Walk through the manoeuvring area so you can take the shortest route.",
+        "Walk closely behind a moving coach so its driver can see you."
+      ],
+      "answer": 0,
+      "explanation": "A designated walkway keeps pedestrians away from bus manoeuvres and blind areas.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/services/s3.1-cpc/bus-driver-cpc-module-6-s1_printa1da9ddb-26e8-488a-af8f-9c537b1a7704.pdf?sfvrsn=c369690_3",
+        "section": "Section G, Bus stations/depots/terminus, p. 50",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A designated walkway keeps pedestrians away from bus manoeuvres and blind areas.",
+        "scope": "Depot with a designated walkway."
+      }
+    },
+    {
+      "id": "mock-ordinary-bus-stop-parking-mark",
+      "scenarioId": "ordinary-bus-stop-parking-mark",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "An ordinary motorist plans to park in an area marked BUS while waiting for a friend. What does that marking mean for their plan?",
+      "options": [
+        "They should find a lawful parking place clear of the marked bus stop.",
+        "They may wait in the marked area as long as their engine is running.",
+        "They may park if they leave space at the front edge of the markings."
+      ],
+      "answer": 0,
+      "explanation": "The marked area is a bus stop and is not available for ordinary parking.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 10, No parking, p. 143",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The marked area is a bus stop and is not available for ordinary parking.",
+        "scope": "Marked bus stop and ordinary private vehicle parking."
+      }
+    },
+    {
+      "id": "mock-no-parking-lowered-kerb",
+      "scenarioId": "no-parking-lowered-kerb",
+      "topic": "rules",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A street has no yellow lines, but the kerb has been lowered to provide wheelchair access. May you park across the lowered section?",
+      "options": [
+        "Yes, if no wheelchair user is currently approaching.",
+        "Yes, if at least one wheel is on the kerb rather than the road.",
+        "No. Keep the lowered crossing point available."
+      ],
+      "answer": 2,
+      "explanation": "The parking rules keep lowered kerbs used for wheelchair access clear even without a yellow line.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 10, No parking, p. 144",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The parking rules keep lowered kerbs used for wheelchair access clear even without a yellow line.",
+        "scope": "Kerb lowered for wheelchair users."
+      }
+    },
+    {
+      "id": "mock-yellow-periodic-school-speed",
+      "scenarioId": "yellow-periodic-school-speed",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A school-zone sign displays an illuminated periodic speed limit of 30 km/h. What should you do while that limit applies?",
+      "options": [
+        "Treat 30 km/h as advisory unless you see a child.",
+        "Use the usual road limit whenever a school warden is absent.",
+        "Treat 30 km/h as the maximum for the signed period, subject to conditions."
+      ],
+      "answer": 2,
+      "explanation": "A periodic regulatory limit is binding while in force. Conditions can require a slower speed.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 8, Periodic speed limits, p. 119",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "A periodic regulatory limit is binding while in force. Conditions can require a slower speed.",
+        "scope": "Active regulatory periodic limit."
+      }
+    },
+    {
+      "id": "mock-disabled-bay-permit-purpose",
+      "scenarioId": "disabled-bay-permit-purpose",
+      "topic": "signs",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "A parking bay displays the wheelchair symbol. You are driving a vehicle that is not carrying or collecting the permit holder and have no valid permit to use the bay. May you park there?",
+      "options": [
+        "Yes, if you remain in the driver’s seat.",
+        "No. Leave the reserved bay for eligible use.",
+        "Yes, if you use the bay for less than five minutes."
+      ],
+      "answer": 1,
+      "explanation": "The marked bay is reserved for eligible use under the disability parking permit scheme.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 10, No parking, p. 143",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "The marked bay is reserved for eligible use under the disability parking permit scheme.",
+        "scope": "Ordinary parking without a permit or an eligible passenger."
+      }
+    },
+    {
+      "id": "mock-garda-after-accident-stop",
+      "scenarioId": "garda-after-accident-stop",
+      "topic": "emergency",
+      "categories": [
+        "C",
+        "D"
+      ],
+      "use": "mock",
+      "question": "After an incident involving your vehicle, what must you do at the scene even if you believe the damage is minor?",
+      "options": [
+        "Stop and remain at the scene for a reasonable time.",
+        "Leave immediately and see whether anyone contacts you.",
+        "Drive on unless another driver signals for you to stop."
+      ],
+      "answer": 0,
+      "explanation": "Drivers involved in an incident must stop. Remaining allows them to check for assistance needs and fulfil their obligations.",
+      "validationStatus": "source-checked",
+      "evidence": {
+        "url": "https://www.rsa.ie/docs/default-source/road-safety/rules-of-the-road.pdf?sfvrsn=e0334acb_23",
+        "section": "Section 14, What drivers must do at an incident or in an emergency, p. 179",
+        "checkedOn": "2026-11-07",
+        "reviewer": "Codex (editorial source check)",
+        "rationale": "Drivers involved in an incident must stop. Remaining allows them to check for assistance needs and fulfil their obligations.",
+        "scope": "Driver involved in an incident. Provide assistance and details as applicable."
+      }
     }
   ],
   "papers": [
@@ -5746,6 +8108,116 @@
       "reviewer": "Codex (editorial coverage check)",
       "checkedOn": "2026-11-07",
       "coverage": "Editorial allocation: 5 braking, 12 checks, 5 dimensions, 8 emergency, 11 hours, 12 loads, 11 risk, 17 rules, 14 signs, 5 trailers. This is a practice blueprint. It does not claim to reproduce the official question distribution."
+    },
+    {
+      "id": "bus-d-1",
+      "name": "Bus mock 1",
+      "category": "D",
+      "questionIds": [
+        "mock-coach-demister-test",
+        "mock-announce-service-white-cane",
+        "mock-seatbelt-lap-position",
+        "mock-seated-coach-dual-limit",
+        "mock-yellow-periodic-school-speed",
+        "mock-coach-extinguisher-gauge",
+        "mock-continuous-double-yellow-overnight",
+        "mock-articulated-bus-inner-track",
+        "mock-coach-tail-swing-pedestrian",
+        "mock-right-turn-yellow-box-oncoming",
+        "mock-coach-unusual-heavy-luggage",
+        "mock-tacho-card-stolen-printouts",
+        "mock-coach-hold-door-latch",
+        "mock-coach-fire-aid-stock-date",
+        "mock-coach-hump-grounding",
+        "mock-nonvisible-disability-ramp-request",
+        "mock-short-ferry-regular-weekly-rest",
+        "mock-ordinary-bus-stop-parking-mark",
+        "mock-opposing-turns-same-road",
+        "mock-automatic-suppression-limit",
+        "mock-guide-dog-working",
+        "mock-city-bus-standing-design-exemption",
+        "mock-tunnel-dipped-headlights-entry",
+        "mock-zebra-waiting-intent",
+        "mock-coach-overhead-luggage-secured",
+        "mock-depot-designated-walkway",
+        "mock-end-trip-upper-saloon-sweep",
+        "mock-daily-hours-across-midnight",
+        "mock-occasional-coach-rest-one-hour",
+        "mock-equal-priority-road-right",
+        "mock-cornering-passengers-outside",
+        "mock-diamond-school-ahead-symbol",
+        "mock-luggage-before-reboard-accounting",
+        "mock-upper-deck-load-stability",
+        "mock-weekly-rest-postponement-condition",
+        "mock-avoid-exhaust-hazard-parking",
+        "mock-coach-brake-fade-cause",
+        "mock-highest-gear-without-labouring",
+        "mock-evacuated-upwind-refuge",
+        "mock-schedule-pressure-boarding",
+        "mock-passenger-aggression-response",
+        "mock-reverse-gear-stationary",
+        "mock-boarding-kneeling-ramp-rest",
+        "mock-coach-d1-length-entitlement",
+        "mock-flashing-amber-directional-yield",
+        "mock-private-entrance-public-road",
+        "mock-foreign-traffic-side-attention",
+        "mock-passenger-handrail-loose",
+        "mock-engine-fire-cover-closed",
+        "mock-normal-week-start",
+        "mock-amber-stop-would-danger",
+        "mock-ordinary-stop-authorised-place",
+        "mock-ebs-response-purpose",
+        "mock-standing-bus-design-speed",
+        "mock-designated-wheelchair-space-priority",
+        "mock-no-parking-lowered-kerb",
+        "mock-collision-exchange-insurance",
+        "mock-two-driver-second-arrival",
+        "mock-traction-budget-corner",
+        "mock-passenger-belt-retract-fault",
+        "mock-standing-bus-outside-lane-empty",
+        "mock-coach-mam-passengers-fuel",
+        "mock-coach-front-overhang-wall",
+        "mock-hill-hold-accelerator-avoid",
+        "mock-stolen-card-declaration",
+        "mock-passenger-area-aisle-light",
+        "mock-emergency-hammer-exit-check",
+        "mock-blindspot-bus-stop-nearside",
+        "mock-unattended-coach-external-locks",
+        "mock-passenger-hearing-face-them",
+        "mock-toucan-shared-crossing",
+        "mock-crowded-stop-door-closing",
+        "mock-multi-driver-break-assistance",
+        "mock-motorway-incident-location-phone",
+        "mock-hand-operated-pa-stationary",
+        "mock-seated-passengers-belt-notice",
+        "mock-slow-queues-left-progress",
+        "mock-kerb-gap-boarding",
+        "mock-disabled-bay-permit-purpose",
+        "mock-luggage-lift-help",
+        "mock-occasional-journey-form-copy",
+        "mock-card-malfunction-normal-residence",
+        "mock-fog-entry-dipped-beams",
+        "mock-standing-passengers-deceleration",
+        "mock-bus-transaction-moving-off",
+        "mock-abs-pedal-pulses",
+        "mock-coach-swan-neck-right-turn",
+        "mock-offside-boarding-on-two-way-road",
+        "mock-loaded-coach-gap-across-junction",
+        "mock-boarding-step-loose-surface",
+        "mock-garda-after-accident-stop",
+        "mock-school-trip-appropriate-belts",
+        "mock-contra-flow-ends-yield",
+        "mock-coach-leaning-precheck",
+        "mock-fire-call-passengers-aboard",
+        "mock-night-pedestrian-parked-cars",
+        "mock-motorway-diversion-solid-shape",
+        "mock-evacuation-no-return-for-bag",
+        "mock-emergency-buzzer-function",
+        "mock-no-left-from-bus-lane"
+      ],
+      "reviewer": "Codex (editorial coverage check)",
+      "checkedOn": "2026-11-07",
+      "coverage": "Editorial allocation: 8 braking, 23 bus, 10 checks, 9 dimensions, 9 emergency, 11 hours, 8 risk, 12 rules, 10 signs. This is a practice blueprint. It does not claim to reproduce the official question distribution."
     }
   ]
 }

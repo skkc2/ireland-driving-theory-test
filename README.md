@@ -1,6 +1,23 @@
-# RoadReady Ireland — Irish truck & bus theory practice
+# RoadReady Ireland — Irish truck & bus theory revision
 
-A static HTML/CSS/JavaScript revision site. No backend, build step or account required.
+Static HTML/CSS/JavaScript site. No backend or account is required.
+
+## Current content status — IMPORTANT
+**The current question bank is unverified and must not be treated as authoritative exam preparation.** On 7 November 2026 an initial structural audit found:
+- 600 question records in `data/questions.json`.
+- Only 264 distinct underlying scenario stems (22 per topic); 336 rows repeat those scenarios with alternative prompt wording.
+- No question-by-question legal/source validation or independent instructor review has been completed.
+
+For safety and transparency, full mock exams and topic quizzes are temporarily paused in the interface. Draft topic notes remain visible. Do not use the draft content as your sole preparation. The official RSA-approved revision materials are the authoritative study resource.
+
+See [CONTENT_AUDIT.md](CONTENT_AUDIT.md) for the audit, verified exam-format facts and source register.
+
+## Official exam format checked 7 November 2026
+The current official provider FAQ states:
+- Category C or D: 100 questions, 120 minutes, pass mark 74.
+- Combined C+D: 140 questions, 180 minutes, pass mark 104.
+
+C1/C1E/CE are truck licensing categories and the relevant truck theory route is the C test; D is the bus test. Check the exact test category when booking. The Driver CPC case-study test is a separate assessment and is not included in this website's current mock functionality.
 
 ## Run locally
 Run `python3 -m http.server 8000` from the repository root and open http://localhost:8000.
@@ -8,20 +25,17 @@ Run `python3 -m http.server 8000` from the repository root and open http://local
 ## GitHub Pages
 The workflow `.github/workflows/pages.yml` deploys the repository root on pushes to `main`. In Settings → Pages choose **GitHub Actions** as the source if required.
 
-## What's included
-- 500 original questions across 12 topics (50 per topic).
-- Five disjoint mock exams, each 100 questions, with a 120-minute timer and 74/100 practice pass mark.
-- Question navigation, answer selection, review flags and results with explanations for wrong or unanswered questions.
-- Topic notes and 50-question quizzes with immediate feedback.
-- Browser-only score history in localStorage.
-
 ## Editing the question bank
-Edit `data/questions.json`. Each question has a unique `id`, topic ID, question text, 3 options, zero-based correct `answer` index, and explanation. Keep IDs unique. Every mock exam uses a non-overlapping 100-question slice of the bank; maintain at least 500 questions if you want to retain five full, non-repeating mocks. Topic IDs must match an entry in `topics`.
+Questions are stored in `data/questions.json`. Each question currently has `id`, `topic`, `question`, `options`, zero-based `answer`, `explanation` and `validationStatus`.
 
-## Accuracy and exam format
-The single-category professional theory test information is summarised by the RSA as 100 questions and 74 correct to pass for C and D; the combined CD test is 140 questions and 104 correct. Time limits shown in this practice site are 120 minutes for single category and 180 minutes for combined CD; verify the current details on the official booking/provider information before your exam:
-- [RSA — Professional driver theory test](https://www.rsa.ie/services/professional-drivers/cpc/become-a-professional-cpc-driver/2.-theory-test)
-- [Prometric — Theory test FAQs](https://theorytest.ie/general-information/faqs/)
-- [Citizens Information — Driver theory test](https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driving-tests/driver-theory-test/)
+Do not change `validationStatus` to `validated` without a question-specific evidence record containing the exact legal/RSA source, section or page, date checked, rationale for the correct answer, and reviewer. Keep all IDs unique and avoid rephrasing the same underlying scenario as a new question.
 
-EU drivers' hours rules have exceptions and special cases; dangerous goods content is introductory and must be checked against current ADR and Irish requirements. A number of scenarios are broad safety principles rather than definitive legal advice. Have a qualified instructor verify the bank before treating it as authoritative. This is an independent study aid, not affiliated with RSA or Prometric.
+## Validation standard before re-enabling quizzes
+1. Verify every question and explanation against a current official source (legislation, RSA, HSA, or other competent authority).
+2. Record a precise source citation and date for every question; mark ambiguous or out-of-syllabus questions for exclusion.
+3. Have an Irish approved driving instructor or qualified subject-matter reviewer check specialist vehicle, bus, tachograph and dangerous-goods questions.
+4. Remove semantic duplicates; ensure mock papers contain distinct questions and balanced, relevant coverage.
+5. Test answer indices, options, explanations, category mapping, mock timing and pass marks automatically.
+6. Recheck sources whenever legislation or RSA materials are updated.
+
+This independent resource is not affiliated with RSA or Prometric and does not reproduce official copyrighted questions.

@@ -33,7 +33,9 @@ Build a free, reliable study website for Irish professional-driver theory prepar
 - [x] Confirmed the C and D licence category mappings with the official test provider.
 - [x] Separated CPC case-study guidance from the multiple-choice exam formats.
 - [x] Added 12 source-linked lessons. The site distinguishes core road-safety study, professional-driver guidance and supplementary ADR study. These labels do not represent an official test blueprint.
-- [x] Added 25 individually source-checked general road-safety questions for five starter quizzes, with immediate feedback and a review of incorrect and unanswered questions.
+- [x] Built the starter quiz interface with immediate feedback and a review of incorrect and unanswered questions.
+- [x] Prepared 100 topic questions and 50 mock candidates with an AI source check.
+- [x] Added the independent review page with answer-first review, change requests and versioned export.
 - [x] Added a shared content gate and a timed mock interface with instructions, question navigation, flagging, submission review and raw-mark scoring.
 - [x] Added automated checks and a Pages publishing step that excludes the archived draft bank.
 
@@ -50,8 +52,8 @@ Build a free, reliable study website for Irish professional-driver theory prepar
 - [ ] Remove semantic duplicates and unsupported, ambiguous or out-of-scope questions.
 - [ ] Write original questions in a clear Irish heavy-vehicle context.
 - [ ] Build a target bank of 600 distinct, individually checked questions:
-  - [ ] 500 questions allocated across five 100-question mock papers.
-  - [ ] 100 additional questions for topic learning and practice. The starter release contributes 25, leaving 75 to write and check.
+  - [ ] Write and check 450 more mock candidates, then allocate 500 reviewed questions across five 100-question papers.
+  - [x] Write and AI source-check 100 topic questions. Independent review remains open.
 - [ ] Ensure there is no question overlap between the five mock papers.
 - [ ] Give every question 3–4 plausible options, one defensible correct answer and a concise explanation.
 - [ ] Vary correct-answer positions; avoid patterns that reveal the answer.
@@ -75,7 +77,7 @@ Additional checks:
 - [ ] Check drivers’ hours and tachograph material against current EU rules, including scope and exemptions.
 - [ ] Check bus passenger safety and accessibility material against applicable guidance and law.
 - [ ] Keep ADR questions supplementary unless their relevance to the target test syllabus is confirmed; have specialist content reviewed by a qualified person.
-- [ ] Arrange an independent review by an Irish approved driving instructor or appropriately qualified subject-matter reviewer, especially for specialist truck, bus and tachograph content.
+- [ ] Record the repository owner’s independent review after the AI pass. Record relevant qualifications for specialist questions and lesson sign-off.
 - [ ] Never mark a question validated solely because its wording sounds plausible or an automated check passes.
 
 ### 4. Build and verify the five mock exams
@@ -109,7 +111,7 @@ Additional checks:
 
 ### 7. Release
 
-- [x] Keep the archived questions out of quizzes and mocks. Require independent review for specialist questions and mock papers.
+- [x] Keep the archived questions out of quizzes and mocks. Require independent review for every released question.
 - [x] Record the starter bank and editorial review in the audit, README and on-site content status.
 - [ ] Add independent reviewer details as reviews are completed.
 - [ ] Re-enable only the sections that have passed review.
@@ -124,10 +126,10 @@ Additional checks:
 | Learning material | 12 source-linked lessons |
 | Existing question rows | 600 draft rows; not validated |
 | Distinct scenario stems in current bank | 264 found by structural audit |
-| Starter practice | 25 original general road-safety questions with editorial source checks |
+| AI source-check queue | 100 topic questions and 50 mock candidates |
 | Independent instructor review | Not completed |
 | Mock exams | Paused |
-| Topic quizzes | Five starter quizzes available in this update. Specialist practice pending review |
+| Topic quizzes | Paused until independent review |
 | Official test-format facts | Checked against public RSA/provider sources |
 | GitHub Pages deployment | Verify deployment after the update merges |
 

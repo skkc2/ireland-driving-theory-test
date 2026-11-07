@@ -1,9 +1,17 @@
 import { readFile } from 'node:fs/promises';
-import { loadContent } from '../content.mjs';
+import { loadContent, loadReviewQueue } from '../content.mjs';
 
 const read = async path => JSON.parse(await readFile(new URL(path, import.meta.url), 'utf8'));
-const [study, draft] = await Promise.all([read('../data/study.json'), read('../data/questions.json')]);
+const [study, draft, queue] = await Promise.all([
+  read('../data/study.json'), read('../data/questions.json'), read('../review/questions.json'),
+]);
 const content = loadContent(study);
+loadReviewQueue(study.topics, queue.questions);
+const queuedIds = new Set(queue.questions.map(q => q.id));
+const queuedScenarios = new Set(queue.questions.map(q => q.scenarioId));
+if (study.questions.some(q => queuedIds.has(q.id) || queuedScenarios.has(q.scenarioId))) {
+  throw new Error('Released content overlaps with the review queue');
+}
 
 const topicIds = new Set(draft.topics.map(topic => topic.id));
 const questionIds = new Set();
@@ -18,4 +26,4 @@ for (const q of draft.questions) {
   }
   questionIds.add(q.id);
 }
-console.log(`${content.topics.length} lessons, ${content.practice.length} practice questions, ${content.papers.length} released mocks, ${questionIds.size} quarantined rows`);
+console.log(`${content.topics.length} lessons, ${content.practice.length} practice questions, ${content.papers.length} released mocks, ${questionIds.size} quarantined rows, ${queue.questions.length} AI-checked candidates awaiting independent review`);

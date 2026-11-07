@@ -11,14 +11,16 @@ The JSON contains no per-question evidence record. Every row is marked `validati
 ## Safety action
 
 - Keep all existing question rows quarantined as draft data.
-- Keep mocks and specialist quizzes paused until they receive independent review. Do not use any archived rows in released practice.
+- Require independent review for every released question. Keep the archived rows out of all practice.
 - Do not display a question count as a count of original or validated questions.
 - Do not award pass/fail results from this bank.
 - Use the official resources linked on the site for study until replacement questions are properly reviewed.
 
-## Starter release
+## Two-stage review
 
-`data/study.json` is separate from the archive. It contains 12 source-linked lessons and 25 original general road-safety questions checked against their cited sources by Codex on 7 November 2026. The record on each question identifies the specific guidance, rationale and scope. No independent instructor review has taken place. Specialist topics are available as reference lessons. The release bank contains zero mock papers.
+`review/questions.json` holds 100 original topic questions and 50 mock candidates, including the 25 starter questions from the initial PR. Codex checked their answers and explanations against the cited sources on 7 November 2026. Each question has a specific source, scope and rationale. No independent decisions have been recorded.
+
+The review page supports answer-first checks and exports decisions tied to the exact version reviewed. The public bank in `data/study.json` holds the 12 study lessons and zero released questions or mock papers. GitHub Pages excludes the candidate bank.
 
 The app and CI use the same validator. It can check the format and completeness of evidence and catch repeated IDs or exact question wording. Humans still need to detect semantic duplicates, judge distractors and check legal accuracy and syllabus coverage.
 

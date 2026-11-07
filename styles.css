@@ -32,3 +32,8 @@ th, td { text-align: left; border-bottom: 1px solid #dce5dd; padding: 6px; }
   th, td { padding: 6px 3px; font-size: .85rem; }
   .card { padding: 15px; }
 }
+
+select, input, textarea { font: inherit; }
+label > input:not([type="radio"]), label > select { display: block; }
+fieldset label, textarea { display: block; }
+textarea { width: 100%; }

@@ -1,10 +1,11 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import test from 'node:test';
-import { formats, loadContent, scoreSession, secondsRemaining } from '../content.mjs';
+import { formats, loadContent, loadReviewQueue, scoreSession, secondsRemaining } from '../content.mjs';
 
 const study = JSON.parse(readFileSync(new URL('../data/study.json', import.meta.url)));
-const practice = study.questions[0];
+const queue = JSON.parse(readFileSync(new URL('../review/questions.json', import.meta.url)));
+const practice = queue.questions[0];
 const review = { reviewer: 'Test reviewer', qualification: 'Test qualification', date: practice.evidence.checkedOn };
 
 function mockFixture(category) {
@@ -25,7 +26,8 @@ function mockFixture(category) {
 }
 
 test('the current study data can be loaded and the draft archive cannot', () => {
-  assert.ok(loadContent(study).practice.length > 0);
+  loadContent(study);
+  assert.ok(loadReviewQueue(study.topics, queue.questions).size > 0);
   const archive = JSON.parse(readFileSync(new URL('../data/questions.json', import.meta.url)));
   assert.throws(() => loadContent(archive), /Missing content lists/);
   assert.throws(() => loadContent({ ...study, questions: [archive.questions[0]] }), /Invalid question/);
@@ -33,7 +35,7 @@ test('the current study data can be loaded and the draft archive cannot', () => 
 
 test('release data rejects duplicate scenarios and invalid answer evidence', () => {
   const duplicate = { ...practice, id: 'duplicate-id' };
-  assert.throws(() => loadContent({ ...study, questions: [practice, duplicate] }), /Duplicate scenario ID/);
+  assert.throws(() => loadReviewQueue(study.topics, [practice, duplicate]), /Duplicate scenario ID/);
   for (const invalid of [
     { ...practice, answer: practice.options.length },
     { ...practice, evidence: { ...practice.evidence, checkedOn: '2026-02-31' } },
@@ -42,6 +44,17 @@ test('release data rejects duplicate scenarios and invalid answer evidence', () 
   ]) {
     assert.throws(() => loadContent({ ...study, questions: [invalid] }), /Invalid question or evidence/);
   }
+});
+
+test('AI-checked questions need a different reviewer before release', () => {
+  assert.throws(() => loadContent({ ...study, questions: [practice] }), /Independent review required/);
+  for (const independent of [{ ...review, reviewer: practice.evidence.reviewer }, { ...review, date: '2025-01-01' }]) {
+    const q = { ...practice, evidence: { ...practice.evidence, independent } };
+    assert.throws(() => loadContent({ ...study, questions: [q] }), /Independent review required/);
+  }
+  const q = { ...practice, evidence: { ...practice.evidence, independent: { reviewer: review.reviewer, date: review.date } } };
+  assert.equal(loadContent({ ...study, questions: [q] }).practice.length, 1);
+  assert.throws(() => loadReviewQueue(study.topics, [q]), /Unexpected independent review/);
 });
 
 test('specialist questions and lessons need documented independent review', () => {

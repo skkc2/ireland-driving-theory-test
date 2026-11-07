@@ -21,8 +21,8 @@ function source(value) {
   }
 }
 
-function approval(value, sourceDate) {
-  return present(value?.reviewer) && present(value.qualification) &&
+function approval(value, sourceDate, specialist = false) {
+  return present(value?.reviewer) && (!specialist || present(value.qualification)) &&
     date(value.date) && value.date >= sourceDate;
 }
 
@@ -31,8 +31,8 @@ function unique(items, key, name) {
   if (new Set(values).size !== values.length) throw new Error(`Duplicate ${name}`);
 }
 
-export function loadContent({ topics, questions, papers }) {
-  if (![topics, questions, papers].every(Array.isArray)) throw new Error('Missing content lists');
+function checkTopics(topics) {
+  if (!Array.isArray(topics)) throw new Error('Missing topics list');
   for (const topic of topics) {
     if (!id(topic.id) || !present(topic.name) || !present(topic.summary) ||
       !['core', 'professional', 'supplementary'].includes(topic.scope) ||
@@ -43,7 +43,11 @@ export function loadContent({ topics, questions, papers }) {
     }
   }
   unique(topics, t => t.id, 'topic ID');
-  const topicMap = new Map(topics.map(t => [t.id, t]));
+  return new Map(topics.map(t => [t.id, t]));
+}
+
+function checkQuestions(questions, topicMap, pending) {
+  if (!Array.isArray(questions)) throw new Error('Missing questions list');
   for (const q of questions) {
     const topic = topicMap.get(q.topic);
     const e = q.evidence;
@@ -58,9 +62,11 @@ export function loadContent({ topics, questions, papers }) {
       !source(e) || !date(e.checkedOn) || ![e.reviewer, e.rationale, e.scope].every(present)) {
       throw new Error(`Invalid question or evidence: ${q.id}`);
     }
-    if ((q.use === 'mock' || topic.scope !== 'core') &&
-      (!approval(e.independent, e.checkedOn) || normal(e.independent.reviewer) === normal(e.reviewer) ||
-        (topic.scope !== 'core' && (!approval(topic.independent, topic.checkedOn) ||
+    const specialist = topic.scope !== 'core';
+    if (pending && e.independent) throw new Error(`Unexpected independent review in queue: ${q.id}`);
+    if (!pending &&
+      (!approval(e.independent, e.checkedOn, specialist) || normal(e.independent.reviewer) === normal(e.reviewer) ||
+        (specialist && (!approval(topic.independent, topic.checkedOn, true) ||
           normal(topic.independent.reviewer) === normal(topic.reviewer))))) {
       throw new Error(`Independent review required: ${q.id}`);
     }
@@ -68,6 +74,19 @@ export function loadContent({ topics, questions, papers }) {
   unique(questions, q => q.id, 'question ID');
   unique(questions, q => q.scenarioId, 'scenario ID');
   unique(questions, q => normal(q.question), 'question wording');
+
+}
+
+export function loadReviewQueue(topics, questions) {
+  const topicMap = checkTopics(topics);
+  checkQuestions(questions, topicMap, true);
+  return topicMap;
+}
+
+export function loadContent({ topics, questions, papers }) {
+  if (![topics, questions, papers].every(Array.isArray)) throw new Error('Missing content lists');
+  const topicMap = checkTopics(topics);
+  checkQuestions(questions, topicMap, false);
 
   const questionMap = new Map(questions.map(q => [q.id, q]));
   const used = new Set();

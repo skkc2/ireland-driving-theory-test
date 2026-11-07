@@ -46,12 +46,12 @@ function home(focus) {
     <section class="hero">
       <small>IRISH HEAVY VEHICLE THEORY REVISION</small>
       <h1 tabindex="-1">Prepare for truck and bus theory</h1>
-      <p>Study Irish road rules and professional-driver topics, then practise with short quizzes that explain each answer.</p>
+      <p>Study Irish road rules and professional-driver topics with links to official guidance.</p>
       ${button('Learn by topic', 'view', 'learn', 'primary')}
     </section>
     <section class="card">
       <h2>Study content status</h2>
-      <p>${content.topics.length} source-linked lessons and ${content.practice.length} source-checked starter questions. Full-length mock papers require independent review before release.</p>
+      <p>${content.topics.length} source-linked lessons and ${content.practice.length} released practice questions. Quizzes and mock papers require an independent review before release.</p>
       <p>Use the latest ${link(rules, 'RSA Rules of the Road')} alongside your revision.</p>
     </section>
     <section class="card">
@@ -103,7 +103,7 @@ function topicPage(id) {
       <h2>Sources</h2>
       <ul>${topic.sources.map(s => `<li>${link(s.url, s.section)}</li>`).join('')}</ul>
       <p>Last source check <time datetime="${topic.checkedOn}">${topic.checkedOn}</time>.</p>
-      ${topic.scope === 'core' ? '' : '<p>Use the linked guidance and your operator’s current procedures. Quiz questions for this topic require specialist review.</p>'}
+      ${count ? '' : '<p>Practice questions for this topic are pending independent review.</p>'}
     </article>
     <p class="controls">
       ${count ? button(`Start practice (${count} questions)`, 'practice', id, 'primary') : ''}

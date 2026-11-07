@@ -16,6 +16,7 @@ jobs:
         with:
           node-version: '24'
       - run: node --check app.js
+      - run: node --check review/review.js
       - run: node scripts/validate-content.mjs
       - run: node --test scripts/content.test.mjs
 

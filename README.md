@@ -2,21 +2,23 @@
 
 A free static revision hub for Irish professional-driver theory study. No account or backend is required.
 
-## Honest content status — 7 November 2026
+## Study content
 
-**The practice-question bank is quarantined and must not be used as exam-quality preparation.** The JSON contains 600 draft rows, but the prior structural audit found only 264 distinct underlying scenario stems (22 per topic) and 336 repeated scenario rows. None of the questions has completed an individual legal/source check or independent instructor review.
+The site includes 12 source-linked lessons and 25 original starter questions across five general road-safety topics. Each answer includes an explanation and a dated source reference. These questions received an editorial source check on 7 November 2026. Independent instructor review is pending.
 
-The website therefore keeps mock exams and topic quizzes disabled. The 600-row count is a count of draft records, not a claim of 600 original or validated questions. Topic summaries are also draft learning prompts, not authoritative legal advice.
+The original 600 rows are archived in `data/questions.json`. The structural audit found 264 distinct scenario stems and 336 repeated rows. The app loads only `data/study.json`. Full-length mock exams remain paused while the replacement bank is written and independently reviewed.
 
-See [CONTENT_AUDIT.md](CONTENT_AUDIT.md) for the findings and validation standard.
+See [CONTENT_AUDIT.md](CONTENT_AUDIT.md) and [TODO.md](TODO.md) for the evidence standard and remaining work.
 
-## Official test format checked 7 November 2026
+## Official test formats checked 7 November 2026
 
-- **Category C or D:** 100 multiple-choice questions, 120 minutes, pass mark 74.
-- **Combined C+D:** 140 questions, 180 minutes, pass mark 104.
-- The CPC case-study assessment is separate: three scenarios with 15 questions each, at least 5/15 in each scenario and 28/45 overall.
+| Theory route | Licence categories | Questions | Minutes | Pass mark |
+|---|---|---:|---:|---:|
+| Truck C | C, CE, C1, C1E | 100 | 120 | 74 |
+| Bus D | D, DE, D1, D1E | 100 | 120 | 74 |
+| Combined CD | Truck and bus | 140 | 180 | 104 |
 
-C1, C1E and CE are licence categories; do not treat them as separate theory-test formats without checking the current RSA booking guidance. The truck theory route is category C; bus is D.
+The separate CPC case-study assessment has three scenarios with 15 questions each. It requires at least 5/15 in each scenario and 28/45 overall.
 
 ## Official study links
 
@@ -35,19 +37,22 @@ Run `python3 -m http.server 8000` from the repository root and open http://local
 
 ## GitHub Pages
 
-The workflow `.github/workflows/pages.yml` deploys the repository root on pushes to `main`. In Settings → Pages choose **GitHub Actions** as the source if required.
+The Pages workflow validates content on pull requests and before deploying from `main`. It publishes the site files and the study bank. The quarantined archive and test fixtures are excluded. In Settings → Pages choose **GitHub Actions** as the source if required.
 
-## Release gate for question content
+## Checks
 
-A question must not be marked validated or exposed in a quiz until its exact proposition, answer and explanation have been checked against a current authoritative source. Store, at minimum:
+Use Node.js 24 and run:
 
-- a precise source URL and article/section/page;
-- date checked and reviewer;
-- rationale for the correct answer and any relevant exceptions;
-- a distinct scenario identifier to detect semantic duplicates.
+```sh
+node --check app.js
+node scripts/validate-content.mjs
+node --test scripts/content.test.mjs
+```
 
-Remove ambiguous, out-of-syllabus and unsupported questions. Specialist tachograph, vehicle, bus and ADR material requires appropriately qualified review. Do not copy RSA copyrighted practice questions.
+## Adding release content
 
-## Current data
+Add questions to `data/study.json`. Use a stable unique ID and a distinct scenario ID. Set the supported categories (`C` and/or `D`) and choose `use: "topic"` or `use: "mock"`. Each question needs an exact source URL, section, check date, reviewer, rationale and scope. Add questions to this file only after checking the complete question and explanation against the source.
 
-`data/questions.json` currently contains 600 draft question records. Every record remains `validationStatus: "unverified"`; do not use this bank for mock exam scoring.
+Specialist quizzes require an independent review record on the lesson and the question. Every mock question also requires an independent review record. Record the reviewer, their qualification and review date. The paper entry lists its ordered question IDs, category and a documented coverage review. Mocks draw only from their explicit question lists and may never share questions.
+
+The validator checks the evidence structure, IDs, options, answer indices, independent review records and paper composition. Editorial and qualified reviewers must still check the sources, wording, topic balance and semantic originality.

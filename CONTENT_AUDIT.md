@@ -1,6 +1,6 @@
 # Question bank audit — 7 November 2026
 
-## Finding
+## Finding for the archived question bank
 
 The bank is **not validated**. Do not describe it as 600 validated or 600 independently written questions.
 
@@ -11,10 +11,16 @@ The JSON contains no per-question evidence record. Every row is marked `validati
 ## Safety action
 
 - Keep all existing question rows quarantined as draft data.
-- Keep mock exams and topic quizzes disabled.
+- Keep mocks and specialist quizzes paused until they receive independent review. Do not use any archived rows in released practice.
 - Do not display a question count as a count of original or validated questions.
 - Do not award pass/fail results from this bank.
 - Use the official resources linked on the site for study until replacement questions are properly reviewed.
+
+## Starter release
+
+`data/study.json` is separate from the archive. It contains 12 source-linked lessons and 25 original general road-safety questions checked against their cited sources by Codex on 7 November 2026. The record on each question identifies the specific guidance, rationale and scope. No independent instructor review has taken place. Specialist topics are available as reference lessons. The release bank contains zero mock papers.
+
+The app and CI use the same validator. It can check the format and completeness of evidence and catch repeated IDs or exact question wording. Humans still need to detect semantic duplicates, judge distractors and check legal accuracy and syllabus coverage.
 
 ## Official facts checked
 
@@ -35,7 +41,7 @@ The JSON contains no per-question evidence record. Every row is marked `validati
 
 ## Scope corrections
 
-The RSA identifies the theory-test formats as C, D and combined C+D. C1, C1E and CE should not be presented as independent theory-test formats without evidence; confirm the correct booking category. Dangerous goods is specialist ADR content and should be labelled supplementary unless the official test syllabus confirms its inclusion. CPC case-study preparation is a separate module.
+The RSA identifies the theory-test formats as C, D and combined C+D. The test provider maps C, CE, C1 and C1E to theory category C and D, DE, D1 and D1E to theory category D. Dangerous goods is specialist ADR content and should be labelled supplementary unless the official test syllabus confirms its inclusion. CPC case-study preparation is a separate module.
 
 ## Required validation record
 

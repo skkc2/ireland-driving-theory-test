@@ -28,14 +28,20 @@ Build a free, reliable study website for Irish professional-driver theory prepar
 - [x] Added source references for RSA professional-driver test information, the test provider FAQs, RSA Rules of the Road, EU drivers’ hours rules and HSA ADR guidance.
 - [x] Confirmed that the GitHub Pages Actions deployment for commit `9b36ba46ef8c9434de43fb636370d11b0cd35cf0` completed successfully.
 
-## To do — highest priority
+## This update
+
+- [x] Confirmed the C and D licence category mappings with the official test provider.
+- [x] Separated CPC case-study guidance from the multiple-choice exam formats.
+- [x] Added 12 source-linked lessons. The site distinguishes core road-safety study, professional-driver guidance and supplementary ADR study. These labels do not represent an official test blueprint.
+- [x] Added 25 individually source-checked general road-safety questions for five starter quizzes, with immediate feedback and a review of incorrect and unanswered questions.
+- [x] Added a shared content gate and a timed mock interface with instructions, question navigation, flagging, submission review and raw-mark scoring.
+- [x] Added automated checks and a Pages publishing step that excludes the archived draft bank.
+
+## Remaining work
 
 ### 1. Agree the exam coverage
 
-- [ ] Decide how the five mock papers should be split between truck C and bus D.
-- [ ] Decide whether the website should also include a separate combined C+D paper (140 questions) or focus the five mocks on individual C and D formats.
-- [ ] Confirm how C1, C1E and CE should be explained and mapped to the correct theory-test route; do not invent separate exam formats.
-- [ ] Separate CPC case-study preparation from the multiple-choice theory exams.
+- [ ] Confirm the proposed first release of three C and two D papers. Keep the combined CD format as a reference until there is a separate 140-question bank and a reviewed coverage plan.
 - [ ] Identify which topics are confirmed core syllabus and which are supplementary (for example, specialist ADR content).
 
 ### 2. Rebuild the question bank properly
@@ -45,7 +51,7 @@ Build a free, reliable study website for Irish professional-driver theory prepar
 - [ ] Write original questions in a clear Irish heavy-vehicle context.
 - [ ] Build a target bank of 600 distinct, individually checked questions:
   - [ ] 500 questions allocated across five 100-question mock papers.
-  - [ ] 100 additional questions for topic learning and practice.
+  - [ ] 100 additional questions for topic learning and practice. The starter release contributes 25, leaving 75 to write and check.
 - [ ] Ensure there is no question overlap between the five mock papers.
 - [ ] Give every question 3–4 plausible options, one defensible correct answer and a concise explanation.
 - [ ] Vary correct-answer positions; avoid patterns that reveal the answer.
@@ -79,25 +85,22 @@ Additional checks:
 - [ ] If a combined CD mock is included, it has exactly 140 questions, 180 minutes and a 104/140 pass mark.
 - [ ] Confirm the five papers have balanced and appropriate topic coverage.
 - [ ] Confirm no repeated underlying scenario across papers.
-- [ ] Include clear instructions, a timer, answer navigation and a review screen.
+- [x] Include clear instructions, a timer, answer navigation and a review screen.
 - [ ] Ensure results and explanations are accurate and do not imply official RSA endorsement.
 
 ### 5. Complete the learning and quiz sections
 
-- [ ] Review and source-check all 12 topic notes.
-- [ ] Expand notes into useful, accurate study lessons rather than short placeholder summaries.
+- [x] Expand the 12 draft topic notes into source-linked lessons.
+- [ ] Have a qualified reviewer check the professional-driver and supplementary lessons before releasing quizzes for them.
 - [ ] Add substantial topic quizzes using only validated questions.
-- [ ] Provide explanations after answers and a useful review of incorrect answers.
-- [ ] Make clear when a topic is supplementary rather than confirmed core test syllabus.
+- [x] Provide explanations after answers and a review of incorrect answers.
+- [x] Label supplementary ADR study.
 
 ### 6. Automated checks and site testing
 
-- [ ] Add a validation script for JSON structure and required fields.
-- [ ] Check all question IDs are unique.
-- [ ] Check every question has 3–4 options and a valid answer index.
-- [ ] Check every released question has a complete source/evidence record.
-- [ ] Check scenario IDs for semantic duplicates.
-- [ ] Check each mock paper has the exact required number of questions and no overlap.
+- [x] Check JSON structure, unique IDs, option counts, answer indices, source/evidence fields and paper size, category and overlap.
+- [x] Reject repeated scenario IDs and exact question wording.
+- [ ] Review semantic duplicates that have different scenario IDs.
 - [ ] Test timers, navigation, flagging, scoring, pass marks and answer review.
 - [ ] Test the website on mobile and desktop.
 - [ ] Check accessibility, keyboard navigation, contrast and readable text.
@@ -106,27 +109,27 @@ Additional checks:
 
 ### 7. Release
 
-- [ ] Keep quizzes and mocks disabled until the relevant questions and notes pass the validation checks.
-- [ ] Update the content audit with completed validation and reviewer details.
-- [ ] Update README and on-site content status.
+- [x] Keep the archived questions out of quizzes and mocks. Require independent review for specialist questions and mock papers.
+- [x] Record the starter bank and editorial review in the audit, README and on-site content status.
+- [ ] Add independent reviewer details as reviews are completed.
 - [ ] Re-enable only the sections that have passed review.
 - [ ] Check the deployed GitHub Pages site after release.
-- [ ] Add a visible “last reviewed” date and a reminder to check official RSA material for updates.
+- [x] Add a visible source-check date to lessons and link to the current RSA materials.
 
 ## Current status snapshot
 
 | Area | Status |
 |---|---|
 | Static website | Built |
-| Draft topic list | 12 topics present; notes need review |
+| Learning material | 12 source-linked lessons |
 | Existing question rows | 600 draft rows; not validated |
 | Distinct scenario stems in current bank | 264 found by structural audit |
-| Question-by-question legal validation | Not completed |
+| Starter practice | 25 original general road-safety questions with editorial source checks |
 | Independent instructor review | Not completed |
 | Mock exams | Paused |
-| Topic quizzes | Paused |
+| Topic quizzes | Five starter quizzes available in this update. Specialist practice pending review |
 | Official test-format facts | Checked against public RSA/provider sources |
-| GitHub Pages deployment | Latest tracked deployment succeeded |
+| GitHub Pages deployment | Verify deployment after the update merges |
 
 ## Key project files
 
